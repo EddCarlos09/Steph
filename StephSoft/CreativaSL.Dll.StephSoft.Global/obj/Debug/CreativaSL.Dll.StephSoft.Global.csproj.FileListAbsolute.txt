@@ -1,0 +1,5 @@
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.csprojResolveAssemblyReference.cache
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.dll
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.pdb

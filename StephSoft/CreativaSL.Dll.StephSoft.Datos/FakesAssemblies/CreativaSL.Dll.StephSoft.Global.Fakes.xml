@@ -1,0 +1,1244 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CreativaSL.Dll.StephSoft.Global.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja">
+            <summary>Tipo de correcciones de compatibilidad (shim) de CreativaSL.Dll.StepthSoft.Global.Caja</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.#ctor(CreativaSL.Dll.StepthSoft.Global.Caja)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AperturaGet">
+            <summary>Establecer el shim de Caja.get_Apertura()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AperturaSetDecimal">
+            <summary>Establecer el shim de Caja.set_Apertura(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.BuscarTodosGet">
+            <summary>Establecer el shim de Caja.get_BuscarTodos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.BuscarTodosSetBoolean">
+            <summary>Establecer el shim de Caja.set_BuscarTodos(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.CajaCatGet">
+            <summary>Establecer el shim de Caja.get_CajaCat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.CajaCatSetString">
+            <summary>Establecer el shim de Caja.set_CajaCat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.CierreGet">
+            <summary>Establecer el shim de Caja.get_Cierre()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.CierreSetDecimal">
+            <summary>Establecer el shim de Caja.set_Cierre(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.CompletadoGet">
+            <summary>Establecer el shim de Caja.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.CompletadoSetBoolean">
+            <summary>Establecer el shim de Caja.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.ConexionGet">
+            <summary>Establecer el shim de Caja.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.ConexionSetString">
+            <summary>Establecer el shim de Caja.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.Constructor">
+            <summary>Establecer el shim de Caja.Caja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.FechaIngresoGet">
+            <summary>Establecer el shim de Caja.get_FechaIngreso()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.FechaIngresoSetString">
+            <summary>Establecer el shim de Caja.set_FechaIngreso(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.HoraIngresoGet">
+            <summary>Establecer el shim de Caja.get_HoraIngreso()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.HoraIngresoSetString">
+            <summary>Establecer el shim de Caja.set_HoraIngreso(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDCajaCatGet">
+            <summary>Establecer el shim de Caja.get_IDCajaCat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDCajaCatSetString">
+            <summary>Establecer el shim de Caja.set_IDCajaCat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDCajaGet">
+            <summary>Establecer el shim de Caja.get_IDCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDCajaSetString">
+            <summary>Establecer el shim de Caja.set_IDCaja(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDSucursalGet">
+            <summary>Establecer el shim de Caja.get_IDSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDSucursalSetString">
+            <summary>Establecer el shim de Caja.set_IDSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDUsuarioGet">
+            <summary>Establecer el shim de Caja.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.IDUsuarioSetString">
+            <summary>Establecer el shim de Caja.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.MacGet">
+            <summary>Establecer el shim de Caja.get_Mac()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.MacSetString">
+            <summary>Establecer el shim de Caja.set_Mac(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.NombreCajaGet">
+            <summary>Establecer el shim de Caja.get_NombreCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.NombreCajaSetString">
+            <summary>Establecer el shim de Caja.set_NombreCaja(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.NombreUsuarioGet">
+            <summary>Establecer el shim de Caja.get_NombreUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.NombreUsuarioSetString">
+            <summary>Establecer el shim de Caja.set_NombreUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.OpcionGet">
+            <summary>Establecer el shim de Caja.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.OpcionSetInt32">
+            <summary>Establecer el shim de Caja.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.ResultadoGet">
+            <summary>Establecer el shim de Caja.get_Resultado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.ResultadoSetInt32">
+            <summary>Establecer el shim de Caja.set_Resultado(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TicketsGet">
+            <summary>Establecer el shim de Caja.get_Tickets()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TicketsSetInt32">
+            <summary>Establecer el shim de Caja.set_Tickets(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalCajaGet">
+            <summary>Establecer el shim de Caja.get_TotalCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalCajaSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalCaja(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalDepositosGet">
+            <summary>Establecer el shim de Caja.get_TotalDepositos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalDepositosSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalDepositos(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalRetirosCajaLlenaGet">
+            <summary>Establecer el shim de Caja.get_TotalRetirosCajaLlena()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalRetirosCajaLlenaSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalRetirosCajaLlena(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalRetirosPagosGet">
+            <summary>Establecer el shim de Caja.get_TotalRetirosPagos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalRetirosPagosSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalRetirosPagos(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalVentasGet">
+            <summary>Establecer el shim de Caja.get_TotalVentas()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TotalVentasSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalVentas(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TurnoGet">
+            <summary>Establecer el shim de Caja.get_Turno()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.TurnoSetString">
+            <summary>Establecer el shim de Caja.set_Turno(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.ValesGet">
+            <summary>Establecer el shim de Caja.get_Vales()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.ValesSetInt32">
+            <summary>Establecer el shim de Caja.set_Vales(Int32 value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.AperturaGet">
+            <summary>Establecer el shim de Caja.get_Apertura()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.AperturaSetDecimal">
+            <summary>Establecer el shim de Caja.set_Apertura(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.BuscarTodosGet">
+            <summary>Establecer el shim de Caja.get_BuscarTodos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.BuscarTodosSetBoolean">
+            <summary>Establecer el shim de Caja.set_BuscarTodos(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.CajaCatGet">
+            <summary>Establecer el shim de Caja.get_CajaCat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.CajaCatSetString">
+            <summary>Establecer el shim de Caja.set_CajaCat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.CierreGet">
+            <summary>Establecer el shim de Caja.get_Cierre()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.CierreSetDecimal">
+            <summary>Establecer el shim de Caja.set_Cierre(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.CompletadoGet">
+            <summary>Establecer el shim de Caja.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.CompletadoSetBoolean">
+            <summary>Establecer el shim de Caja.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.ConexionGet">
+            <summary>Establecer el shim de Caja.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.ConexionSetString">
+            <summary>Establecer el shim de Caja.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.FechaIngresoGet">
+            <summary>Establecer el shim de Caja.get_FechaIngreso()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.FechaIngresoSetString">
+            <summary>Establecer el shim de Caja.set_FechaIngreso(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.HoraIngresoGet">
+            <summary>Establecer el shim de Caja.get_HoraIngreso()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.HoraIngresoSetString">
+            <summary>Establecer el shim de Caja.set_HoraIngreso(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDCajaCatGet">
+            <summary>Establecer el shim de Caja.get_IDCajaCat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDCajaCatSetString">
+            <summary>Establecer el shim de Caja.set_IDCajaCat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDCajaGet">
+            <summary>Establecer el shim de Caja.get_IDCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDCajaSetString">
+            <summary>Establecer el shim de Caja.set_IDCaja(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDSucursalGet">
+            <summary>Establecer el shim de Caja.get_IDSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDSucursalSetString">
+            <summary>Establecer el shim de Caja.set_IDSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDUsuarioGet">
+            <summary>Establecer el shim de Caja.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.IDUsuarioSetString">
+            <summary>Establecer el shim de Caja.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.MacGet">
+            <summary>Establecer el shim de Caja.get_Mac()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.MacSetString">
+            <summary>Establecer el shim de Caja.set_Mac(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.NombreCajaGet">
+            <summary>Establecer el shim de Caja.get_NombreCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.NombreCajaSetString">
+            <summary>Establecer el shim de Caja.set_NombreCaja(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.NombreUsuarioGet">
+            <summary>Establecer el shim de Caja.get_NombreUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.NombreUsuarioSetString">
+            <summary>Establecer el shim de Caja.set_NombreUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.OpcionGet">
+            <summary>Establecer el shim de Caja.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.OpcionSetInt32">
+            <summary>Establecer el shim de Caja.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.ResultadoGet">
+            <summary>Establecer el shim de Caja.get_Resultado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.ResultadoSetInt32">
+            <summary>Establecer el shim de Caja.set_Resultado(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TicketsGet">
+            <summary>Establecer el shim de Caja.get_Tickets()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TicketsSetInt32">
+            <summary>Establecer el shim de Caja.set_Tickets(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalCajaGet">
+            <summary>Establecer el shim de Caja.get_TotalCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalCajaSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalCaja(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalDepositosGet">
+            <summary>Establecer el shim de Caja.get_TotalDepositos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalDepositosSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalDepositos(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalRetirosCajaLlenaGet">
+            <summary>Establecer el shim de Caja.get_TotalRetirosCajaLlena()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalRetirosCajaLlenaSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalRetirosCajaLlena(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalRetirosPagosGet">
+            <summary>Establecer el shim de Caja.get_TotalRetirosPagos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalRetirosPagosSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalRetirosPagos(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalVentasGet">
+            <summary>Establecer el shim de Caja.get_TotalVentas()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TotalVentasSetDecimal">
+            <summary>Establecer el shim de Caja.set_TotalVentas(Decimal value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TurnoGet">
+            <summary>Establecer el shim de Caja.get_Turno()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.TurnoSetString">
+            <summary>Establecer el shim de Caja.set_Turno(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.ValesGet">
+            <summary>Establecer el shim de Caja.get_Vales()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimCaja.AllInstances.ValesSetInt32">
+            <summary>Establecer el shim de Caja.set_Vales(Int32 value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun">
+            <summary>Tipo de correcciones de compatibilidad (shim) de CreativaSL.Dll.StepthSoft.Global.Comun</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.#ctor(CreativaSL.Dll.StepthSoft.Global.Comun)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ApellidoMatUsuarioGet">
+            <summary>Establecer el shim de Comun.get_ApellidoMatUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ApellidoMatUsuarioSetString">
+            <summary>Establecer el shim de Comun.set_ApellidoMatUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ApellidoPatUsuarioGet">
+            <summary>Establecer el shim de Comun.get_ApellidoPatUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ApellidoPatUsuarioSetString">
+            <summary>Establecer el shim de Comun.set_ApellidoPatUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.CajaAbiertaGet">
+            <summary>Establecer el shim de Comun.get_CajaAbierta()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.CajaAbiertaSetBoolean">
+            <summary>Establecer el shim de Comun.set_CajaAbierta(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ConexionGet">
+            <summary>Establecer el shim de Comun.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ConexionSetString">
+            <summary>Establecer el shim de Comun.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.Constructor">
+            <summary>Establecer el shim de Comun.Comun()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.CuentaBloqueadaGet">
+            <summary>Establecer el shim de Comun.get_CuentaBloqueada()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.CuentaBloqueadaSetBoolean">
+            <summary>Establecer el shim de Comun.set_CuentaBloqueada(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.CuentaUsuarioGet">
+            <summary>Establecer el shim de Comun.get_CuentaUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.CuentaUsuarioSetString">
+            <summary>Establecer el shim de Comun.set_CuentaUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.DireccionGet">
+            <summary>Establecer el shim de Comun.get_Direccion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.DireccionSetString">
+            <summary>Establecer el shim de Comun.set_Direccion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.HostNameGet">
+            <summary>Establecer el shim de Comun.get_HostName()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.HostNameSetString">
+            <summary>Establecer el shim de Comun.set_HostName(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDCajaCatGet">
+            <summary>Establecer el shim de Comun.get_IDCajaCat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDCajaCatSetString">
+            <summary>Establecer el shim de Comun.set_IDCajaCat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDCajaGet">
+            <summary>Establecer el shim de Comun.get_IDCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDCajaSetString">
+            <summary>Establecer el shim de Comun.set_IDCaja(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDProyectoGet">
+            <summary>Establecer el shim de Comun.get_IDProyecto()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDProyectoSetInt32">
+            <summary>Establecer el shim de Comun.set_IDProyecto(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDSucursalCajaGet">
+            <summary>Establecer el shim de Comun.get_IDSucursalCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDSucursalCajaSetString">
+            <summary>Establecer el shim de Comun.set_IDSucursalCaja(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDTipoUsuarioGet">
+            <summary>Establecer el shim de Comun.get_IDTipoUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDTipoUsuarioSetInt32">
+            <summary>Establecer el shim de Comun.set_IDTipoUsuario(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDUsuarioGet">
+            <summary>Establecer el shim de Comun.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.IDUsuarioSetString">
+            <summary>Establecer el shim de Comun.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ImpresoraGet">
+            <summary>Establecer el shim de Comun.get_Impresora()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.ImpresoraSetString">
+            <summary>Establecer el shim de Comun.set_Impresora(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.MACAddressGet">
+            <summary>Establecer el shim de Comun.get_MACAddress()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.MACAddressSetString">
+            <summary>Establecer el shim de Comun.set_MACAddress(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.MensajeErrorGet">
+            <summary>Establecer el shim de Comun.get_MensajeError()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.MensajeErrorSetString">
+            <summary>Establecer el shim de Comun.set_MensajeError(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.NombreUsuarioGet">
+            <summary>Establecer el shim de Comun.get_NombreUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.NombreUsuarioSetString">
+            <summary>Establecer el shim de Comun.set_NombreUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.RFCGet">
+            <summary>Establecer el shim de Comun.get_RFC()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.RFCSetString">
+            <summary>Establecer el shim de Comun.set_RFC(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.RazonSocialGet">
+            <summary>Establecer el shim de Comun.get_RazonSocial()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.RazonSocialSetString">
+            <summary>Establecer el shim de Comun.set_RazonSocial(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.SistemaGet">
+            <summary>Establecer el shim de Comun.get_Sistema()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.SistemaSetString">
+            <summary>Establecer el shim de Comun.set_Sistema(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.TablaPermisosGet">
+            <summary>Establecer el shim de Comun.get_TablaPermisos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.TablaPermisosSetDataTable">
+            <summary>Establecer el shim de Comun.set_TablaPermisos(DataTable value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.UrlLogoGet">
+            <summary>Establecer el shim de Comun.get_UrlLogo()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.UrlLogoSetString">
+            <summary>Establecer el shim de Comun.set_UrlLogo(String value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimComun.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales">
+            <summary>Tipo de correcciones de compatibilidad (shim) de CreativaSL.Dll.StepthSoft.Global.DatosIniciales</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.#ctor(CreativaSL.Dll.StepthSoft.Global.DatosIniciales)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.CompletadoGet">
+            <summary>Establecer el shim de DatosIniciales.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.CompletadoSetBoolean">
+            <summary>Establecer el shim de DatosIniciales.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.ConexionGet">
+            <summary>Establecer el shim de DatosIniciales.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.ConexionSetString">
+            <summary>Establecer el shim de DatosIniciales.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.Constructor">
+            <summary>Establecer el shim de DatosIniciales.DatosIniciales()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.CuentaUsuarioGet">
+            <summary>Establecer el shim de DatosIniciales.get_CuentaUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.CuentaUsuarioSetString">
+            <summary>Establecer el shim de DatosIniciales.set_CuentaUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.IDProyectoGet">
+            <summary>Establecer el shim de DatosIniciales.get_IDProyecto()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.IDProyectoSetInt32">
+            <summary>Establecer el shim de DatosIniciales.set_IDProyecto(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.NombreSucursalGet">
+            <summary>Establecer el shim de DatosIniciales.get_NombreSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.NombreSucursalSetString">
+            <summary>Establecer el shim de DatosIniciales.set_NombreSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.OpcionGet">
+            <summary>Establecer el shim de DatosIniciales.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.OpcionSetInt32">
+            <summary>Establecer el shim de DatosIniciales.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.PasswordGet">
+            <summary>Establecer el shim de DatosIniciales.get_Password()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.PasswordSetString">
+            <summary>Establecer el shim de DatosIniciales.set_Password(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.RazonSocialGet">
+            <summary>Establecer el shim de DatosIniciales.get_RazonSocial()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.RazonSocialSetString">
+            <summary>Establecer el shim de DatosIniciales.set_RazonSocial(String value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.CompletadoGet">
+            <summary>Establecer el shim de DatosIniciales.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.CompletadoSetBoolean">
+            <summary>Establecer el shim de DatosIniciales.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.ConexionGet">
+            <summary>Establecer el shim de DatosIniciales.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.ConexionSetString">
+            <summary>Establecer el shim de DatosIniciales.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.CuentaUsuarioGet">
+            <summary>Establecer el shim de DatosIniciales.get_CuentaUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.CuentaUsuarioSetString">
+            <summary>Establecer el shim de DatosIniciales.set_CuentaUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.IDProyectoGet">
+            <summary>Establecer el shim de DatosIniciales.get_IDProyecto()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.IDProyectoSetInt32">
+            <summary>Establecer el shim de DatosIniciales.set_IDProyecto(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.NombreSucursalGet">
+            <summary>Establecer el shim de DatosIniciales.get_NombreSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.NombreSucursalSetString">
+            <summary>Establecer el shim de DatosIniciales.set_NombreSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.OpcionGet">
+            <summary>Establecer el shim de DatosIniciales.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.OpcionSetInt32">
+            <summary>Establecer el shim de DatosIniciales.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.PasswordGet">
+            <summary>Establecer el shim de DatosIniciales.get_Password()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.PasswordSetString">
+            <summary>Establecer el shim de DatosIniciales.set_Password(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.RazonSocialGet">
+            <summary>Establecer el shim de DatosIniciales.get_RazonSocial()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimDatosIniciales.AllInstances.RazonSocialSetString">
+            <summary>Establecer el shim de DatosIniciales.set_RazonSocial(String value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal">
+            <summary>Tipo de correcciones de compatibilidad (shim) de CreativaSL.Dll.StepthSoft.Global.Sucursal</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.#ctor(CreativaSL.Dll.StepthSoft.Global.Sucursal)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.CodigoPostalGet">
+            <summary>Establecer el shim de Sucursal.get_CodigoPostal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.CodigoPostalSetString">
+            <summary>Establecer el shim de Sucursal.set_CodigoPostal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.CompletadoGet">
+            <summary>Establecer el shim de Sucursal.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.CompletadoSetBoolean">
+            <summary>Establecer el shim de Sucursal.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.ConexionGet">
+            <summary>Establecer el shim de Sucursal.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.ConexionSetString">
+            <summary>Establecer el shim de Sucursal.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.Constructor">
+            <summary>Establecer el shim de Sucursal.Sucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.DireccionGet">
+            <summary>Establecer el shim de Sucursal.get_Direccion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.DireccionSetString">
+            <summary>Establecer el shim de Sucursal.set_Direccion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDEmpresaGet">
+            <summary>Establecer el shim de Sucursal.get_IDEmpresa()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDEmpresaSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDEmpresa(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDEstadoGet">
+            <summary>Establecer el shim de Sucursal.get_IDEstado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDEstadoSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDEstado(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDMunicipioGet">
+            <summary>Establecer el shim de Sucursal.get_IDMunicipio()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDMunicipioSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDMunicipio(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDPaisGet">
+            <summary>Establecer el shim de Sucursal.get_IDPais()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDPaisSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDPais(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDSucursalGet">
+            <summary>Establecer el shim de Sucursal.get_IDSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDSucursalSetString">
+            <summary>Establecer el shim de Sucursal.set_IDSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDTipoSucursalGet">
+            <summary>Establecer el shim de Sucursal.get_IDTipoSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDTipoSucursalSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDTipoSucursal(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDUsuarioGet">
+            <summary>Establecer el shim de Sucursal.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.IDUsuarioSetString">
+            <summary>Establecer el shim de Sucursal.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.NombreSucursalGet">
+            <summary>Establecer el shim de Sucursal.get_NombreSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.NombreSucursalSetString">
+            <summary>Establecer el shim de Sucursal.set_NombreSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.OpcionGet">
+            <summary>Establecer el shim de Sucursal.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.OpcionSetInt32">
+            <summary>Establecer el shim de Sucursal.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.PorcentajeMonederoGet">
+            <summary>Establecer el shim de Sucursal.get_PorcentajeMonedero()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.PorcentajeMonederoSetSingle">
+            <summary>Establecer el shim de Sucursal.set_PorcentajeMonedero(Single value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.TablaDatosGet">
+            <summary>Establecer el shim de Sucursal.get_TablaDatos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.TablaDatosSetDataTable">
+            <summary>Establecer el shim de Sucursal.set_TablaDatos(DataTable value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.TelefonoGet">
+            <summary>Establecer el shim de Sucursal.get_Telefono()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.TelefonoSetString">
+            <summary>Establecer el shim de Sucursal.set_Telefono(String value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.CodigoPostalGet">
+            <summary>Establecer el shim de Sucursal.get_CodigoPostal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.CodigoPostalSetString">
+            <summary>Establecer el shim de Sucursal.set_CodigoPostal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.CompletadoGet">
+            <summary>Establecer el shim de Sucursal.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.CompletadoSetBoolean">
+            <summary>Establecer el shim de Sucursal.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.ConexionGet">
+            <summary>Establecer el shim de Sucursal.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.ConexionSetString">
+            <summary>Establecer el shim de Sucursal.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.DireccionGet">
+            <summary>Establecer el shim de Sucursal.get_Direccion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.DireccionSetString">
+            <summary>Establecer el shim de Sucursal.set_Direccion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDEmpresaGet">
+            <summary>Establecer el shim de Sucursal.get_IDEmpresa()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDEmpresaSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDEmpresa(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDEstadoGet">
+            <summary>Establecer el shim de Sucursal.get_IDEstado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDEstadoSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDEstado(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDMunicipioGet">
+            <summary>Establecer el shim de Sucursal.get_IDMunicipio()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDMunicipioSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDMunicipio(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDPaisGet">
+            <summary>Establecer el shim de Sucursal.get_IDPais()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDPaisSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDPais(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDSucursalGet">
+            <summary>Establecer el shim de Sucursal.get_IDSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDSucursalSetString">
+            <summary>Establecer el shim de Sucursal.set_IDSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDTipoSucursalGet">
+            <summary>Establecer el shim de Sucursal.get_IDTipoSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDTipoSucursalSetInt32">
+            <summary>Establecer el shim de Sucursal.set_IDTipoSucursal(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDUsuarioGet">
+            <summary>Establecer el shim de Sucursal.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.IDUsuarioSetString">
+            <summary>Establecer el shim de Sucursal.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.NombreSucursalGet">
+            <summary>Establecer el shim de Sucursal.get_NombreSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.NombreSucursalSetString">
+            <summary>Establecer el shim de Sucursal.set_NombreSucursal(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.OpcionGet">
+            <summary>Establecer el shim de Sucursal.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.OpcionSetInt32">
+            <summary>Establecer el shim de Sucursal.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.PorcentajeMonederoGet">
+            <summary>Establecer el shim de Sucursal.get_PorcentajeMonedero()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.PorcentajeMonederoSetSingle">
+            <summary>Establecer el shim de Sucursal.set_PorcentajeMonedero(Single value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.TablaDatosGet">
+            <summary>Establecer el shim de Sucursal.get_TablaDatos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.TablaDatosSetDataTable">
+            <summary>Establecer el shim de Sucursal.set_TablaDatos(DataTable value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.TelefonoGet">
+            <summary>Establecer el shim de Sucursal.get_Telefono()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimSucursal.AllInstances.TelefonoSetString">
+            <summary>Establecer el shim de Sucursal.set_Telefono(String value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario">
+            <summary>Tipo de correcciones de compatibilidad (shim) de CreativaSL.Dll.StepthSoft.Global.Usuario</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.#ctor">
+            <summary>Inicializa una nueva instancia de correcciones de compatibilidad (shim)</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.#ctor(CreativaSL.Dll.StepthSoft.Global.Usuario)">
+            <summary>Inicializa nuevas correcciones de compatibilidad (shim) para la instancia especificada</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.BehaveAsCurrent">
+            <summary>Asigna el comportamiento &apos;Current&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.BehaveAsNotImplemented">
+            <summary>Asigna el comportamiento &apos;NotImplemented&apos; a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AbrirCajaGet">
+            <summary>Establecer el shim de Usuario.get_AbrirCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AbrirCajaSetBoolean">
+            <summary>Establecer el shim de Usuario.set_AbrirCaja(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ApellidoMatGet">
+            <summary>Establecer el shim de Usuario.get_ApellidoMat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ApellidoMatSetString">
+            <summary>Establecer el shim de Usuario.set_ApellidoMat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ApellidoPatGet">
+            <summary>Establecer el shim de Usuario.get_ApellidoPat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ApellidoPatSetString">
+            <summary>Establecer el shim de Usuario.set_ApellidoPat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.Behavior">
+            <summary>Asigna el comportamiento a todos los métodos del tipo corregido para compatibilidad</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.BloqueadaGet">
+            <summary>Establecer el shim de Usuario.get_Bloqueada()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.BloqueadaSetBoolean">
+            <summary>Establecer el shim de Usuario.set_Bloqueada(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.BuscarTodosGet">
+            <summary>Establecer el shim de Usuario.get_BuscarTodos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.BuscarTodosSetBoolean">
+            <summary>Establecer el shim de Usuario.set_BuscarTodos(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.CompletadoGet">
+            <summary>Establecer el shim de Usuario.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.CompletadoSetBoolean">
+            <summary>Establecer el shim de Usuario.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ConexionGet">
+            <summary>Establecer el shim de Usuario.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ConexionSetString">
+            <summary>Establecer el shim de Usuario.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.Constructor">
+            <summary>Establecer el shim de Usuario.Usuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.CrearIDCajaGet">
+            <summary>Establecer el shim de Usuario.get_CrearIDCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.CrearIDCajaSetBoolean">
+            <summary>Establecer el shim de Usuario.set_CrearIDCaja(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.CuentaUsuarioGet">
+            <summary>Establecer el shim de Usuario.get_CuentaUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.CuentaUsuarioSetString">
+            <summary>Establecer el shim de Usuario.set_CuentaUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.DirCalleGet">
+            <summary>Establecer el shim de Usuario.get_DirCalle()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.DirCalleSetString">
+            <summary>Establecer el shim de Usuario.set_DirCalle(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.DirColoniaGet">
+            <summary>Establecer el shim de Usuario.get_DirColonia()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.DirColoniaSetString">
+            <summary>Establecer el shim de Usuario.set_DirColonia(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.DirNumeroGet">
+            <summary>Establecer el shim de Usuario.get_DirNumero()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.DirNumeroSetString">
+            <summary>Establecer el shim de Usuario.set_DirNumero(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.FechaBloqueoGet">
+            <summary>Establecer el shim de Usuario.get_FechaBloqueo()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.FechaBloqueoSetDateTime">
+            <summary>Establecer el shim de Usuario.set_FechaBloqueo(DateTime value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDEmpleadoGet">
+            <summary>Establecer el shim de Usuario.get_IDEmpleado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDEmpleadoSetString">
+            <summary>Establecer el shim de Usuario.set_IDEmpleado(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDSucursalActualGet">
+            <summary>Establecer el shim de Usuario.get_IDSucursalActual()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDSucursalActualSetString">
+            <summary>Establecer el shim de Usuario.set_IDSucursalActual(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDTipoUsuarioGet">
+            <summary>Establecer el shim de Usuario.get_IDTipoUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDTipoUsuarioSetInt32">
+            <summary>Establecer el shim de Usuario.set_IDTipoUsuario(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDUsuarioGet">
+            <summary>Establecer el shim de Usuario.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IDUsuarioSetString">
+            <summary>Establecer el shim de Usuario.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IntentosGet">
+            <summary>Establecer el shim de Usuario.get_Intentos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.IntentosSetInt32">
+            <summary>Establecer el shim de Usuario.set_Intentos(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.MensajeErrorGet">
+            <summary>Establecer el shim de Usuario.get_MensajeError()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.MensajeErrorSetString">
+            <summary>Establecer el shim de Usuario.set_MensajeError(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.NombreGet">
+            <summary>Establecer el shim de Usuario.get_Nombre()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.NombreSetString">
+            <summary>Establecer el shim de Usuario.set_Nombre(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.OpcionGet">
+            <summary>Establecer el shim de Usuario.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.OpcionSetInt32">
+            <summary>Establecer el shim de Usuario.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.PasswordGet">
+            <summary>Establecer el shim de Usuario.get_Password()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.PasswordSetString">
+            <summary>Establecer el shim de Usuario.set_Password(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ResultadoGet">
+            <summary>Establecer el shim de Usuario.get_Resultado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.ResultadoSetInt32">
+            <summary>Establecer el shim de Usuario.set_Resultado(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.TablaDatosGet">
+            <summary>Establecer el shim de Usuario.get_TablaDatos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.TablaDatosSetDataTable">
+            <summary>Establecer el shim de Usuario.set_TablaDatos(DataTable value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.TablaUsuarioSucursalGet">
+            <summary>Establecer el shim de Usuario.get_TablaUsuarioSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.TablaUsuarioSucursalSetDataTable">
+            <summary>Establecer el shim de Usuario.set_TablaUsuarioSucursal(DataTable value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances">
+            <summary>Definir correcciones de compatibilidad (shim) para todos los miembros de instancia</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.AbrirCajaGet">
+            <summary>Establecer el shim de Usuario.get_AbrirCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.AbrirCajaSetBoolean">
+            <summary>Establecer el shim de Usuario.set_AbrirCaja(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ApellidoMatGet">
+            <summary>Establecer el shim de Usuario.get_ApellidoMat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ApellidoMatSetString">
+            <summary>Establecer el shim de Usuario.set_ApellidoMat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ApellidoPatGet">
+            <summary>Establecer el shim de Usuario.get_ApellidoPat()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ApellidoPatSetString">
+            <summary>Establecer el shim de Usuario.set_ApellidoPat(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.BloqueadaGet">
+            <summary>Establecer el shim de Usuario.get_Bloqueada()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.BloqueadaSetBoolean">
+            <summary>Establecer el shim de Usuario.set_Bloqueada(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.BuscarTodosGet">
+            <summary>Establecer el shim de Usuario.get_BuscarTodos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.BuscarTodosSetBoolean">
+            <summary>Establecer el shim de Usuario.set_BuscarTodos(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.CompletadoGet">
+            <summary>Establecer el shim de Usuario.get_Completado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.CompletadoSetBoolean">
+            <summary>Establecer el shim de Usuario.set_Completado(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ConexionGet">
+            <summary>Establecer el shim de Usuario.get_Conexion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ConexionSetString">
+            <summary>Establecer el shim de Usuario.set_Conexion(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.CrearIDCajaGet">
+            <summary>Establecer el shim de Usuario.get_CrearIDCaja()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.CrearIDCajaSetBoolean">
+            <summary>Establecer el shim de Usuario.set_CrearIDCaja(Boolean value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.CuentaUsuarioGet">
+            <summary>Establecer el shim de Usuario.get_CuentaUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.CuentaUsuarioSetString">
+            <summary>Establecer el shim de Usuario.set_CuentaUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.DirCalleGet">
+            <summary>Establecer el shim de Usuario.get_DirCalle()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.DirCalleSetString">
+            <summary>Establecer el shim de Usuario.set_DirCalle(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.DirColoniaGet">
+            <summary>Establecer el shim de Usuario.get_DirColonia()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.DirColoniaSetString">
+            <summary>Establecer el shim de Usuario.set_DirColonia(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.DirNumeroGet">
+            <summary>Establecer el shim de Usuario.get_DirNumero()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.DirNumeroSetString">
+            <summary>Establecer el shim de Usuario.set_DirNumero(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.FechaBloqueoGet">
+            <summary>Establecer el shim de Usuario.get_FechaBloqueo()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.FechaBloqueoSetDateTime">
+            <summary>Establecer el shim de Usuario.set_FechaBloqueo(DateTime value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDEmpleadoGet">
+            <summary>Establecer el shim de Usuario.get_IDEmpleado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDEmpleadoSetString">
+            <summary>Establecer el shim de Usuario.set_IDEmpleado(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDSucursalActualGet">
+            <summary>Establecer el shim de Usuario.get_IDSucursalActual()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDSucursalActualSetString">
+            <summary>Establecer el shim de Usuario.set_IDSucursalActual(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDTipoUsuarioGet">
+            <summary>Establecer el shim de Usuario.get_IDTipoUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDTipoUsuarioSetInt32">
+            <summary>Establecer el shim de Usuario.set_IDTipoUsuario(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDUsuarioGet">
+            <summary>Establecer el shim de Usuario.get_IDUsuario()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IDUsuarioSetString">
+            <summary>Establecer el shim de Usuario.set_IDUsuario(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IntentosGet">
+            <summary>Establecer el shim de Usuario.get_Intentos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.IntentosSetInt32">
+            <summary>Establecer el shim de Usuario.set_Intentos(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.MensajeErrorGet">
+            <summary>Establecer el shim de Usuario.get_MensajeError()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.MensajeErrorSetString">
+            <summary>Establecer el shim de Usuario.set_MensajeError(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.NombreGet">
+            <summary>Establecer el shim de Usuario.get_Nombre()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.NombreSetString">
+            <summary>Establecer el shim de Usuario.set_Nombre(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.OpcionGet">
+            <summary>Establecer el shim de Usuario.get_Opcion()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.OpcionSetInt32">
+            <summary>Establecer el shim de Usuario.set_Opcion(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.PasswordGet">
+            <summary>Establecer el shim de Usuario.get_Password()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.PasswordSetString">
+            <summary>Establecer el shim de Usuario.set_Password(String value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ResultadoGet">
+            <summary>Establecer el shim de Usuario.get_Resultado()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.ResultadoSetInt32">
+            <summary>Establecer el shim de Usuario.set_Resultado(Int32 value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.TablaDatosGet">
+            <summary>Establecer el shim de Usuario.get_TablaDatos()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.TablaDatosSetDataTable">
+            <summary>Establecer el shim de Usuario.set_TablaDatos(DataTable value)</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.TablaUsuarioSucursalGet">
+            <summary>Establecer el shim de Usuario.get_TablaUsuarioSucursal()</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.ShimUsuario.AllInstances.TablaUsuarioSucursalSetDataTable">
+            <summary>Establecer el shim de Usuario.set_TablaUsuarioSucursal(DataTable value)</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.StubCaja">
+            <summary>Tipo stub de CreativaSL.Dll.StepthSoft.Global.Caja</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubCaja.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubCaja.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubCaja</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubCaja.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubCaja.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubCaja.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.StubComun">
+            <summary>Tipo stub de CreativaSL.Dll.StepthSoft.Global.Comun</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubComun.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubComun.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubComun</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubComun.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubComun.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubComun.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.StubDatosIniciales">
+            <summary>Tipo stub de CreativaSL.Dll.StepthSoft.Global.DatosIniciales</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubDatosIniciales.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubDatosIniciales.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubDatosIniciales</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubDatosIniciales.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubDatosIniciales.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubDatosIniciales.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.StubSucursal">
+            <summary>Tipo stub de CreativaSL.Dll.StepthSoft.Global.Sucursal</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubSucursal.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubSucursal.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubSucursal</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubSucursal.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubSucursal.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubSucursal.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+        <member name="T:CreativaSL.Dll.StepthSoft.Global.Fakes.StubUsuario">
+            <summary>Tipo stub de CreativaSL.Dll.StepthSoft.Global.Usuario</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubUsuario.#ctor">
+            <summary>Inicializa una nueva instancia</summary>
+        </member>
+        <member name="M:CreativaSL.Dll.StepthSoft.Global.Fakes.StubUsuario.InitializeStub">
+            <summary>Inicializa una nueva instancia de type StubUsuario</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubUsuario.CallBase">
+            <summary>Obtiene o establece un valor que indica si debe llamarse al método base en lugar del comportamiento de reserva</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubUsuario.InstanceBehavior">
+            <summary>Obtiene o establece el comportamiento de instancia.</summary>
+        </member>
+        <member name="P:CreativaSL.Dll.StepthSoft.Global.Fakes.StubUsuario.InstanceObserver">
+            <summary>Obtiene o establece el observador de la instancia.</summary>
+        </member>
+    </members>
+</doc>

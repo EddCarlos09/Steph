@@ -1,0 +1,757 @@
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAperturaCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAsignarCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmInicial.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmLogin.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmMenuInicio.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCatClientes.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirTarjetaMonedero.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoCliente.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCitas.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirServicioCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevaCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCancelarCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAtenderCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmDetalleCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirProveedor.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmSeleccionarProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoServicio.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmSeleccionarCliente.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmChecador.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmChecarEntradaSalida.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCatEmpleadoHuella.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmJustificaciones.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmDepositosRetirosCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCierreCaja.resources
+G:\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+G:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+G:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+G:\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+G:\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+G:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+G:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+G:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+G:\Steph\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+G:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+G:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+G:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCierreCaja.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmDepositosRetirosCaja.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAperturaCaja.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAsignarCaja.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAtenderCita.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCancelarCita.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCatClientes.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCatEmpleadoHuella.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmChecador.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmChecarEntradaSalida.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCitas.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmDetalleCita.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirProducto.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirProveedor.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirServicioCita.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirTarjetaMonedero.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmInicial.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmJustificaciones.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmLogin.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmMenuInicio.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevaCita.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoCliente.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoProducto.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoRegistroAsistencia.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoServicio.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmSeleccionarCliente.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmSeleccionarProducto.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+G:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+G:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+E:\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+E:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+E:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+E:\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+E:\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+E:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+E:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+E:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+E:\Steph\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+E:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+E:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+E:\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCierreCaja.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmDepositosRetirosCaja.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAperturaCaja.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAsignarCaja.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmAtenderCita.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCancelarCita.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCatClientes.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCatEmpleadoHuella.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmChecador.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmChecarEntradaSalida.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmCitas.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmDetalleCita.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirProducto.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirProveedor.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirServicioCita.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmElegirTarjetaMonedero.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmInicial.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmJustificaciones.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmLogin.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmMenuInicio.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevaCita.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoCliente.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoProducto.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoRegistroAsistencia.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmNuevoServicio.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmSeleccionarCliente.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.frmSeleccionarProducto.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+E:\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+E:\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+C:\Users\02\Documents\Visual Studio 2012\Projects\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\Creativa-Server\Documents\Visual Studio 2012\Projects\Steph11-04-2017\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+C:\Users\02\Desktop\Steph Nuevo18-04-2017 Tarde\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.Validaciones.dll
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.Validaciones.pdb
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\02\Desktop\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+\\192.168.1.100\csl\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
+D:\CSL\Net\Steph Nuevo\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\StephSoft.exe
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\StephSoft.pdb
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StepthSoft.csprojResolveAssemblyReference.cache
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatalogoWeb.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCuentaEmpleado.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosServicio.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmDatosTarjeta.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmDepositosRetirosCaja.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmAperturaCaja.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarCaja.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmAtenderCita.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarCita.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatClientes.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleadoHuella.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecador.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmChecarEntradaSalida.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmCitas.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmDescontarExistencia.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmDetalleCita.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProducto.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProductoBusq.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirProveedor.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCita.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistCompras.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmLogin.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmMenuInicio.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCiclo.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoCliente.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoGasto.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedido.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoProducto.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoPedidoReemplazoProducto.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoProducto.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoRegistroAsistencia.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicio.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoServicioTicket.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevoTicket.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmNumeroTarjeta.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoDetalle.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidoRecibir.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidos.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmPedidosRecepcion.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmPefilUsuario.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmRespaldoCobro.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmResumenVenta.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarCliente.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmSeleccionarProducto.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmTicketDetalleProductosXServicio.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaDirecta.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmVentaServicios.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerReporte.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Resources.resources
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
+C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled

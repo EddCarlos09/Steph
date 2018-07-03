@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DAEAEDC6-EE55-4443-8D3B-1FD76DDAC8B7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CreativaSL.Dll.StephSoft.Negocio</RootNamespace>
+    <AssemblyName>CreativaSL.Dll.StephSoft.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Caja_Negocio.cs" />
+    <Compile Include="CatalogoWeb_Negocio.cs" />
+    <Compile Include="Ciclo_Negocio.cs" />
+    <Compile Include="Cliente_Negocio.cs" />
+    <Compile Include="Cita_Negocio.cs" />
+    <Compile Include="Catalogo_Negocio.cs" />
+    <Compile Include="Checador_Negocio.cs" />
+    <Compile Include="Comun_Negocio.cs" />
+    <Compile Include="Configuracion_Negocio.cs" />
+    <Compile Include="Garantia_Negocio.cs" />
+    <Compile Include="Gastos_Negocio.cs" />
+    <Compile Include="MobiliarioResguardo_Negocio.cs" />
+    <Compile Include="Pedido_Negocio.cs" />
+    <Compile Include="Producto_Negocio.cs" />
+    <Compile Include="Servicio_Negocio.cs" />
+    <Compile Include="Ticket_Negocio.cs" />
+    <Compile Include="Usuario_Negocio.cs" />
+    <Compile Include="Genero_Negocio.cs" />
+    <Compile Include="Login_Negocio.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sucursal_Negocio.cs" />
+    <Compile Include="Venta_Negocio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CreativaSL.Dll.StephSoft.Datos\CreativaSL.Dll.StepthSoft.Datos.csproj">
+      <Project>{d02b7909-0096-4aa8-ac44-b31449543148}</Project>
+      <Name>CreativaSL.Dll.StepthSoft.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CreativaSL.Dll.StephSoft.Global\CreativaSL.Dll.StepthSoft.Global.csproj">
+      <Project>{dfd391c8-53c7-4d8d-b2b9-b49afeff080d}</Project>
+      <Name>CreativaSL.Dll.StepthSoft.Global</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

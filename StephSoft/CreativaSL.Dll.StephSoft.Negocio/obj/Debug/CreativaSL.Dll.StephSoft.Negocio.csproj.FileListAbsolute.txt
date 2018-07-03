@@ -1,0 +1,9 @@
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.csprojResolveAssemblyReference.cache
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+c:\users\creativa-server\documents\visual studio 2012\Projects\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb

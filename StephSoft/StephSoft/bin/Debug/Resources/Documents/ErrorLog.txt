@@ -1,0 +1,8 @@
+﻿-2146233079 - 16/05/2017 11:01:12 a.m. - frmInventario ~ btnDescargarArchivo_Click - No existe el procedimiento almacenado 'spCSLDB_get_InventarioProductosMatrizXID'.
+-2147024809 - 18/05/2017 10:49:44 a.m. - frmVerListados ~ frmVerReporte_Load - La columna 'Apertura' no pertenece a la tabla Table.
+-2146233088 - 18/05/2017 01:22:36 p.m. - frmChecarEntradaSalida ~ Checar - CreativaSL.Dll.StephSoft.Global.Checador
+-2146232060 - 02/06/2017 06:30:27 p.m. - frmPedidoSurtir ~ btnSurtir_Click - Conversion failed when converting the nvarchar value 'A' to data type int.
+-2146232060 - 02/06/2017 06:35:42 p.m. - frmPedidoSurtir ~ btnSurtir_Click - Conversion failed when converting the nvarchar value 'A' to data type int.
+-2146232060 - 02/06/2017 06:37:20 p.m. - frmPedidoSurtir ~ btnSurtir_Click - Conversion failed when converting the nvarchar value 'A' to data type int.
+-2146232060 - 05/06/2017 09:27:47 a.m. - frmNuevoServicioTicket ~ btnGuardar_Click - Trying to pass a table-valued parameter with 3 column(s) where the corresponding user-defined table type requires 2 column(s).
+-2146233088 - 11/10/2017 03:52:40 p.m. - frmInventario ~ btnLeerInventario_Click - No se puede realizar enlace en tiempo de ejecución en una referencia NULL.

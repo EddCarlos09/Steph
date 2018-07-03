@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="0000s_0001s_0012_configuraciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0012_configuraciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-personal-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-personal-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-empleado-cuenta-usuario-n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-empleado-cuenta-usuario-n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0006_mobiliarioa-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0006_mobiliarioa-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ver horario-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ver horario-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0019_clientes-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0019_clientes-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Default.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-negro--_0008_excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-negro--_0008_excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0020_servicios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0020_servicios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0003_tarjeta-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0003_tarjeta-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-leer inventario-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-leer inventario-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-compras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-compras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checar-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checar-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0011_gastos-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0011_gastos-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0017_nomina1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0017_nomina1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0018_empleado-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0018_empleado-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-compras-pagar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-compras-pagar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0009_cuestionarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0009_cuestionarios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph negro-caja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph negro-caja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-horario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-horario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ver detalles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ver detalles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0000_salir-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0000_salir-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0007_vales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0007_vales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-Atender Cita" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-Atender Cita.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0007_valesa-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0007_valesa-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0001_agregar-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0001_agregar-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-cancelarticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-cancelarticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0020_servicios-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0020_servicios-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-garantia-n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-garantia-n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0010_citas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0010_citas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-reportedeventa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-reportedeventa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0015_inventario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0015_inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0006_regresr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0006_regresr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-recepcion pedido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-recepcion pedido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0022_login ok-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0022_login ok-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0014_catalogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0014_catalogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0004_notificaciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0004_notificaciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0006_regresr-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0006_regresr-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-descontar existencias-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-descontar existencias-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0009_cuestionarios-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0009_cuestionarios-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0000_salir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0000_salir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0004_eliminar-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0004_eliminar-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-leer inventario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-leer inventario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0015_inventarioa-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0015_inventarioa-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0004_eliminar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0004_eliminar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0016_comisiones-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0016_comisiones-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0004_notificaciones-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0004_notificaciones-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0017_nomina-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0017_nomina-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0016_comisiones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0016_comisiones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0005_checadora-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0005_checadora-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0003_guardar-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0003_guardar-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="light-logo-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\light-logo-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0005_modificar-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0005_modificar-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-Atender Cita-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-Atender Cita-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ver detalles-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ver detalles-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0012_configuraciones-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0012_configuraciones-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0019_clientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0019_clientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ventaproductos-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ventaproductos-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0017_nomina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0017_nomina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0011_gastos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0011_gastos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-enviar pedido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-enviar pedido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-caja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-caja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0001_web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0001_web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-checador-justificacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-checador-justificacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0002_compras-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0002_compras-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-compras-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-compras-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0008_cursos-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0008_cursos-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0013_pedido" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0013_pedido.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0010_citas-a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0010_citas-a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-recepcion pedido-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-recepcion pedido-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-nuevoservicio-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-nuevoservicio-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-reportedeventa-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-reportedeventa-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0001_web-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0001_web-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0003_guardar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0003_guardar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-compras-pagar-n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-compras-pagar-n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0006_mobiliario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0006_mobiliario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-negro--_0008_excel-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-negro--_0008_excel-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-negro_0000s_0001s_0021_productos-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-negro_0000s_0001s_0021_productos-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0017_nomina-a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0017_nomina-a1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0021_productos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0021_productos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-negro--_0009_imprimir-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-negro--_0009_imprimir-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ver horario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ver horario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0002_compras" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0002_compras.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-negro--_0009_imprimir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-negro--_0009_imprimir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-vino--_0011_monedero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-vino--_0011_monedero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0005_checador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0005_checador.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-nuevoservicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-nuevoservicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-personal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-personal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0002_cancelar-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0002_cancelar-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-garantia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-garantia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0018_empleado" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0018_empleado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-empleado-cuenta-usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-empleado-cuenta-usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0008_cursos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0008_cursos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0003_tarjeta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0003_tarjeta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0010_citas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0010_citas1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-caja-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-caja-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-enviar pedido-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-enviar pedido-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0022_login ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0022_login ok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-descontar existencias" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-descontar existencias.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-horario-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-horario-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0000_subir-imagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0000_subir-imagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0001_agregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0001_agregar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0013_pedido-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0013_pedido-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0014_catalogo-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0014_catalogo-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0002_cancelar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0002_cancelar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-checador-justificacion-n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-checador-justificacion-n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0001s_0010_citas-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0001s_0010_citas-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ventaproductos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ventaproductos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0000_subir-imagen-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0000_subir-imagen-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0000s_0000s_0005_modificar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0000s_0000s_0005_modificar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons-steph-vino--_0011_monedero-a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons-steph-vino--_0011_monedero-a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons steph vino-ticket-n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons steph vino-ticket-n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
