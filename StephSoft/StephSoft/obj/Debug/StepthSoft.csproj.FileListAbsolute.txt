@@ -759,3 +759,7 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe.
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\Creativa-Server\Source\Repos\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\Creativa-Server\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
+C:\Users\Creativa-Server\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\Creativa-Server\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb

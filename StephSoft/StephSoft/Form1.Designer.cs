@@ -60,6 +60,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label42 = new System.Windows.Forms.Label();
+            this.button_Creativa1 = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -448,6 +449,7 @@
             // panel4
             // 
             this.panel4.AutoScroll = true;
+            this.panel4.Controls.Add(this.button_Creativa1);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.btnCancelarBusq);
@@ -589,7 +591,40 @@
             this.label42.TabIndex = 24;
             this.label42.Text = "Pedidos";
             // 
-            // frmPedidos
+            // button_Creativa1
+            // 
+            this.button_Creativa1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button_Creativa1.BackColor = System.Drawing.Color.Orchid;
+            this.button_Creativa1.BorderColor = System.Drawing.Color.DeepPink;
+            this.button_Creativa1.BorderFocusColor = System.Drawing.Color.Fuchsia;
+            this.button_Creativa1.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button_Creativa1.BorderNoFocusColor = System.Drawing.Color.Purple;
+            this.button_Creativa1.FocusRectangle = true;
+            this.button_Creativa1.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Creativa1.ForeColor = System.Drawing.Color.Black;
+            this.button_Creativa1.Image = null;
+            this.button_Creativa1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button_Creativa1.ImageBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button_Creativa1.ImageFocused = null;
+            this.button_Creativa1.ImageInactive = null;
+            this.button_Creativa1.ImageMouseOver = null;
+            this.button_Creativa1.ImageNormal = null;
+            this.button_Creativa1.ImagePressed = null;
+            this.button_Creativa1.ImageSize = new System.Drawing.Size(44, 44);
+            this.button_Creativa1.KeyButton = System.Windows.Forms.Keys.F1;
+            this.button_Creativa1.KeyButtonView = false;
+            this.button_Creativa1.Location = new System.Drawing.Point(666, 32);
+            this.button_Creativa1.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.button_Creativa1.MouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.button_Creativa1.Name = "button_Creativa1";
+            this.button_Creativa1.OffsetPressedContent = true;
+            this.button_Creativa1.Size = new System.Drawing.Size(23, 25);
+            this.button_Creativa1.TabIndex = 151;
+            this.button_Creativa1.Text = "X";
+            this.button_Creativa1.TextDropShadow = true;
+            this.button_Creativa1.UseVisualStyleBackColor = false;
+            // 
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -598,7 +633,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MinimumSize = new System.Drawing.Size(1024, 726);
-            this.Name = "frmPedidos";
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Steph v1.0";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -653,6 +688,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaPedido;
         private System.Windows.Forms.DataGridViewTextBoxColumn Empleado;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnModificar;
+        private CreativaSL.LibControls.WinForms.Button_Creativa button_Creativa1;
     }
 }
 
