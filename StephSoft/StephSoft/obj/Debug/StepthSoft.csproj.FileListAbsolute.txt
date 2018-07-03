@@ -755,3 +755,7 @@ C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StephSoft.Properties.Reso
 C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.GenerateResource.Cache
 C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\RdlCompile.cache
 C:\Users\JMARTIN\Desktop\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\bin\Debug\StephSoft.exe.config
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb

@@ -119,6 +119,14 @@ namespace StephSoft
         {
             try
             {
+
+            }
+            catch(Exception)
+            {
+
+            }
+            try
+            {
                 this.BusquedaPedidos();
             }
             catch (Exception ex)
