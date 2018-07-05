@@ -146,7 +146,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 List<Cita> Lista = new List<Cita>();
                 Cita Item;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_get_CitasXSucursal", Datos.IDSucursal, true, DateTime.Now);
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_get_CitasXSucursal", Datos.IDSucursal, false, Datos.FechaCita);
                 while (Dr.Read())
                 {
                     Item = new Cita();

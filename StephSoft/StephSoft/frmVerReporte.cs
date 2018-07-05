@@ -73,10 +73,11 @@ namespace StephSoft
             {
                 switch (TipoListado)
                 {
-                    case 1: this.GenerarReporteCitas();
+                    case 1: 
                         this.lblTitulo.Text = "CITAS DEL DÍA";
                         break;
                     case 2: this.GenerarReporteCajas();
+                        this.panel8.Visible = false;
                         this.lblTitulo.Text = "CIERRE DE CAJA";
                         break;
                 }
@@ -95,7 +96,7 @@ namespace StephSoft
                 reportViewer1.ZoomMode = ZoomMode.Percent;
                 reportViewer1.ZoomPercent = 100;
                 reportViewer1.LocalReport.DataSources.Clear();
-                Cita Datos = new Cita { Conexion = Comun.Conexion, IDSucursal = ID };
+                Cita Datos = new Cita { Conexion = Comun.Conexion, IDSucursal = ID, FechaCita=this.dtpFechaInicio.Value };
                 Cita_Negocio CN = new Cita_Negocio();
                 List<Cita> Lista = CN.ObtenerCitasPorSucursal(Datos);
                 reportViewer1.LocalReport.EnableExternalImages = true;
@@ -178,7 +179,17 @@ namespace StephSoft
             }
         }
 
+        private void btnGenerar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.GenerarReporteCitas();
+            }
+            catch (Exception ex)
+            {
 
-
+                LogError.AddExcFileTxt(ex, "frmVerListados ~ btnGenerar_Click()");
+            }
+        }
     }
 }

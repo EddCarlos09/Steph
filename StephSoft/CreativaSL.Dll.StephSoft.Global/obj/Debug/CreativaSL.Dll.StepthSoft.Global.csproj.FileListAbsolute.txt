@@ -28,3 +28,8 @@ C:\Users\JMARTIN\Desktop\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\Cre
 C:\Users\JMARTIN\Desktop\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StepthSoft.Global.csprojResolveAssemblyReference.cache
 C:\Users\JMARTIN\Desktop\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.dll
 C:\Users\JMARTIN\Desktop\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StepthSoft.Global.csprojResolveAssemblyReference.cache
+C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Debug\CreativaSL.Dll.StephSoft.Global.pdb
