@@ -33,7 +33,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtMensajeError = new System.Windows.Forms.TextBox();
             this.btnSurtir = new CreativaSL.LibControls.WinForms.Button_Creativa();
@@ -44,23 +43,19 @@
             this.txtFolioPedido = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dgvPedidoDetalle = new System.Windows.Forms.DataGridView();
-            this.IDPedidoSurtidoDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDPedidoDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDAsignacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ClaveProduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CantidadSurtida = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CantidadPendiente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CantidadARecibir = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label42 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.IDPedidoSurtidoDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDPedidoDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CantidadSurtida = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CantidadPendiente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CantidadARecibir = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedidoDetalle)).BeginInit();
@@ -231,13 +226,9 @@
             this.dgvPedidoDetalle.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IDPedidoSurtidoDetalle,
             this.IDPedidoDetalle,
-            this.IDAsignacion,
             this.IDProducto,
             this.Clave,
             this.Producto,
-            this.ClaveProduccion,
-            this.IDEmpleado,
-            this.NombreEmpleado,
             this.Cantidad,
             this.CantidadSurtida,
             this.CantidadPendiente,
@@ -250,129 +241,6 @@
             this.dgvPedidoDetalle.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPedidoDetalle_CellContentClick);
             this.dgvPedidoDetalle.CellValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPedidoDetalle_CellValidated);
             this.dgvPedidoDetalle.CellValidating += new System.Windows.Forms.DataGridViewCellValidatingEventHandler(this.dgvPedidoDetalle_CellValidating);
-            // 
-            // IDPedidoSurtidoDetalle
-            // 
-            this.IDPedidoSurtidoDetalle.DataPropertyName = "IDPedidoSurtidoDetalle";
-            this.IDPedidoSurtidoDetalle.HeaderText = "IDPedidoSurtidoDetalle";
-            this.IDPedidoSurtidoDetalle.Name = "IDPedidoSurtidoDetalle";
-            this.IDPedidoSurtidoDetalle.ReadOnly = true;
-            this.IDPedidoSurtidoDetalle.Visible = false;
-            // 
-            // IDPedidoDetalle
-            // 
-            this.IDPedidoDetalle.DataPropertyName = "IDPedidoDetalle";
-            this.IDPedidoDetalle.HeaderText = "IDPedidoDetalle";
-            this.IDPedidoDetalle.Name = "IDPedidoDetalle";
-            this.IDPedidoDetalle.ReadOnly = true;
-            this.IDPedidoDetalle.Visible = false;
-            // 
-            // IDAsignacion
-            // 
-            this.IDAsignacion.DataPropertyName = "IDAsignacion";
-            this.IDAsignacion.HeaderText = "IDAsignacion";
-            this.IDAsignacion.Name = "IDAsignacion";
-            this.IDAsignacion.ReadOnly = true;
-            this.IDAsignacion.Visible = false;
-            // 
-            // IDProducto
-            // 
-            this.IDProducto.DataPropertyName = "IDProducto";
-            this.IDProducto.HeaderText = "IDProducto";
-            this.IDProducto.Name = "IDProducto";
-            this.IDProducto.ReadOnly = true;
-            this.IDProducto.Visible = false;
-            // 
-            // Clave
-            // 
-            this.Clave.DataPropertyName = "ClaveProducto";
-            this.Clave.HeaderText = "Clave";
-            this.Clave.Name = "Clave";
-            this.Clave.ReadOnly = true;
-            this.Clave.Width = 130;
-            // 
-            // Producto
-            // 
-            this.Producto.DataPropertyName = "NombreProducto";
-            this.Producto.FillWeight = 28.87055F;
-            this.Producto.HeaderText = "Producto";
-            this.Producto.Name = "Producto";
-            this.Producto.ReadOnly = true;
-            this.Producto.Width = 210;
-            // 
-            // ClaveProduccion
-            // 
-            this.ClaveProduccion.DataPropertyName = "ClaveProduccion";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.ClaveProduccion.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ClaveProduccion.HeaderText = "Clave de Producción";
-            this.ClaveProduccion.Name = "ClaveProduccion";
-            this.ClaveProduccion.ReadOnly = true;
-            this.ClaveProduccion.Width = 110;
-            // 
-            // IDEmpleado
-            // 
-            this.IDEmpleado.DataPropertyName = "IDEmpleado";
-            this.IDEmpleado.FillWeight = 0.793147F;
-            this.IDEmpleado.HeaderText = "IDEmpleado";
-            this.IDEmpleado.Name = "IDEmpleado";
-            this.IDEmpleado.ReadOnly = true;
-            this.IDEmpleado.Visible = false;
-            this.IDEmpleado.Width = 5;
-            // 
-            // NombreEmpleado
-            // 
-            this.NombreEmpleado.DataPropertyName = "NombreEmpleado";
-            this.NombreEmpleado.FillWeight = 369.5432F;
-            this.NombreEmpleado.HeaderText = "Empleado";
-            this.NombreEmpleado.Name = "NombreEmpleado";
-            this.NombreEmpleado.ReadOnly = true;
-            this.NombreEmpleado.Width = 300;
-            // 
-            // Cantidad
-            // 
-            this.Cantidad.DataPropertyName = "Cantidad";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = "0";
-            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Cantidad.FillWeight = 0.793147F;
-            this.Cantidad.HeaderText = "Cantidad ";
-            this.Cantidad.Name = "Cantidad";
-            this.Cantidad.ReadOnly = true;
-            // 
-            // CantidadSurtida
-            // 
-            this.CantidadSurtida.DataPropertyName = "CantidadSurtida";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = "0";
-            this.CantidadSurtida.DefaultCellStyle = dataGridViewCellStyle3;
-            this.CantidadSurtida.HeaderText = "Cantidad Surtida";
-            this.CantidadSurtida.Name = "CantidadSurtida";
-            this.CantidadSurtida.ReadOnly = true;
-            // 
-            // CantidadPendiente
-            // 
-            this.CantidadPendiente.DataPropertyName = "CantidadPendiente";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N0";
-            dataGridViewCellStyle4.NullValue = "0";
-            this.CantidadPendiente.DefaultCellStyle = dataGridViewCellStyle4;
-            this.CantidadPendiente.HeaderText = "Cantidad Pendiente de recibir";
-            this.CantidadPendiente.Name = "CantidadPendiente";
-            this.CantidadPendiente.ReadOnly = true;
-            this.CantidadPendiente.Width = 170;
-            // 
-            // CantidadARecibir
-            // 
-            this.CantidadARecibir.DataPropertyName = "CantidadARecibir";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N0";
-            this.CantidadARecibir.DefaultCellStyle = dataGridViewCellStyle5;
-            this.CantidadARecibir.HeaderText = "Cantidad a recibir";
-            this.CantidadARecibir.Name = "CantidadARecibir";
-            this.CantidadARecibir.Width = 105;
             // 
             // label42
             // 
@@ -406,6 +274,92 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
+            // 
+            // IDPedidoSurtidoDetalle
+            // 
+            this.IDPedidoSurtidoDetalle.DataPropertyName = "IDPedidoSurtidoDetalle";
+            this.IDPedidoSurtidoDetalle.HeaderText = "IDPedidoSurtidoDetalle";
+            this.IDPedidoSurtidoDetalle.Name = "IDPedidoSurtidoDetalle";
+            this.IDPedidoSurtidoDetalle.ReadOnly = true;
+            this.IDPedidoSurtidoDetalle.Visible = false;
+            // 
+            // IDPedidoDetalle
+            // 
+            this.IDPedidoDetalle.DataPropertyName = "IDPedidoDetalle";
+            this.IDPedidoDetalle.HeaderText = "IDPedidoDetalle";
+            this.IDPedidoDetalle.Name = "IDPedidoDetalle";
+            this.IDPedidoDetalle.ReadOnly = true;
+            this.IDPedidoDetalle.Visible = false;
+            // 
+            // IDProducto
+            // 
+            this.IDProducto.DataPropertyName = "IDProducto";
+            this.IDProducto.HeaderText = "IDProducto";
+            this.IDProducto.Name = "IDProducto";
+            this.IDProducto.ReadOnly = true;
+            this.IDProducto.Visible = false;
+            // 
+            // Clave
+            // 
+            this.Clave.DataPropertyName = "ClaveProducto";
+            this.Clave.HeaderText = "Clave";
+            this.Clave.Name = "Clave";
+            this.Clave.ReadOnly = true;
+            this.Clave.Width = 130;
+            // 
+            // Producto
+            // 
+            this.Producto.DataPropertyName = "NombreProducto";
+            this.Producto.FillWeight = 28.87055F;
+            this.Producto.HeaderText = "Producto";
+            this.Producto.Name = "Producto";
+            this.Producto.ReadOnly = true;
+            this.Producto.Width = 300;
+            // 
+            // Cantidad
+            // 
+            this.Cantidad.DataPropertyName = "Cantidad";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle1.Format = "N0";
+            dataGridViewCellStyle1.NullValue = "0";
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle1;
+            this.Cantidad.FillWeight = 0.793147F;
+            this.Cantidad.HeaderText = "Cantidad solicitada";
+            this.Cantidad.Name = "Cantidad";
+            this.Cantidad.ReadOnly = true;
+            // 
+            // CantidadSurtida
+            // 
+            this.CantidadSurtida.DataPropertyName = "CantidadSurtida";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N0";
+            dataGridViewCellStyle2.NullValue = "0";
+            this.CantidadSurtida.DefaultCellStyle = dataGridViewCellStyle2;
+            this.CantidadSurtida.HeaderText = "Cantidad Surtida";
+            this.CantidadSurtida.Name = "CantidadSurtida";
+            this.CantidadSurtida.ReadOnly = true;
+            // 
+            // CantidadPendiente
+            // 
+            this.CantidadPendiente.DataPropertyName = "CantidadPendiente";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Format = "N0";
+            dataGridViewCellStyle3.NullValue = "0";
+            this.CantidadPendiente.DefaultCellStyle = dataGridViewCellStyle3;
+            this.CantidadPendiente.HeaderText = "Cantidad pendiente";
+            this.CantidadPendiente.Name = "CantidadPendiente";
+            this.CantidadPendiente.ReadOnly = true;
+            this.CantidadPendiente.Width = 120;
+            // 
+            // CantidadARecibir
+            // 
+            this.CantidadARecibir.DataPropertyName = "CantidadARecibir";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N0";
+            this.CantidadARecibir.DefaultCellStyle = dataGridViewCellStyle4;
+            this.CantidadARecibir.HeaderText = "Cantidad a recibir";
+            this.CantidadARecibir.Name = "CantidadARecibir";
+            this.CantidadARecibir.Width = 105;
             // 
             // frmPedidoRecibir
             // 
@@ -453,13 +407,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDPedidoSurtidoDetalle;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDPedidoDetalle;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDAsignacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn Clave;
         private System.Windows.Forms.DataGridViewTextBoxColumn Producto;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ClaveProduccion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IDEmpleado;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombreEmpleado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn CantidadSurtida;
         private System.Windows.Forms.DataGridViewTextBoxColumn CantidadPendiente;

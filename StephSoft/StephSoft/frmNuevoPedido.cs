@@ -16,7 +16,7 @@ using System.Windows.Forms;
 namespace StephSoft
 {
     public partial class frmNuevoPedido : Form
-    {        
+    {
         #region Propiedades / Variables
         private bool NuevoRegistro = true;
         private Pedido _DatosPedido;
@@ -74,7 +74,7 @@ namespace StephSoft
                 throw ex;
             }
         }
-        
+
         private void CargarDatosAModificar(Pedido Datos)
         {
             try
@@ -165,7 +165,7 @@ namespace StephSoft
                 {
                     this._DatosPedido.DetallePedido = this.ObtenerDetallePedidoXID(this._DatosPedido.IDPedido);
                     this.CargarDatosAModificar(this._DatosPedido);
-                }                
+                }
                 this.LlenarTablaProductos();
                 this.ActiveControl = this.btnAgregarProducto;
                 this.btnAgregarProducto.Focus();
@@ -193,7 +193,7 @@ namespace StephSoft
                 throw ex;
             }
         }
-        
+
         private void MostrarMensajeError(List<Error> Errores)
         {
             try
@@ -255,7 +255,7 @@ namespace StephSoft
             try
             {
                 Pedido_Negocio PedNeg = new Pedido_Negocio();
-                return PedNeg.ObtenerDetallePedido(new Pedido { IDPedido = IDPedido, Conexion = Comun.Conexion });
+                return PedNeg.ObtenerDetalleClavesPedido(new Pedido { IDPedido = IDPedido, Conexion = Comun.Conexion });
             }
             catch (Exception ex)
             {
@@ -309,7 +309,7 @@ namespace StephSoft
             {
                 List<Error> Errores = new List<Error>();
                 int Aux = 0;
-                if(this.dgvPedidoDetalle.Rows.Count == 0)
+                if (this.dgvPedidoDetalle.Rows.Count == 0)
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Debe agregar al menos un producto al pedido.", ControlSender = this.dgvPedidoDetalle });
                 return Errores;
             }
@@ -322,7 +322,7 @@ namespace StephSoft
         #endregion
 
         #region Eventos    
-        
+
         private void btnAgregarProducto_Click(object sender, EventArgs e)
         {
             try
@@ -449,7 +449,7 @@ namespace StephSoft
                 MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        
+
         private void frmNuevoPedido_Load(object sender, EventArgs e)
         {
             try

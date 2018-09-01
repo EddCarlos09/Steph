@@ -827,13 +827,22 @@ namespace StephSoft
             }
         }
 
-        private void btnDescantarExistencia_Click(object sender, EventArgs e)
+
+        private void btnEntregaMaterial_Click(object sender, EventArgs e)
         {
-            frmDescontarExistencia DescExist = new frmDescontarExistencia();
-            DescExist.ShowDialog();
-            DescExist.Dispose();
-            if (DescExist.DialogResult == DialogResult.OK)
+            try
             {
+                frmEntregaMaterial Entregas = new frmEntregaMaterial();
+                this.Visible = false;
+                Entregas.ShowDialog();
+                Entregas.Dispose();
+                this.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                this.Visible = true;
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                LogError.AddExcFileTxt(ex, "frmMenuInicio ~ btnGarantia_Click");
             }
         }
     }

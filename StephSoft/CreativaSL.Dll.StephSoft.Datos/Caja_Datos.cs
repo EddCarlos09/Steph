@@ -110,7 +110,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 object[] Parametros = { Datos.IDCaja, Datos.IDCajaCat,
                                        Datos.IDSucursal, Datos.Cierre,
                                        Datos.IDUsuario};
-                object Resultado = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_CierreCaja", Parametros);
+                object Resultado = SqlHelper.ExecuteScalar(Datos.Conexion, "Usuarios.spCSLDB_set_CierreCaja", Parametros);
                 Datos.Completado = false;
                 if (Resultado != null)
                 {
@@ -201,7 +201,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_RptTicketCaja", Datos.IDCaja, Datos.IDUsuario);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_RptTicketCaja", Datos.IDCaja, Datos.IDUsuario);
                 if (Ds != null)
                 {
                     if (Ds.Tables.Count > 0)

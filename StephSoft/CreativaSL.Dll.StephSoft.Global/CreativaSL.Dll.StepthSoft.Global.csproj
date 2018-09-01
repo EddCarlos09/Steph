@@ -60,6 +60,7 @@
     <Compile Include="MotivoCanc.cs" />
     <Compile Include="Pedido.cs" />
     <Compile Include="PedidoDetalle.cs" />
+    <Compile Include="PromocionVenta.cs" />
     <Compile Include="Rubro.cs" />
     <Compile Include="Subrubro.cs" />
     <Compile Include="TipoIdentificacion.cs" />

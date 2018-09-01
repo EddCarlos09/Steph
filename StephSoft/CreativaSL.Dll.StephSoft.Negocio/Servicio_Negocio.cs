@@ -111,5 +111,18 @@ namespace CreativaSL.Dll.StephSoft.Negocio
             }
         }
 
+        public List<Producto> ObtenerServiciosXIDPromocion(string Conexion, int IDPromocion)
+        {
+            try
+            {
+                Servicio_Datos SD = new Servicio_Datos();
+                return SD.ObtenerServiciosXIDPromocion(Conexion, IDPromocion);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

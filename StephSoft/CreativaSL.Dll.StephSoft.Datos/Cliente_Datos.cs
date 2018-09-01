@@ -364,13 +364,13 @@ namespace CreativaSL.Dll.StephSoft.Datos
         }
 
 
-        public void ActivarTarjetaRegalo(TarjetaMonedero Datos)
+        public void ActivarTarjetaRegalo(TarjetaMonedero Datos, string IDSucursal)
         {
             try
             {
                 int Resultado = 0;
-                object[] Parametros = { Datos.IDCliente, Datos.IDTarjeta, Datos.Folio, Datos.IDUsuario };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_set_ActivarTarjetaRegalo", Parametros);
+                object[] Parametros = { Datos.IDCliente, Datos.IDTarjeta, Datos.Folio, IDSucursal, Datos.IDUsuario };
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_set_ActivarTarjetaRegalo", Parametros);
                 if (Ds != null)
                 {
                     if (Ds.Tables.Count > 0)

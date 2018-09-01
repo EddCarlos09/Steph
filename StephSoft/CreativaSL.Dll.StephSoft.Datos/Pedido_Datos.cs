@@ -41,7 +41,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 int Resultado = 0;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_ac_Pedidos",
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, CommandType.StoredProcedure, "Produccion.spCSLDB_ac_Pedidos",
                      new SqlParameter("@NuevoRegistro", Datos.NuevoRegistro),
                      new SqlParameter("@IDPedido", Datos.IDPedido),
                      new SqlParameter("@IDSucursal", Datos.IDSucursal),
@@ -77,7 +77,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.Opcion, Datos.BuscarTodos, Datos.IDSucursal };
-                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_PedidosTabSoft", Parametros);
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_PedidosTabSoft", Parametros);
                 Datos.TablaDatos = new DataTable();
                 if (ds != null)
                     if (ds.Tables.Count == 1)
@@ -94,7 +94,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.Opcion, Datos.BuscarTodos, Datos.FolioPedido, Datos.IDSucursal };
-                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_PedidosTabBusqSoft", Parametros);
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_PedidosTabBusqSoft", Parametros);
                 Datos.TablaDatos = new DataTable();
                 if (ds != null)
                     if (ds.Tables.Count == 1)
@@ -112,7 +112,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.IDSucursal, Datos.BuscarTodos};
-                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_PedidosSurtidosXIDSuc", Parametros);
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_PedidosSurtidosXIDSuc", Parametros);
                 Datos.TablaDatos = new DataTable();
                 if (ds != null)
                     if (ds.Tables.Count == 1)
@@ -129,7 +129,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.IDSucursal, Datos.BuscarTodos, Datos.FolioPedido };
-                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_PedidosSurtidosXIDSucBusq", Parametros);
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_PedidosSurtidosXIDSucBusq", Parametros);
                 Datos.TablaDatos = new DataTable();
                 if (ds != null)
                     if (ds.Tables.Count == 1)
@@ -159,13 +159,13 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
-        public List<PedidoDetalle> ObtenerDetallePedido(Pedido Datos)
+        public List<PedidoDetalle> ObtenerDetalleClavesPedido(Pedido Datos)
         {
             try
             {
                 List<PedidoDetalle> Lista = new List<PedidoDetalle>();
                 PedidoDetalle Item;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_get_PedidoDetalleXID", Datos.IDPedido);
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "Produccion.spCSLDB_get_PedidoDetalleClavesXID", Datos.IDPedido);
                 while (Dr.Read())
                 {
                     Item = new PedidoDetalle();
@@ -178,9 +178,6 @@ namespace CreativaSL.Dll.StephSoft.Datos
                     Item.NombreEmpleado = Dr.GetString(Dr.GetOrdinal("NombreEmpleado"));
                     Item.IDAsignacion = Dr.GetString(Dr.GetOrdinal("IDAsignacion"));
                     Item.ClaveProduccion = Dr.GetString(Dr.GetOrdinal("ClaveProduccion"));
-                    Item.Completo = Dr.GetBoolean(Dr.GetOrdinal("Completo"));
-                    Item.CantidadSurtida = Dr.GetDecimal(Dr.GetOrdinal("CantidadSurtida"));
-                    Item.CantidadPendiente = Item.Cantidad - Item.CantidadSurtida;
                     Lista.Add(Item);
                 }
                 return Lista;
@@ -197,7 +194,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 List<PedidoDetalle> Lista = new List<PedidoDetalle>();
                 PedidoDetalle Item;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_get_PedidoSurtidoDetalleXID", Datos.IDPedido, Datos.IDPedidoSurtido);
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "Produccion.spCSLDB_get_PedidoSurtidoDetalleXID", Datos.IDPedido, Datos.IDPedidoSurtido);
                 while (Dr.Read())
                 {
                     Item = new PedidoDetalle();
@@ -207,10 +204,6 @@ namespace CreativaSL.Dll.StephSoft.Datos
                     Item.ClaveProducto = Dr.GetString(Dr.GetOrdinal("Clave"));
                     Item.NombreProducto = Dr.GetString(Dr.GetOrdinal("NombreProducto"));
                     Item.Cantidad = Dr.GetDecimal(Dr.GetOrdinal("Cantidad"));
-                    Item.IDEmpleado = Dr.GetString(Dr.GetOrdinal("IDEmpleado"));
-                    Item.NombreEmpleado = Dr.GetString(Dr.GetOrdinal("NombreEmpleado"));
-                    Item.IDAsignacion = Dr.GetString(Dr.GetOrdinal("IDAsignacion"));
-                    Item.ClaveProduccion = Dr.GetString(Dr.GetOrdinal("ClaveProduccion"));
                     Item.CantidadSurtida = Dr.GetDecimal(Dr.GetOrdinal("CantidadSurtida"));
                     Item.CantidadRecibida = Dr.GetDecimal(Dr.GetOrdinal("CantidadRecibida"));
                     Item.CantidadPendiente = Item.CantidadSurtida - Item.CantidadRecibida;
@@ -230,7 +223,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_EnviarPedido", Datos.IDPedido, Datos.IDUsuario);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Produccion.spCSLDB_set_EnviarPedido", Datos.IDPedido, Datos.IDUsuario);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -250,8 +243,8 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 int Resultado = 0;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_set_RecibirPedido",
-                    new SqlParameter("@IDPedidoSurtido", Datos.IDPedidoSurtido),
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "Produccion.spCSLDB_set_RecibirPedido",
+                     new SqlParameter("@IDPedidoSurtido", Datos.IDPedidoSurtido),
                      new SqlParameter("@IDPedido", Datos.IDPedido),
                      new SqlParameter("@IDSucursal", Datos.IDSucursal),
                      new SqlParameter("@TablaDetalle", Datos.TablaDatos),
@@ -276,7 +269,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_del_EliminarPedido", Datos.IDPedido, Datos.IDUsuario);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Produccion.spCSLDB_del_EliminarPedido", Datos.IDPedido, Datos.IDUsuario);
                 if (Result != null)
                 {
                     int Resultado = 0;

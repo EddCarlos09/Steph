@@ -232,8 +232,7 @@
             this.txtCantidad.Location = new System.Drawing.Point(89, 156);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(186, 25);
-            this.txtCantidad.TabIndex = 175;
-            this.txtCantidad.TabStop = false;
+            this.txtCantidad.TabIndex = 3;
             // 
             // label3
             // 
@@ -261,7 +260,7 @@
             this.cmbEmpleados.Location = new System.Drawing.Point(89, 37);
             this.cmbEmpleados.Name = "cmbEmpleados";
             this.cmbEmpleados.Size = new System.Drawing.Size(284, 28);
-            this.cmbEmpleados.TabIndex = 172;
+            this.cmbEmpleados.TabIndex = 1;
             this.cmbEmpleados.SelectedIndexChanged += new System.EventHandler(this.cmbEmpleados_SelectedIndexChanged);
             this.cmbEmpleados.Validating += new System.ComponentModel.CancelEventHandler(this.cmbEmpleados_Validating);
             // 
@@ -289,7 +288,7 @@
             this.btnElegirProducto.Name = "btnElegirProducto";
             this.btnElegirProducto.OffsetPressedContent = true;
             this.btnElegirProducto.Size = new System.Drawing.Size(74, 24);
-            this.btnElegirProducto.TabIndex = 161;
+            this.btnElegirProducto.TabIndex = 2;
             this.btnElegirProducto.Text = "Elegir";
             this.btnElegirProducto.TextDropShadow = true;
             this.btnElegirProducto.UseVisualStyleBackColor = false;
@@ -305,6 +304,7 @@
             this.txtProducto.ReadOnly = true;
             this.txtProducto.Size = new System.Drawing.Size(284, 25);
             this.txtProducto.TabIndex = 113;
+            this.txtProducto.TabStop = false;
             // 
             // label1
             // 

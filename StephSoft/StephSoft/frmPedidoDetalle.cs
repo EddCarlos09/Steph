@@ -99,7 +99,7 @@ namespace StephSoft
             try
             {
                 Pedido_Negocio PedNeg = new Pedido_Negocio();
-                return PedNeg.ObtenerDetallePedido(new Pedido { IDPedido = IDPedido, Conexion = Comun.Conexion });
+                return PedNeg.ObtenerDetalleClavesPedido(new Pedido { IDPedido = IDPedido, Conexion = Comun.Conexion });
             }
             catch (Exception ex)
             {

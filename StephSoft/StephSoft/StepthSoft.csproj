@@ -171,6 +171,12 @@
     <Compile Include="frmCierreCaja.designer.cs">
       <DependentUpon>frmCierreCaja.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmClavesXIDEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClavesXIDEmpleado.Designer.cs">
+      <DependentUpon>frmClavesXIDEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCobro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -315,6 +321,12 @@
     <Compile Include="frmElegirTurnoCombo.Designer.cs">
       <DependentUpon>frmElegirTurnoCombo.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEntregaMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEntregaMaterial.Designer.cs">
+      <DependentUpon>frmEntregaMaterial.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGarantias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -363,6 +375,18 @@
     <Compile Include="frmInicial.designer.cs">
       <DependentUpon>frmInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmInicializarClaves.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInicializarClaves.Designer.cs">
+      <DependentUpon>frmInicializarClaves.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIniciarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIniciarServicio.Designer.cs">
+      <DependentUpon>frmIniciarServicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -405,6 +429,12 @@
     <Compile Include="frmNuevaCita.Designer.cs">
       <DependentUpon>frmNuevaCita.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNuevaClaveProduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevaClaveProduccion.Designer.cs">
+      <DependentUpon>frmNuevaClaveProduccion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNuevaGarantia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -416,6 +446,12 @@
     </Compile>
     <Compile Include="frmNuevaImagenCatWeb.Designer.cs">
       <DependentUpon>frmNuevaImagenCatWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNuevaPromocionVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNuevaPromocionVenta.Designer.cs">
+      <DependentUpon>frmNuevaPromocionVenta.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNuevoCiclo.cs">
       <SubType>Form</SubType>
@@ -596,6 +632,9 @@
     <EmbeddedResource Include="frmCierreCaja.resx">
       <DependentUpon>frmCierreCaja.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmClavesXIDEmpleado.resx">
+      <DependentUpon>frmClavesXIDEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCobro.resx">
       <DependentUpon>frmCobro.cs</DependentUpon>
     </EmbeddedResource>
@@ -668,6 +707,9 @@
     <EmbeddedResource Include="frmElegirTurnoCombo.resx">
       <DependentUpon>frmElegirTurnoCombo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEntregaMaterial.resx">
+      <DependentUpon>frmEntregaMaterial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmGarantias.resx">
       <DependentUpon>frmGarantias.cs</DependentUpon>
     </EmbeddedResource>
@@ -692,6 +734,12 @@
     <EmbeddedResource Include="frmInicial.resx">
       <DependentUpon>frmInicial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmInicializarClaves.resx">
+      <DependentUpon>frmInicializarClaves.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIniciarServicio.resx">
+      <DependentUpon>frmIniciarServicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInventario.resx">
       <DependentUpon>frmInventario.cs</DependentUpon>
     </EmbeddedResource>
@@ -713,11 +761,17 @@
     <EmbeddedResource Include="frmNuevaCita.resx">
       <DependentUpon>frmNuevaCita.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaClaveProduccion.resx">
+      <DependentUpon>frmNuevaClaveProduccion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNuevaGarantia.resx">
       <DependentUpon>frmNuevaGarantia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNuevaImagenCatWeb.resx">
       <DependentUpon>frmNuevaImagenCatWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNuevaPromocionVenta.resx">
+      <DependentUpon>frmNuevaPromocionVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNuevoCiclo.resx">
       <DependentUpon>frmNuevoCiclo.cs</DependentUpon>

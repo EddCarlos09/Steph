@@ -104,12 +104,12 @@ namespace CreativaSL.Dll.StephSoft.Negocio
             }
         }
 
-        public List<PedidoDetalle> ObtenerDetallePedido(Pedido Datos)
+        public List<PedidoDetalle> ObtenerDetalleClavesPedido(Pedido Datos)
         {
             try
             {
                 Pedido_Datos PD = new Pedido_Datos();
-                return PD.ObtenerDetallePedido(Datos);
+                return PD.ObtenerDetalleClavesPedido(Datos);
             }
             catch (Exception ex)
             {
@@ -168,5 +168,7 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+
     }
 }

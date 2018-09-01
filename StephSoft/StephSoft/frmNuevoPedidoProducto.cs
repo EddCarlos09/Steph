@@ -71,13 +71,13 @@ namespace StephSoft
                     Producto Aux = ElegirProducto.Datos;
                     Actual = Aux;
                     this.txtProducto.Text = Aux.NombreProducto;
-                    this.btnGuardar.Focus();
+                    this.txtCantidad.Focus();
                 }
                 else
                 {
                     this.Actual = new Producto();
                     this.txtProducto.Text = string.Empty;
-                         
+
                 }
             }
             catch (Exception ex)
@@ -133,7 +133,7 @@ namespace StephSoft
             {
                 throw ex;
             }
-        }        
+        }
 
         private void IniciarForm()
         {
@@ -142,7 +142,7 @@ namespace StephSoft
                 this.CargarComboEmpleados();
                 this.txtProducto.Text = string.Empty;
                 this.Actual = new Producto();
-                this.txtCantidad.Text = string.Format("{0:F2}", 1);
+                this.txtCantidad.Text = string.Format("{0:F0}", 1);
                 this.ActiveControl = this.btnElegirProducto;
                 this.btnElegirProducto.Focus();
                 if (File.Exists(Path.Combine(System.Windows.Forms.Application.StartupPath, @"Resources\Documents\" + Comun.UrlLogo)))
@@ -206,7 +206,7 @@ namespace StephSoft
                 else
                 {
                     Datos.IDEmpleado = string.Empty;
-                    Datos.NombreEmpleado = string.Empty;
+                    Datos.NombreEmpleado = "SUCURSAL";
                 }
                 Datos.IDAsignacion = string.Empty;
                 Datos.ClaveProduccion = string.Empty;
@@ -248,7 +248,7 @@ namespace StephSoft
                 {
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Seleccione un empleado.", ControlSender = this.cmbEmpleados });
                 }
-                if(this.ObtenerCantidad() <= 0)
+                if (this.ObtenerCantidad() <= 0)
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "La cantidad debe ser mayor que 0.", ControlSender = this.txtCantidad });
                 return Errores;
             }

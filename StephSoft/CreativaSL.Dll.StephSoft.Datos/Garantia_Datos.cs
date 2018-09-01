@@ -16,7 +16,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_set_NuevaGarantia", 
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "Ventas.spCSLDB_set_NuevaGarantia", 
                                 new SqlParameter("@IDVenta", Datos.IDVenta),
                                 new SqlParameter("@IDSucursal", Datos.IDSucursal),
                                 new SqlParameter("@IDEmpleadoAutoriza", Datos.IDEmpleadoAutoriza),
@@ -48,7 +48,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.Band, Datos.TextoBusqueda};
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_BusqGarantias", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_BusqGarantias", Parametros);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                     {
@@ -66,7 +66,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_GarantiaDetalle", Datos.IDGarantia);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_GarantiaDetalle", Datos.IDGarantia);
                 Garantia Resultado = new Garantia();
                 if (Ds != null)
                 {

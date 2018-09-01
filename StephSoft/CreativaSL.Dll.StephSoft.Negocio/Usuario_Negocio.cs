@@ -251,5 +251,19 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+
+        public void ObtenerEmpleadosMaterialesXIDSuc(Usuario Datos)
+        {
+            try
+            {
+                Usuario_Datos UsuDat = new Usuario_Datos();
+                UsuDat.ObtenerEmpleadosMaterialesXIDSuc(Datos);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

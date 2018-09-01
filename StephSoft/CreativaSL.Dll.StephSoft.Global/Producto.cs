@@ -457,5 +457,61 @@ namespace CreativaSL.Dll.StephSoft.Global
             set { _Existencia = value; }
         }
 
+        private int _IDPromocion;
+
+        public int IDPromocion
+        {
+            get { return _IDPromocion; }
+            set { _IDPromocion = value; }
+        }
+
+        private int _IDPromocionDetalle;
+
+        public int IDPromocionDetalle
+        {
+            get { return _IDPromocionDetalle; }
+            set { _IDPromocionDetalle = value; }
+        }
+
+        private int _IDPromocionDetalleProd;
+
+        public int IDPromocionDetalleProd
+        {
+            get { return _IDPromocionDetalleProd; }
+            set { _IDPromocionDetalleProd = value; }
+        }
+
+        private decimal _ExistenciaAlmacen;
+
+        public decimal ExistenciaAlmacen
+        {
+            get { return _ExistenciaAlmacen; }
+            set { _ExistenciaAlmacen = value; }
+        }
+
+        private decimal _ExistenciaUso;
+
+        public decimal ExistenciaUso
+        {
+            get { return _ExistenciaUso; }
+            set { _ExistenciaUso = value; }
+        }
+
+        private string _IDAsignacion;
+
+        public string IDAsignacion
+        {
+            get { return _IDAsignacion; }
+            set { _IDAsignacion = value; }
+        }
+
+        private string _ClaveProduccion;
+
+        public string ClaveProduccion
+        {
+            get { return _ClaveProduccion; }
+            set { _ClaveProduccion = value; }
+        }
+
     }
 }

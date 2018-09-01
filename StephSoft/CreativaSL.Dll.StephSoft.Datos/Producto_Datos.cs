@@ -287,7 +287,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_InventarioProductosXSuc", Datos.IDSucursal, Datos.NombreProducto);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_InventarioProductosXSuc", Datos.IDSucursal, Datos.NombreProducto);
                 Datos.TablaDatos = new DataTable();
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
@@ -303,7 +303,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_InventarioProductosMatriz", Datos.IDSucursal);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_InventarioProductosMatriz", Datos.IDSucursal);
                 Datos.TablaDatos = new DataTable();
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
@@ -320,7 +320,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 int Resultado = 0;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_a_InventarioExcel",
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, CommandType.StoredProcedure, "Produccion.spCSLDB_a_InventarioExcel",
                      new SqlParameter("@IDSucursal", Datos.IDSucursal),
                      new SqlParameter("@ImportarExcel", Datos.ImportarExcel),
                      new SqlParameter("@IDUsuario", Datos.IDUsuario)
@@ -351,7 +351,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Producto Resultado = new Producto();
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_get_ExistenciaProdutoXIDSucursal", Datos.IDProducto, Datos.IDSucursal);
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "Produccion.spCSLDB_get_ExistenciaProdutoXIDSucursal", Datos.IDProducto, Datos.IDSucursal);
                 while (Dr.Read())
                 {
                     Resultado.Existencia = !Dr.IsDBNull(Dr.GetOrdinal("Existencia")) ? Dr.GetDecimal(Dr.GetOrdinal("Existencia")) : 0;
@@ -369,7 +369,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDProducto, Datos.Existencia, Datos.IDSucursal, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_ActualizaExistenciaxProductoXSucursal", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Produccion.spCSLDB_set_ActualizaExistenciaxProductoXSucursal", Parametros);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -383,5 +383,103 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 throw ex;
             }
         }
+
+
+        public DataTable ObteneClavesXIDEmpleadoIDSucursal(string Conexion, bool EsEmpleado, string ID,string BusqProd)
+        {
+            try
+            {
+                object[] Parametros = { EsEmpleado, ID, BusqProd };
+                DataSet Ds = SqlHelper.ExecuteDataset(Conexion, "Produccion.spCSLDB_get_ClavesEmpleadoSucursalProduccion", Parametros);
+                if(Ds != null)
+                {
+                    return Ds.Tables[0];
+                }
+                return null;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+
+        public int BajaClaveProduccion(string Conexion, bool EsEmpleado, string IDAsignacion, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                object[] Parametros = { EsEmpleado, IDAsignacion, IDSucursal, IDUsuario };
+                object Result = SqlHelper.ExecuteScalar(Conexion, "Produccion.spCSLDB_set_BajaClaveProduccion", Parametros);
+                int Resultado = 0;
+                if(Result != null)
+                {
+                    int.TryParse(Result.ToString(), out Resultado);
+                }
+                return Resultado;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+        
+        public int ReemplazarClaveProduccion(string Conexion, bool EsEmpleado, string IDAsignacion, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                object[] Parametros = { EsEmpleado, IDAsignacion, IDSucursal, IDUsuario };
+                object Result = SqlHelper.ExecuteScalar(Conexion, "Produccion.spCSLDB_set_ReemplazarClaveProd", Parametros);
+                int Resultado = 0;
+                if (Result != null)
+                {
+                    int.TryParse(Result.ToString(), out Resultado);
+                }
+                return Resultado;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int GenerarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal Cantidad, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                object[] Parametros = { EsEmpleado, IDEmpleado, IDProducto, Cantidad, IDSucursal, IDUsuario };
+                object Result = SqlHelper.ExecuteScalar(Conexion, "Produccion.spCSLDB_set_GenerarClavesProduccion", Parametros);
+                int Resultado = 0;
+                if (Result != null)
+                {
+                    int.TryParse(Result.ToString(), out Resultado);
+                }
+                return Resultado;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int InicializarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal MetricaInicial, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                object[] Parametros = { EsEmpleado, IDEmpleado, IDProducto, MetricaInicial, IDSucursal, IDUsuario };
+                object Result = SqlHelper.ExecuteScalar(Conexion, "Produccion.spCSLDB_set_InicializarClaveProduccion", Parametros);
+                int Resultado = 0;
+                if (Result != null)
+                {
+                    int.TryParse(Result.ToString(), out Resultado);
+                }
+                return Resultado;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

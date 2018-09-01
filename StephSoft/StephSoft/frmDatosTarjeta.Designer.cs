@@ -86,11 +86,11 @@
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Champagne & Limousines", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.ForeColor = System.Drawing.Color.White;
             this.label42.Location = new System.Drawing.Point(21, 9);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(290, 50);
+            this.label42.Size = new System.Drawing.Size(325, 55);
             this.label42.TabIndex = 24;
             this.label42.Text = "Datos Tarjeta";
             // 
@@ -219,7 +219,7 @@
             // 
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(33, 291);
+            this.label7.Location = new System.Drawing.Point(33, 244);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(165, 27);
             this.label7.TabIndex = 26;
@@ -228,7 +228,7 @@
             // txtComision
             // 
             this.txtComision.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtComision.Location = new System.Drawing.Point(213, 291);
+            this.txtComision.Location = new System.Drawing.Point(213, 244);
             this.txtComision.MaxLength = 12;
             this.txtComision.Name = "txtComision";
             this.txtComision.ReadOnly = true;
@@ -240,12 +240,14 @@
             // 
             // txtNumTarjeta
             // 
-            this.txtNumTarjeta.Location = new System.Drawing.Point(213, 178);
+            this.txtNumTarjeta.Location = new System.Drawing.Point(213, 288);
             this.txtNumTarjeta.Mask = "0000-0000-0000-0000";
             this.txtNumTarjeta.Name = "txtNumTarjeta";
             this.txtNumTarjeta.Size = new System.Drawing.Size(286, 25);
             this.txtNumTarjeta.TabIndex = 16;
+            this.txtNumTarjeta.TabStop = false;
             this.txtNumTarjeta.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
+            this.txtNumTarjeta.Visible = false;
             // 
             // cmbDocumento
             // 
@@ -270,17 +272,18 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 178);
+            this.label5.Location = new System.Drawing.Point(33, 288);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(165, 27);
             this.label5.TabIndex = 23;
             this.label5.Text = "Num. Tarjeta:";
+            this.label5.Visible = false;
             // 
             // cmbBancos
             // 
             this.cmbBancos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBancos.FormattingEnabled = true;
-            this.cmbBancos.Location = new System.Drawing.Point(213, 218);
+            this.cmbBancos.Location = new System.Drawing.Point(213, 171);
             this.cmbBancos.Name = "cmbBancos";
             this.cmbBancos.Size = new System.Drawing.Size(286, 28);
             this.cmbBancos.TabIndex = 17;
@@ -289,7 +292,7 @@
             // 
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(33, 258);
+            this.label4.Location = new System.Drawing.Point(33, 211);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(165, 27);
             this.label4.TabIndex = 22;
@@ -298,7 +301,7 @@
             // txtMonto
             // 
             this.txtMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMonto.Location = new System.Drawing.Point(213, 258);
+            this.txtMonto.Location = new System.Drawing.Point(213, 211);
             this.txtMonto.MaxLength = 12;
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(172, 27);
@@ -311,7 +314,7 @@
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 218);
+            this.label3.Location = new System.Drawing.Point(33, 171);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(165, 27);
             this.label3.TabIndex = 21;

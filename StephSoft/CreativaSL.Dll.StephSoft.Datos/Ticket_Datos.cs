@@ -16,7 +16,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_ResumenVenta", Datos.IDVenta);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_ResumenVenta", Datos.IDVenta);
                 if (Ds != null)
                 {
                     if (Ds.Tables.Count == 4)

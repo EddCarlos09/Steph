@@ -1,0 +1,4 @@
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Release\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\bin\Release\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Release\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Global\obj\Release\CreativaSL.Dll.StephSoft.Global.pdb

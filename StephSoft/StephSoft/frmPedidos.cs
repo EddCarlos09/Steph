@@ -403,6 +403,8 @@ namespace StephSoft
                                     this.CargarPedidosTab(Tab);
                                 else
                                     this.BusquedaPedidos(Tab);
+
+                                MessageBox.Show("Pedido enviado.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
                             }
                             else
                                 MessageBox.Show("Ocurrió un error al procesar los datos. Intente nuevamente.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -40,6 +40,11 @@
             this.btnQuitar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnAgregarProducto = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.dgvPedidoDetalle = new System.Windows.Forms.DataGridView();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.label42 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtFolioPedido = new System.Windows.Forms.Label();
             this.IDPedidoDetalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDAsignacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,11 +54,6 @@
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NombreEmpleado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label42 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txtFolioPedido = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedidoDetalle)).BeginInit();
@@ -296,6 +296,50 @@
             this.dgvPedidoDetalle.Size = new System.Drawing.Size(962, 415);
             this.dgvPedidoDetalle.TabIndex = 12;
             // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(21, 9);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(205, 55);
+            this.label42.TabIndex = 24;
+            this.label42.Text = "Pedidos";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(205)))), ((int)(((byte)(215)))));
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.txtFolioPedido);
+            this.panel1.Controls.Add(this.label42);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1008, 80);
+            this.panel1.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.ErrorImage = null;
+            this.pictureBox1.Location = new System.Drawing.Point(854, 11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(139, 55);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 27;
+            this.pictureBox1.TabStop = false;
+            // 
+            // txtFolioPedido
+            // 
+            this.txtFolioPedido.AutoSize = true;
+            this.txtFolioPedido.Font = new System.Drawing.Font("Script MT Bold", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFolioPedido.ForeColor = System.Drawing.Color.White;
+            this.txtFolioPedido.Location = new System.Drawing.Point(416, 11);
+            this.txtFolioPedido.Name = "txtFolioPedido";
+            this.txtFolioPedido.Size = new System.Drawing.Size(0, 58);
+            this.txtFolioPedido.TabIndex = 25;
+            // 
             // IDPedidoDetalle
             // 
             this.IDPedidoDetalle.DataPropertyName = "IDPedidoDetalle";
@@ -351,7 +395,7 @@
             // 
             this.Cantidad.DataPropertyName = "Cantidad";
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N2";
+            dataGridViewCellStyle2.Format = "N0";
             dataGridViewCellStyle2.NullValue = "0";
             this.Cantidad.DefaultCellStyle = dataGridViewCellStyle2;
             this.Cantidad.FillWeight = 0.793147F;
@@ -378,50 +422,6 @@
             this.NombreEmpleado.Name = "NombreEmpleado";
             this.NombreEmpleado.ReadOnly = true;
             this.NombreEmpleado.Width = 300;
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Champagne & Limousines", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(21, 9);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(183, 50);
-            this.label42.TabIndex = 24;
-            this.label42.Text = "Pedidos";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(205)))), ((int)(((byte)(215)))));
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.txtFolioPedido);
-            this.panel1.Controls.Add(this.label42);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1008, 80);
-            this.panel1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.ErrorImage = null;
-            this.pictureBox1.Location = new System.Drawing.Point(854, 11);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(139, 55);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            // 
-            // txtFolioPedido
-            // 
-            this.txtFolioPedido.AutoSize = true;
-            this.txtFolioPedido.Font = new System.Drawing.Font("Script MT Bold", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFolioPedido.ForeColor = System.Drawing.Color.White;
-            this.txtFolioPedido.Location = new System.Drawing.Point(416, 11);
-            this.txtFolioPedido.Name = "txtFolioPedido";
-            this.txtFolioPedido.Size = new System.Drawing.Size(0, 58);
-            this.txtFolioPedido.TabIndex = 25;
             // 
             // frmNuevoPedido
             // 
@@ -464,6 +464,8 @@
         private CreativaSL.LibControls.WinForms.Button_Creativa btnQuitar;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnAgregarProducto;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnReemplazar;
+        private System.Windows.Forms.Label txtFolioPedido;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDPedidoDetalle;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDAsignacion;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDProducto;
@@ -473,8 +475,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEmpleado;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreEmpleado;
-        private System.Windows.Forms.Label txtFolioPedido;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -246,13 +246,13 @@ namespace StephSoft
                 if (string.IsNullOrEmpty(this.txtDNI.Text) || string.IsNullOrWhiteSpace(this.txtDNI.Text))
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Ingrese un número de identificación.", ControlSender = this.txtDNI}); 
                 
-                if (string.IsNullOrEmpty(this.txtNumTarjeta.Text) || string.IsNullOrWhiteSpace(this.txtNumTarjeta.Text))
-                    Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Ingrese el número de tarjeta.", ControlSender = this.txtNumTarjeta }); 
-                else
-                {
-                    if(!Validar.IsValidCreditCard(this.txtNumTarjeta.Text))
-                        Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Ingrese un número de tarjeta válido.", ControlSender = this.txtNumTarjeta }); 
-                }
+                //if (string.IsNullOrEmpty(this.txtNumTarjeta.Text) || string.IsNullOrWhiteSpace(this.txtNumTarjeta.Text))
+                //    Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Ingrese el número de tarjeta.", ControlSender = this.txtNumTarjeta }); 
+                //else
+                //{
+                //    if(!Validar.IsValidCreditCard(this.txtNumTarjeta.Text))
+                //        Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Ingrese un número de tarjeta válido.", ControlSender = this.txtNumTarjeta }); 
+                //}
 
                 if (this.ObtenerBancoCombo().IDBanco == 0)
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "Seleccione un banco.", ControlSender = this.cmbBancos }); 

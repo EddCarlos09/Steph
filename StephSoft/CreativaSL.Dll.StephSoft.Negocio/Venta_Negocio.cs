@@ -439,5 +439,48 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+
+
+
+        public List<Producto> ObtenerPromocionesDelDia(bool IncluirSelect, string Conexion, string IDSucursal)
+        {
+            try
+            {
+                Venta_Datos VD = new Venta_Datos();
+                return VD.ObtenerPromocionesDelDia(IncluirSelect, Conexion, IDSucursal);
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public bool AgregarPromocionAVenta(PromocionVenta Datos, string Conexion, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Venta_Datos VD = new Venta_Datos();
+                return VD.AgregarPromocionAVenta(Datos, Conexion, IDSucursal, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public bool IniciarServicio(VentaDetalle Datos, string Conexion, string IDUsuario)
+        {
+            try
+            {
+                Venta_Datos VD = new Venta_Datos();
+                return VD.IniciarServicio(Datos, Conexion, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

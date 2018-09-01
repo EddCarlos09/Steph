@@ -31,14 +31,28 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.dgvProductos = new System.Windows.Forms.DataGridView();
+            this.IDProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDSucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ExistenciaAlmacen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ExistenciaUso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Existencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RequiereStock = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.StockMaximo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.StockMinimo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel7 = new System.Windows.Forms.Panel();
             this.PanelMenu = new System.Windows.Forms.Panel();
+            this.lblMessage = new System.Windows.Forms.Label();
+            this.btnDescantarExistencia = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnDescargarArchivo = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnLeerInventario = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnSalir = new CreativaSL.LibControls.WinForms.Button_Creativa();
@@ -51,16 +65,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label42 = new System.Windows.Forms.Label();
-            this.btnDescantarExistencia = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.IDProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDSucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreSucursal = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NombreProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Existencia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RequiereStock = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.StockMaximo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.StockMinimo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bgwFormato = new System.ComponentModel.BackgroundWorker();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -139,9 +144,10 @@
             this.dgvProductos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IDProducto,
             this.IDSucursal,
-            this.NombreSucursal,
             this.Clave,
             this.NombreProducto,
+            this.ExistenciaAlmacen,
+            this.ExistenciaUso,
             this.Existencia,
             this.RequiereStock,
             this.StockMaximo,
@@ -155,6 +161,104 @@
             this.dgvProductos.Size = new System.Drawing.Size(1008, 478);
             this.dgvProductos.TabIndex = 3;
             // 
+            // IDProducto
+            // 
+            this.IDProducto.DataPropertyName = "IDProducto";
+            this.IDProducto.HeaderText = "IDProducto";
+            this.IDProducto.Name = "IDProducto";
+            this.IDProducto.ReadOnly = true;
+            this.IDProducto.Visible = false;
+            // 
+            // IDSucursal
+            // 
+            this.IDSucursal.DataPropertyName = "IDSucursal";
+            this.IDSucursal.HeaderText = "IDSucursal";
+            this.IDSucursal.Name = "IDSucursal";
+            this.IDSucursal.ReadOnly = true;
+            this.IDSucursal.Visible = false;
+            // 
+            // Clave
+            // 
+            this.Clave.DataPropertyName = "Clave";
+            this.Clave.HeaderText = "Clave";
+            this.Clave.Name = "Clave";
+            this.Clave.ReadOnly = true;
+            this.Clave.Width = 120;
+            // 
+            // NombreProducto
+            // 
+            this.NombreProducto.DataPropertyName = "NombreProducto";
+            this.NombreProducto.HeaderText = "Producto";
+            this.NombreProducto.Name = "NombreProducto";
+            this.NombreProducto.ReadOnly = true;
+            this.NombreProducto.Width = 280;
+            // 
+            // ExistenciaAlmacen
+            // 
+            this.ExistenciaAlmacen.DataPropertyName = "ExistenciaAlmacen";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle1.Format = "N0";
+            this.ExistenciaAlmacen.DefaultCellStyle = dataGridViewCellStyle1;
+            this.ExistenciaAlmacen.HeaderText = "Existencia en almacén";
+            this.ExistenciaAlmacen.Name = "ExistenciaAlmacen";
+            this.ExistenciaAlmacen.ReadOnly = true;
+            this.ExistenciaAlmacen.Width = 120;
+            // 
+            // ExistenciaUso
+            // 
+            this.ExistenciaUso.DataPropertyName = "ExistenciaUso";
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Format = "N0";
+            this.ExistenciaUso.DefaultCellStyle = dataGridViewCellStyle2;
+            this.ExistenciaUso.HeaderText = "Existencia en producción";
+            this.ExistenciaUso.Name = "ExistenciaUso";
+            this.ExistenciaUso.ReadOnly = true;
+            this.ExistenciaUso.Width = 120;
+            // 
+            // Existencia
+            // 
+            this.Existencia.DataPropertyName = "Existencia";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Format = "N0";
+            dataGridViewCellStyle3.NullValue = "0";
+            this.Existencia.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Existencia.HeaderText = "Existencia total";
+            this.Existencia.Name = "Existencia";
+            this.Existencia.ReadOnly = true;
+            this.Existencia.Width = 120;
+            // 
+            // RequiereStock
+            // 
+            this.RequiereStock.DataPropertyName = "RequiereStock";
+            this.RequiereStock.HeaderText = "¿Requiere Stock?";
+            this.RequiereStock.Name = "RequiereStock";
+            this.RequiereStock.ReadOnly = true;
+            this.RequiereStock.Width = 120;
+            // 
+            // StockMaximo
+            // 
+            this.StockMaximo.DataPropertyName = "StockMaximo";
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N0";
+            dataGridViewCellStyle4.NullValue = "0";
+            this.StockMaximo.DefaultCellStyle = dataGridViewCellStyle4;
+            this.StockMaximo.HeaderText = "Stock Máximo";
+            this.StockMaximo.Name = "StockMaximo";
+            this.StockMaximo.ReadOnly = true;
+            this.StockMaximo.Width = 120;
+            // 
+            // StockMinimo
+            // 
+            this.StockMinimo.DataPropertyName = "StockMinimo";
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "N0";
+            dataGridViewCellStyle5.NullValue = "0";
+            this.StockMinimo.DefaultCellStyle = dataGridViewCellStyle5;
+            this.StockMinimo.HeaderText = "Stock Mínimo";
+            this.StockMinimo.Name = "StockMinimo";
+            this.StockMinimo.ReadOnly = true;
+            this.StockMinimo.Width = 120;
+            // 
             // panel7
             // 
             this.panel7.Controls.Add(this.PanelMenu);
@@ -167,6 +271,7 @@
             // PanelMenu
             // 
             this.PanelMenu.BackColor = System.Drawing.Color.Gray;
+            this.PanelMenu.Controls.Add(this.lblMessage);
             this.PanelMenu.Controls.Add(this.btnDescantarExistencia);
             this.PanelMenu.Controls.Add(this.btnDescargarArchivo);
             this.PanelMenu.Controls.Add(this.btnLeerInventario);
@@ -176,6 +281,50 @@
             this.PanelMenu.Name = "PanelMenu";
             this.PanelMenu.Size = new System.Drawing.Size(1008, 80);
             this.PanelMenu.TabIndex = 1;
+            // 
+            // lblMessage
+            // 
+            this.lblMessage.BackColor = System.Drawing.Color.SeaShell;
+            this.lblMessage.ForeColor = System.Drawing.Color.Maroon;
+            this.lblMessage.Location = new System.Drawing.Point(85, 6);
+            this.lblMessage.Name = "lblMessage";
+            this.lblMessage.Size = new System.Drawing.Size(398, 65);
+            this.lblMessage.TabIndex = 12;
+            this.lblMessage.Visible = false;
+            // 
+            // btnDescantarExistencia
+            // 
+            this.btnDescantarExistencia.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnDescantarExistencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnDescantarExistencia.BorderColor = System.Drawing.Color.Red;
+            this.btnDescantarExistencia.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnDescantarExistencia.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnDescantarExistencia.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnDescantarExistencia.FocusRectangle = true;
+            this.btnDescantarExistencia.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDescantarExistencia.ForeColor = System.Drawing.Color.White;
+            this.btnDescantarExistencia.Image = null;
+            this.btnDescantarExistencia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnDescantarExistencia.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnDescantarExistencia.ImageFocused = null;
+            this.btnDescantarExistencia.ImageInactive = null;
+            this.btnDescantarExistencia.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_descontar_existencias_a;
+            this.btnDescantarExistencia.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_descontar_existencias;
+            this.btnDescantarExistencia.ImagePressed = null;
+            this.btnDescantarExistencia.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnDescantarExistencia.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnDescantarExistencia.KeyButtonView = false;
+            this.btnDescantarExistencia.Location = new System.Drawing.Point(650, 5);
+            this.btnDescantarExistencia.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnDescantarExistencia.MouseOverColor = System.Drawing.Color.Red;
+            this.btnDescantarExistencia.Name = "btnDescantarExistencia";
+            this.btnDescantarExistencia.OffsetPressedContent = true;
+            this.btnDescantarExistencia.Size = new System.Drawing.Size(80, 70);
+            this.btnDescantarExistencia.TabIndex = 11;
+            this.btnDescantarExistencia.Text = "Desct. Exist.";
+            this.btnDescantarExistencia.TextDropShadow = true;
+            this.btnDescantarExistencia.UseVisualStyleBackColor = false;
+            this.btnDescantarExistencia.Click += new System.EventHandler(this.btnDescantarExistencia_Click);
             // 
             // btnDescargarArchivo
             // 
@@ -398,123 +547,10 @@
             this.label42.TabIndex = 24;
             this.label42.Text = "Inventario";
             // 
-            // btnDescantarExistencia
+            // bgwFormato
             // 
-            this.btnDescantarExistencia.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnDescantarExistencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnDescantarExistencia.BorderColor = System.Drawing.Color.Red;
-            this.btnDescantarExistencia.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnDescantarExistencia.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnDescantarExistencia.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnDescantarExistencia.FocusRectangle = true;
-            this.btnDescantarExistencia.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDescantarExistencia.ForeColor = System.Drawing.Color.White;
-            this.btnDescantarExistencia.Image = null;
-            this.btnDescantarExistencia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnDescantarExistencia.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnDescantarExistencia.ImageFocused = null;
-            this.btnDescantarExistencia.ImageInactive = null;
-            this.btnDescantarExistencia.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_descontar_existencias_a;
-            this.btnDescantarExistencia.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_descontar_existencias;
-            this.btnDescantarExistencia.ImagePressed = null;
-            this.btnDescantarExistencia.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnDescantarExistencia.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnDescantarExistencia.KeyButtonView = false;
-            this.btnDescantarExistencia.Location = new System.Drawing.Point(650, 5);
-            this.btnDescantarExistencia.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnDescantarExistencia.MouseOverColor = System.Drawing.Color.Red;
-            this.btnDescantarExistencia.Name = "btnDescantarExistencia";
-            this.btnDescantarExistencia.OffsetPressedContent = true;
-            this.btnDescantarExistencia.Size = new System.Drawing.Size(80, 70);
-            this.btnDescantarExistencia.TabIndex = 11;
-            this.btnDescantarExistencia.Text = "Desct. Exist.";
-            this.btnDescantarExistencia.TextDropShadow = true;
-            this.btnDescantarExistencia.UseVisualStyleBackColor = false;
-            this.btnDescantarExistencia.Click += new System.EventHandler(this.btnDescantarExistencia_Click);
-            // 
-            // IDProducto
-            // 
-            this.IDProducto.DataPropertyName = "IDProducto";
-            this.IDProducto.HeaderText = "IDProducto";
-            this.IDProducto.Name = "IDProducto";
-            this.IDProducto.ReadOnly = true;
-            this.IDProducto.Visible = false;
-            // 
-            // IDSucursal
-            // 
-            this.IDSucursal.DataPropertyName = "IDSucursal";
-            this.IDSucursal.HeaderText = "IDSucursal";
-            this.IDSucursal.Name = "IDSucursal";
-            this.IDSucursal.ReadOnly = true;
-            this.IDSucursal.Visible = false;
-            // 
-            // NombreSucursal
-            // 
-            this.NombreSucursal.DataPropertyName = "NombreSucursal";
-            this.NombreSucursal.HeaderText = "Sucursal";
-            this.NombreSucursal.Name = "NombreSucursal";
-            this.NombreSucursal.ReadOnly = true;
-            this.NombreSucursal.Visible = false;
-            // 
-            // Clave
-            // 
-            this.Clave.DataPropertyName = "Clave";
-            this.Clave.HeaderText = "Clave";
-            this.Clave.Name = "Clave";
-            this.Clave.ReadOnly = true;
-            this.Clave.Width = 150;
-            // 
-            // NombreProducto
-            // 
-            this.NombreProducto.DataPropertyName = "NombreProducto";
-            this.NombreProducto.HeaderText = "Producto";
-            this.NombreProducto.Name = "NombreProducto";
-            this.NombreProducto.ReadOnly = true;
-            this.NombreProducto.Width = 400;
-            // 
-            // Existencia
-            // 
-            this.Existencia.DataPropertyName = "Existencia";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle1.Format = "N0";
-            dataGridViewCellStyle1.NullValue = "0";
-            this.Existencia.DefaultCellStyle = dataGridViewCellStyle1;
-            this.Existencia.HeaderText = "Existencia";
-            this.Existencia.Name = "Existencia";
-            this.Existencia.ReadOnly = true;
-            this.Existencia.Width = 150;
-            // 
-            // RequiereStock
-            // 
-            this.RequiereStock.DataPropertyName = "RequiereStock";
-            this.RequiereStock.HeaderText = "¿Requiere Stock?";
-            this.RequiereStock.Name = "RequiereStock";
-            this.RequiereStock.ReadOnly = true;
-            this.RequiereStock.Width = 150;
-            // 
-            // StockMaximo
-            // 
-            this.StockMaximo.DataPropertyName = "StockMaximo";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N0";
-            dataGridViewCellStyle2.NullValue = "0";
-            this.StockMaximo.DefaultCellStyle = dataGridViewCellStyle2;
-            this.StockMaximo.HeaderText = "Stock Máximo";
-            this.StockMaximo.Name = "StockMaximo";
-            this.StockMaximo.ReadOnly = true;
-            this.StockMaximo.Width = 150;
-            // 
-            // StockMinimo
-            // 
-            this.StockMinimo.DataPropertyName = "StockMinimo";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = "0";
-            this.StockMinimo.DefaultCellStyle = dataGridViewCellStyle3;
-            this.StockMinimo.HeaderText = "Stock Mínimo";
-            this.StockMinimo.Name = "StockMinimo";
-            this.StockMinimo.ReadOnly = true;
-            this.StockMinimo.Width = 150;
+            this.bgwFormato.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwFormato_DoWork);
+            this.bgwFormato.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwFormato_RunWorkerCompleted);
             // 
             // frmInventario
             // 
@@ -574,13 +610,16 @@
         private CreativaSL.LibControls.WinForms.Button_Creativa btnDescantarExistencia;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDProducto;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDSucursal;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NombreSucursal;
         private System.Windows.Forms.DataGridViewTextBoxColumn Clave;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreProducto;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ExistenciaAlmacen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ExistenciaUso;
         private System.Windows.Forms.DataGridViewTextBoxColumn Existencia;
         private System.Windows.Forms.DataGridViewCheckBoxColumn RequiereStock;
         private System.Windows.Forms.DataGridViewTextBoxColumn StockMaximo;
         private System.Windows.Forms.DataGridViewTextBoxColumn StockMinimo;
+        private System.ComponentModel.BackgroundWorker bgwFormato;
+        private System.Windows.Forms.Label lblMessage;
     }
 }
 

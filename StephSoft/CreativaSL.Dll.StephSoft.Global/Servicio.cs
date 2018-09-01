@@ -369,7 +369,7 @@ namespace CreativaSL.Dll.StephSoft.Global
             get { return _Total; }
             set { _Total = value; }
         }
-        
-        
+
+
     }
 }

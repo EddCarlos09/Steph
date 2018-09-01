@@ -66,7 +66,7 @@ namespace StephSoft
             try
             {
                 this.lblFolio.Text = this.DatosVenta.FolioVenta;
-                this.txtNombreCliente.Text = this.DatosVenta.NombreCliente;
+                this.txtNombreCliente.Text = this.DatosVenta.NombreCliente.ToUpper();
                 this.BandVales = this.ObtenerExisteValeXIDVenta();
                 this.CargarGridServicios();
                 this.TimerTiempo.Enabled = true;
@@ -93,10 +93,14 @@ namespace StephSoft
                 bool.TryParse(Fila.Cells["Concluido"].Value.ToString(), out Concluido);
                 int.TryParse(Fila.Cells["IDEstatusServicio"].Value.ToString(), out IDEstatusServicio);
                 IDVentaServ = Fila.Cells["IDVentaServicio"].Value.ToString();
+                string IDServicio = Fila.Cells["IDServicio"].Value.ToString();
+                string IDEmpleado = Fila.Cells["IDEmpleado"].Value.ToString();
                 DatosAux.IDVenta = this.DatosVenta.IDVenta;
                 DatosAux.Concluido = Concluido;
                 DatosAux.IDVentaServicio = IDVentaServ;
                 DatosAux.IDEstatusServicio = IDEstatusServicio;
+                DatosAux.IDEmpleado = IDEmpleado;
+                DatosAux.IDServicio = IDServicio;
                 DatosAux.Conexion = Comun.Conexion;
                 DatosAux.IDUsuario = Comun.IDUsuario;
                 DatosAux.IDSucursal = Comun.IDSucursalCaja;
@@ -161,10 +165,15 @@ namespace StephSoft
                     bool.TryParse(Fila.Cells["Concluido"].Value.ToString(), out Completado);
                     if (!Completado)
                     {
-                        DateTime FechaInicio = DateTime.Parse(Fila.Cells["HoraInicio"].Value.ToString());
-                        TimeSpan Aux = Comun.FechaActual - FechaInicio;
-                        string Texto = Aux.ToString(@"d\.hh\:mm\:ss");
-                        Fila.Cells["Tiempo"].Value = Texto;
+                        int IDEstatus = 0;
+                        int.TryParse(Fila.Cells["IDEstatusServicio"].Value.ToString(), out IDEstatus);
+                        if (IDEstatus > 0)
+                        {
+                            DateTime FechaInicio = DateTime.Parse(Fila.Cells["FechaHoraInicio"].Value.ToString());
+                            TimeSpan Aux = Comun.FechaActual - FechaInicio;
+                            string Texto = Aux.ToString(@"d\.hh\:mm\:ss");
+                            Fila.Cells["Tiempo"].Value = Texto;
+                        }
                     }
                 }
 
@@ -231,22 +240,25 @@ namespace StephSoft
                     {
                         if (!Datos.Concluido)
                         {
-                            Venta_Negocio VN = new Venta_Negocio();
-                            VN.QuitarServicio(Datos);
-                            if (Datos.Completado)
-                            {
-                                this.CargarGridServicios();
-                                BandCambios = true;
-                            }
-                            else
-                            {
-                                if (Datos.Resultado == -1)
-                                    MessageBox.Show("No se puede completar la acción. El servicio ya está concluido.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                                if (Datos.Resultado == -2)
-                                    MessageBox.Show("No se puede completar la acción. El servicio tiene productos extra, debe quitarlos para continuar.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                Venta_Negocio VN = new Venta_Negocio();
+                                VN.QuitarServicio(Datos);
+                                if (Datos.Completado)
+                                {
+                                    this.CargarGridServicios();
+                                    BandCambios = true;
+                                }
                                 else
-                                    MessageBox.Show("Ocurrió un error al guardar los datos. Código del error : " + Datos.Resultado, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
+                                {
+                                    if (Datos.Resultado == -1)
+                                        MessageBox.Show("No se puede completar la acción. El servicio ya está concluido.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    else if (Datos.Resultado == -2)
+                                        MessageBox.Show("No se puede completar la acción. El servicio tiene productos extra, debe quitarlos para continuar.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    else if (Datos.Resultado == -3)
+                                        MessageBox.Show("No se puede completar la acción. El servicio pertenece a un paquete.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                    else
+                                        MessageBox.Show("Ocurrió un error al guardar los datos. Código del error : " + Datos.Resultado, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                }
+                            
                         }
                         else
                             MessageBox.Show("No se puede completar la acción. El servicio ya está concluido.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -342,6 +354,68 @@ namespace StephSoft
                 MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnIniciarServicio_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (this.dgvServicios.SelectedRows.Count == 1)
+                {
+                    int Row = this.dgvServicios.Rows.GetFirstRow(DataGridViewElementStates.Selected);
+                    VentaDetalle Datos = this.ObtenerDatosVentaServicios(Row);
+                    if (!string.IsNullOrEmpty(Datos.IDVentaServicio))
+                    {
+                        if (!Datos.Concluido)
+                        {
+                            if((Datos.IDEstatusServicio == 0))
+                            {
+                                frmIniciarServicio Iniciar = new frmIniciarServicio(Datos);
+                                Iniciar.ShowDialog();
+                                Iniciar.Dispose();
+                                if (Iniciar.DialogResult == DialogResult.OK)
+                                {
+                                    this.CargarGridServicios();
+                                    BandCambios = true;
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("No se puede completar la acción. El servicio ya fue iniciado.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
+                        }
+                        else
+                            MessageBox.Show("No se puede completar la acción. El servicio ya está concluido.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+                else
+                    MessageBox.Show("Seleccione un registro.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmDatosServicio ~ btnIniciarServicio_Click");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnPromocion_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmNuevaPromocionVenta AddPromo = new frmNuevaPromocionVenta(DatosVenta.IDVenta);
+                AddPromo.ShowDialog();
+                AddPromo.Dispose();
+                if(AddPromo.DialogResult == DialogResult.OK)
+                {
+                    this.CargarGridServicios();
+                    BandCambios = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmDatosServicio ~ btnPromocion_Click");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }        
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {

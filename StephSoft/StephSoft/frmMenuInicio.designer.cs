@@ -120,6 +120,7 @@
             this.toolsm_caja_retiros = new System.Windows.Forms.ToolStripMenuItem();
             this.TimerTiempo = new System.Windows.Forms.Timer(this.components);
             this.bgwDibujarTiempo = new System.ComponentModel.BackgroundWorker();
+            this.btnEntregaMaterial = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.PanelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -142,6 +143,7 @@
             // PanelMenu
             // 
             this.PanelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(205)))), ((int)(((byte)(215)))));
+            this.PanelMenu.Controls.Add(this.btnEntregaMaterial);
             this.PanelMenu.Controls.Add(this.btnTicket);
             this.PanelMenu.Controls.Add(this.btnGarantia);
             this.PanelMenu.Controls.Add(this.btnRecepcionMobiliario);
@@ -224,7 +226,7 @@
             this.btnGarantia.ImageSize = new System.Drawing.Size(44, 44);
             this.btnGarantia.KeyButton = System.Windows.Forms.Keys.None;
             this.btnGarantia.KeyButtonView = false;
-            this.btnGarantia.Location = new System.Drawing.Point(496, 9);
+            this.btnGarantia.Location = new System.Drawing.Point(577, 9);
             this.btnGarantia.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnGarantia.MouseOverColor = System.Drawing.Color.Red;
             this.btnGarantia.Name = "btnGarantia";
@@ -292,7 +294,7 @@
             this.btnCancelarTicket.ImageSize = new System.Drawing.Size(44, 44);
             this.btnCancelarTicket.KeyButton = System.Windows.Forms.Keys.None;
             this.btnCancelarTicket.KeyButtonView = false;
-            this.btnCancelarTicket.Location = new System.Drawing.Point(726, 9);
+            this.btnCancelarTicket.Location = new System.Drawing.Point(736, 12);
             this.btnCancelarTicket.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnCancelarTicket.MouseOverColor = System.Drawing.Color.Red;
             this.btnCancelarTicket.Name = "btnCancelarTicket";
@@ -314,7 +316,7 @@
             this.lblMiPerfil.ForeColor = System.Drawing.Color.White;
             this.lblMiPerfil.Location = new System.Drawing.Point(932, 116);
             this.lblMiPerfil.Name = "lblMiPerfil";
-            this.lblMiPerfil.Size = new System.Drawing.Size(64, 20);
+            this.lblMiPerfil.Size = new System.Drawing.Size(63, 20);
             this.lblMiPerfil.TabIndex = 17;
             this.lblMiPerfil.Text = "Mi Perfil";
             this.lblMiPerfil.Click += new System.EventHandler(this.lblMiPerfil_Click);
@@ -353,7 +355,7 @@
             this.btnGastos.ImageSize = new System.Drawing.Size(44, 44);
             this.btnGastos.KeyButton = System.Windows.Forms.Keys.None;
             this.btnGastos.KeyButtonView = false;
-            this.btnGastos.Location = new System.Drawing.Point(726, 81);
+            this.btnGastos.Location = new System.Drawing.Point(736, 12);
             this.btnGastos.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnGastos.MouseOverColor = System.Drawing.Color.Red;
             this.btnGastos.Name = "btnGastos";
@@ -490,7 +492,7 @@
             this.btnComisiones.ImageSize = new System.Drawing.Size(44, 44);
             this.btnComisiones.KeyButton = System.Windows.Forms.Keys.None;
             this.btnComisiones.KeyButtonView = false;
-            this.btnComisiones.Location = new System.Drawing.Point(726, 12);
+            this.btnComisiones.Location = new System.Drawing.Point(736, 12);
             this.btnComisiones.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnComisiones.MouseOverColor = System.Drawing.Color.Red;
             this.btnComisiones.Name = "btnComisiones";
@@ -1362,14 +1364,14 @@
             this.toolsm_caja_depositos,
             this.toolsm_caja_retiros});
             this.MenuStripCaja.Name = "MenuStripCaja";
-            this.MenuStripCaja.Size = new System.Drawing.Size(176, 82);
+            this.MenuStripCaja.Size = new System.Drawing.Size(175, 82);
             // 
             // toolsm_caja_cerrar
             // 
             this.toolsm_caja_cerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
             this.toolsm_caja_cerrar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsm_caja_cerrar.Name = "toolsm_caja_cerrar";
-            this.toolsm_caja_cerrar.Size = new System.Drawing.Size(175, 26);
+            this.toolsm_caja_cerrar.Size = new System.Drawing.Size(174, 26);
             this.toolsm_caja_cerrar.Text = "Cerrar Turno";
             this.toolsm_caja_cerrar.Click += new System.EventHandler(this.toolsm_caja_cerrar_Click);
             // 
@@ -1378,7 +1380,7 @@
             this.toolsm_caja_depositos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
             this.toolsm_caja_depositos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsm_caja_depositos.Name = "toolsm_caja_depositos";
-            this.toolsm_caja_depositos.Size = new System.Drawing.Size(175, 26);
+            this.toolsm_caja_depositos.Size = new System.Drawing.Size(174, 26);
             this.toolsm_caja_depositos.Text = "Depósitos";
             this.toolsm_caja_depositos.Click += new System.EventHandler(this.toolsm_caja_depositos_Click);
             // 
@@ -1387,7 +1389,7 @@
             this.toolsm_caja_retiros.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
             this.toolsm_caja_retiros.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsm_caja_retiros.Name = "toolsm_caja_retiros";
-            this.toolsm_caja_retiros.Size = new System.Drawing.Size(175, 26);
+            this.toolsm_caja_retiros.Size = new System.Drawing.Size(174, 26);
             this.toolsm_caja_retiros.Text = "Retiros";
             this.toolsm_caja_retiros.Click += new System.EventHandler(this.toolsm_caja_retiros_Click);
             // 
@@ -1400,6 +1402,40 @@
             // 
             this.bgwDibujarTiempo.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwDibujarTiempo_DoWork);
             this.bgwDibujarTiempo.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwDibujarTiempo_RunWorkerCompleted);
+            // 
+            // btnEntregaMaterial
+            // 
+            this.btnEntregaMaterial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnEntregaMaterial.BorderColor = System.Drawing.Color.Red;
+            this.btnEntregaMaterial.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnEntregaMaterial.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnEntregaMaterial.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnEntregaMaterial.FocusRectangle = true;
+            this.btnEntregaMaterial.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntregaMaterial.ForeColor = System.Drawing.Color.White;
+            this.btnEntregaMaterial.Image = null;
+            this.btnEntregaMaterial.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnEntregaMaterial.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnEntregaMaterial.ImageFocused = null;
+            this.btnEntregaMaterial.ImageInactive = null;
+            this.btnEntregaMaterial.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino_recepcion_pedido_a;
+            this.btnEntregaMaterial.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino_recepcion_pedido;
+            this.btnEntregaMaterial.ImagePressed = null;
+            this.btnEntregaMaterial.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnEntregaMaterial.KeyButton = System.Windows.Forms.Keys.None;
+            this.btnEntregaMaterial.KeyButtonView = false;
+            this.btnEntregaMaterial.Location = new System.Drawing.Point(496, 9);
+            this.btnEntregaMaterial.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnEntregaMaterial.MouseOverColor = System.Drawing.Color.Red;
+            this.btnEntregaMaterial.Name = "btnEntregaMaterial";
+            this.btnEntregaMaterial.OffsetPressedContent = true;
+            this.btnEntregaMaterial.Size = new System.Drawing.Size(80, 70);
+            this.btnEntregaMaterial.TabIndex = 23;
+            this.btnEntregaMaterial.Tag = "66";
+            this.btnEntregaMaterial.Text = "Materiales";
+            this.btnEntregaMaterial.TextDropShadow = true;
+            this.btnEntregaMaterial.UseVisualStyleBackColor = false;
+            this.btnEntregaMaterial.Click += new System.EventHandler(this.btnEntregaMaterial_Click);
             // 
             // frmMenuInicio
             // 
@@ -1517,6 +1553,7 @@
         private CreativaSL.LibControls.WinForms.Button_Creativa btnRecepcionMobiliario;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnGarantia;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnTicket;
+        private CreativaSL.LibControls.WinForms.Button_Creativa btnEntregaMaterial;
     }
 }
 

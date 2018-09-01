@@ -18,7 +18,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDCliente, Datos.IDCaja, Datos.IDSucursal, Datos.IDUsuario };
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_set_NuevaVentaAbierta", Parametros);
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "Ventas.spCSLDB_set_NuevaVentaAbierta", Parametros);
                 while (Dr.Read())
                 {
                     Datos.IDVenta = !Dr.IsDBNull(Dr.GetOrdinal("IDVenta")) ? Dr.GetString(Dr.GetOrdinal("IDVenta")) : string.Empty;
@@ -89,7 +89,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.IDEstatusVenta, Datos.Actual, Datos.FechaVenta, Datos.IDSucursal  };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_TicketsXFechaXTab", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_TicketsXFechaXTab", Parametros);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                         Datos.TablaDatos = Ds.Tables[0];
@@ -105,7 +105,9 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_ServiciosXIDVenta", Datos.IDVenta);
+                //DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_ServiciosXIDVenta", Datos.IDVenta);
+
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_ServiciosXIDVenta", Datos.IDVenta);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                         Datos.TablaDatos = Ds.Tables[0];
@@ -121,7 +123,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_PRoductosXIDVentaServicio", Datos.IDVentaServicio);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_PRoductosXIDVentaServicio", Datos.IDVentaServicio);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                         Datos.TablaDatos = Ds.Tables[0];
@@ -139,7 +141,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_ClavesUsoXIDVentaServicio", Datos.IDVentaServicio);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_ClavesUsoXIDVentaServicio", Datos.IDVentaServicio);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                         Datos.TablaDatos = Ds.Tables[0];
@@ -157,7 +159,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 object[] Parametros = { Datos.IDVentaServicio, Datos.IDProducto };
                 List<PedidoDetalle> Lista = new List<PedidoDetalle>();
                 PedidoDetalle Item;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "spCSLDB_get_ComboClavesXIDProductoVentaServicio", Parametros);
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, "Ventas.spCSLDB_get_ComboClavesXIDProductoVentaServicio", Parametros);
                 while (Dr.Read())
                 {
                     Item = new PedidoDetalle();
@@ -181,7 +183,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDVentaServicio, Datos.IDProducto, Datos.IDClaveAsignacion, 
                                         Datos.ClaveEsEmpleado, Datos.CantidadVenta, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_NuevaClaveServicio", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_NuevaClaveServicio", Parametros);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -205,7 +207,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDClaveAsignacion, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_QuitarClaveProduccionServicio", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_QuitarClaveProduccionServicio", Parametros);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -230,7 +232,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_set_NuevoServicioVenta",
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Datos.Conexion, CommandType.StoredProcedure, "Ventas.spCSLDB_set_NuevoServicioVenta",
                      new SqlParameter("@IDVenta", Datos.IDVenta),
                      new SqlParameter("@IDServicio", Datos.IDServicio),
                      new SqlParameter("@IDEmpleado", Datos.IDEmpleado),
@@ -277,7 +279,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDVenta, Datos.IDVentaServicio, Datos.IDProducto, Datos.CantidadVenta, Datos.PrecioNormal, Datos.IDSucursal, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_NuevoProductoServicio", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_NuevoProductoServicio", Parametros);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -325,7 +327,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDVenta, Datos.IDVentaServicio, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_ConcluirServicioVenta", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_ConcluirServicioVenta", Parametros);
                 if(Result != null)
                 {
                     int Resultado = 0;
@@ -349,7 +351,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDVenta, Datos.IDVentaServicio, Datos.IDUsuario, Datos.IDSucursal };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_QuitarServicioVenta", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_QuitarServicioVenta", Parametros);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -372,7 +374,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_DatosCobroXIDVenta", Datos.IDVenta);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_DatosCobroXIDVenta", Datos.IDVenta);
                 if (Ds != null)
                 {
                     if (Ds.Tables.Count == 2)
@@ -412,7 +414,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 Cobro Resultado = new Cobro();
                 Resultado.Completado = false;
                 object[] Parametros = { Datos.IDVenta, Datos.IDCliente, Datos.Folio, Datos.IDUsuario };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_ValidarVale", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_ValidarVale", Parametros);
                 if (Ds != null)
                 {
                     if (Ds.Tables.Count > 0)
@@ -461,7 +463,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 Cobro Resultado = new Cobro();
                 Resultado.Completado = false;
                 object[] Parametros = { Datos.IDVenta, Datos.IDCliente, Datos.IDVale, Datos.IDUsuario };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_set_RemoverValeVenta", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_set_RemoverValeVenta", Parametros);
                 if (Ds != null)
                 {
                     if (Ds.Tables.Count > 0)
@@ -510,7 +512,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 Datos.Completado = false;
                 object[] Parametros = { Datos.IDVenta, Datos.IDVentaServicio, Datos.IDProductoXVentaServicio, 
                                           Datos.IDSucursal, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_QuitarProductoServicio", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_QuitarProductoServicio", Parametros);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -552,7 +554,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_set_PagoVentaAbierta",
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "Ventas.spCSLDB_set_PagoVentaAbierta",
                      new SqlParameter("@IDVenta", Datos.IDVenta),
                      new SqlParameter("@IDCajaXSucursal", Datos.IDCaja),
                      new SqlParameter("@IDCajero", Datos.IDCajero),
@@ -592,7 +594,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 Datos.Completado = false;
                 object[] Parametros = {Datos.IDCaja, Datos.IDSucursal, Datos.IDUsuario };
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_NuevaVenta", Parametros);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_NuevaVenta", Parametros);
                 if (Result != null)
                 {
                     if(!string.IsNullOrEmpty(Result.ToString()))
@@ -614,7 +616,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 VentaDetalle DatosResult = new VentaDetalle();
                 object [] Parametros = { Datos.IDVenta, Datos.Clave, (int)Datos.CantidadVenta, Datos.IDSucursal, Datos.IDUsuario };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_set_AgregarProductoXClave", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_set_AgregarProductoXClave", Parametros);
                 if (Ds != null)
                 {
                     int Resultado = 0;
@@ -659,7 +661,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 VentaDetalle DatosResult = new VentaDetalle();
                 object[] Parametros = { Datos.IDVenta, Datos.IDProducto, (int)Datos.CantidadVenta, Datos.IDSucursal, Datos.IDUsuario };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_set_AgregarProductoXIDProducto", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_set_AgregarProductoXIDProducto", Parametros);
                 if (Ds != null)
                 {
                     int Resultado = 0;
@@ -703,7 +705,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_get_MonederoVenta", Datos.IDVenta, Datos.IDCliente);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_get_MonederoVenta", Datos.IDVenta, Datos.IDCliente);
                 if (Result != null)
                 {
                     decimal Resultado = 0;
@@ -723,7 +725,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "spCSLDB_set_PagoVenta",
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, CommandType.StoredProcedure, "Ventas.spCSLDB_set_PagoVenta",
                      new SqlParameter("@IDVenta", Datos.IDVenta),
                      new SqlParameter("@IDCliente", Datos.IDCliente),
                      new SqlParameter("@IDCajaXSucursal", Datos.IDCaja),
@@ -761,7 +763,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_QuitarProductoVenta", Datos.IDVenta, Datos.IDVentaDetalle, Datos.IDUsuario);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_QuitarProductoVenta", Datos.IDVenta, Datos.IDVentaDetalle, Datos.IDUsuario);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -784,7 +786,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             {
                 VentaDetalle DatosResult = new VentaDetalle();
                 object[] Parametros = { Datos.IDVenta, Datos.IDVentaDetalle, Datos.IDProducto, (int)Datos.CantidadVenta, Datos.IDSucursal, Datos.IDUsuario };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_set_ActualizarCantVentaXIDProducto", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_set_ActualizarCantVentaXIDProducto", Parametros);
                 if (Ds != null)
                 {
                     int Resultado = 0;
@@ -828,7 +830,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 Datos.Completado = false;
-                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "spCSLDB_set_EliminarVentaDirecta", Datos.IDVenta, Datos.IDUsuario);
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_EliminarVentaDirecta", Datos.IDVenta, Datos.IDUsuario);
                 if (Result != null)
                 {
                     int Resultado = 0;
@@ -871,7 +873,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.Band, Datos.FolioVenta };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_BusqVentasGarantia", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_BusqVentasGarantia", Parametros);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                     {
@@ -890,7 +892,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
             try
             {
                 object[] Parametros = { Datos.Band, Datos.FolioVenta };
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_BusqVentasTicket", Parametros);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_BusqVentasTicket", Parametros);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                     {
@@ -908,7 +910,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
         {
             try
             {
-                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_DetalleVenta", Datos.IDVenta);
+                DataSet Ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Ventas.spCSLDB_get_DetalleVenta", Datos.IDVenta);
                 if (Ds != null)
                     if (Ds.Tables.Count == 1)
                         Datos.TablaDatos = Ds.Tables[0];
@@ -937,6 +939,7 @@ namespace CreativaSL.Dll.StephSoft.Datos
                     Item.RequiereDatos = Dr.GetBoolean(Dr.GetOrdinal("RequiereDatos"));
                     Lista.Add(Item);
                 }
+                Dr.Close();
                 return Lista;
             }
             catch (Exception ex)
@@ -968,5 +971,83 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 throw ex;
             }
         }
+
+
+
+        public List<Producto> ObtenerPromocionesDelDia(bool IncluirSelect, string Conexion, string IDSucursal)
+        {
+            try
+            {
+                List<Producto> Promociones = new List<Producto>();
+                Producto Item;
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Conexion, "Ventas.spCSLDB_get_PromocionesXSucursal", IncluirSelect, IDSucursal);
+                while(Dr.Read())
+                {
+                    Item = new Producto();
+                    Item.IDPromocion = !Dr.IsDBNull(Dr.GetOrdinal("IDPromocion")) ? Dr.GetInt32(Dr.GetOrdinal("IDPromocion")) : -1;
+                    Item.NombreProducto = !Dr.IsDBNull(Dr.GetOrdinal("NombreProducto")) ? Dr.GetString(Dr.GetOrdinal("NombreProducto")) : string.Empty;
+                    Promociones.Add(Item);
+                }
+                Dr.Close();
+                return Promociones;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public bool AgregarPromocionAVenta(PromocionVenta Datos, string Conexion, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                int Resultado = 0;
+                object Result = SqlHelper.ExecuteScalar(Conexion, CommandType.StoredProcedure, "Ventas.spCSLDB_set_AgregarPromocionAVenta",
+                    new SqlParameter("@IDPromocion", Datos.IDPromocion),
+                    new SqlParameter("@IDVenta", Datos.IDVenta),
+                    new SqlParameter("@TablaEmpleados", Datos.TablaDatos),
+                    new SqlParameter("@IDSucursal", IDSucursal),
+                    new SqlParameter("@IDUsuario", IDUsuario));
+                if(Result != null)
+                {
+                    if(int.TryParse(Result.ToString(), out Resultado))
+                    {
+                        return Resultado == 1;
+                    }
+                }
+                return false;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public bool IniciarServicio(VentaDetalle Datos, string Conexion, string IDUsuario)
+        {
+            try
+            {
+                int Resultado = 0;
+                object Result = SqlHelper.ExecuteScalar(Conexion, CommandType.StoredProcedure, "Ventas.spCSLDB_set_IniciarServicio",
+                    new SqlParameter("@IDVentaServicio", Datos.IDVentaServicio),
+                    new SqlParameter("@TablaClaves", Datos.TablaDatos),
+                    new SqlParameter("@IDUsuario", IDUsuario)
+                    );
+                if (Result != null)
+                {
+                    if (int.TryParse(Result.ToString(), out Resultado))
+                    {
+                        return Resultado == 1;
+                    }
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

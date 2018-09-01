@@ -280,30 +280,15 @@ namespace StephSoft
                         decimal.TryParse(this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value.ToString(), out CantidadAux);
                         decimal.TryParse(this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadPendiente"].Value.ToString(), out CantidadPendiente);
                         decimal.TryParse(this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadSurtida"].Value.ToString(), out CantidadSurtida);
-                        if (!string.IsNullOrEmpty(this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["IDAsignacion"].Value.ToString()))
+                        if (CantidadAux > CantidadPendiente)
                         {
-                            if (CantidadAux > 0 && CantidadPendiente > 0)
-                            {
-                                this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value = (decimal)((int)CantidadSurtida);
-                            }
-                            else
-                            {
-                                CantidadAux = 0;
-                                this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value = (decimal)((int)CantidadAux);
-                            }
+                            this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value = (decimal)((int)CantidadPendiente);
                         }
                         else
                         {
-                            if (CantidadAux > CantidadPendiente)
-                            {
-                                this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value = (decimal)((int)CantidadPendiente);
-                            }
-                            else
-                            {
-                                if (CantidadAux < 0)
-                                    CantidadAux = 0;
-                                this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value = (decimal)((int)CantidadAux);
-                            }
+                            if (CantidadAux < 0)
+                                CantidadAux = 0;
+                            this.dgvPedidoDetalle.Rows[e.RowIndex].Cells["CantidadARecibir"].Value = (decimal)((int)CantidadAux);
                         }
                     }
                 }

@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblFolio = new System.Windows.Forms.Label();
@@ -47,6 +48,8 @@
             this.btnRegresar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnIniciarServicio = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.btnPromocion = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombreCliente = new System.Windows.Forms.TextBox();
             this.btnConcluirServicio = new CreativaSL.LibControls.WinForms.Button_Creativa();
@@ -62,6 +65,7 @@
             this.IDEstatusServicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FechaHoraInicio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoraFin = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Tiempo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Importe = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -212,6 +216,8 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Gainsboro;
+            this.panel3.Controls.Add(this.btnIniciarServicio);
+            this.panel3.Controls.Add(this.btnPromocion);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.txtNombreCliente);
             this.panel3.Controls.Add(this.btnConcluirServicio);
@@ -224,18 +230,84 @@
             this.panel3.Size = new System.Drawing.Size(1008, 528);
             this.panel3.TabIndex = 2;
             // 
+            // btnIniciarServicio
+            // 
+            this.btnIniciarServicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnIniciarServicio.BorderColor = System.Drawing.Color.Red;
+            this.btnIniciarServicio.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnIniciarServicio.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnIniciarServicio.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnIniciarServicio.FocusRectangle = true;
+            this.btnIniciarServicio.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarServicio.ForeColor = System.Drawing.Color.Black;
+            this.btnIniciarServicio.Image = null;
+            this.btnIniciarServicio.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnIniciarServicio.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnIniciarServicio.ImageFocused = null;
+            this.btnIniciarServicio.ImageInactive = null;
+            this.btnIniciarServicio.ImageMouseOver = null;
+            this.btnIniciarServicio.ImageNormal = null;
+            this.btnIniciarServicio.ImagePressed = null;
+            this.btnIniciarServicio.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnIniciarServicio.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnIniciarServicio.KeyButtonView = false;
+            this.btnIniciarServicio.Location = new System.Drawing.Point(182, 15);
+            this.btnIniciarServicio.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnIniciarServicio.MouseOverColor = System.Drawing.Color.Red;
+            this.btnIniciarServicio.Name = "btnIniciarServicio";
+            this.btnIniciarServicio.OffsetPressedContent = true;
+            this.btnIniciarServicio.Size = new System.Drawing.Size(100, 29);
+            this.btnIniciarServicio.TabIndex = 126;
+            this.btnIniciarServicio.Text = "Iniciar servicio";
+            this.btnIniciarServicio.TextDropShadow = true;
+            this.btnIniciarServicio.UseVisualStyleBackColor = false;
+            this.btnIniciarServicio.Click += new System.EventHandler(this.btnIniciarServicio_Click);
+            // 
+            // btnPromocion
+            // 
+            this.btnPromocion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnPromocion.BorderColor = System.Drawing.Color.Red;
+            this.btnPromocion.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnPromocion.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnPromocion.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnPromocion.FocusRectangle = true;
+            this.btnPromocion.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPromocion.ForeColor = System.Drawing.Color.Black;
+            this.btnPromocion.Image = null;
+            this.btnPromocion.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnPromocion.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnPromocion.ImageFocused = null;
+            this.btnPromocion.ImageInactive = null;
+            this.btnPromocion.ImageMouseOver = null;
+            this.btnPromocion.ImageNormal = null;
+            this.btnPromocion.ImagePressed = null;
+            this.btnPromocion.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnPromocion.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnPromocion.KeyButtonView = false;
+            this.btnPromocion.Location = new System.Drawing.Point(80, 15);
+            this.btnPromocion.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnPromocion.MouseOverColor = System.Drawing.Color.Red;
+            this.btnPromocion.Name = "btnPromocion";
+            this.btnPromocion.OffsetPressedContent = true;
+            this.btnPromocion.Size = new System.Drawing.Size(100, 29);
+            this.btnPromocion.TabIndex = 125;
+            this.btnPromocion.Text = "Promoción";
+            this.btnPromocion.TextDropShadow = true;
+            this.btnPromocion.UseVisualStyleBackColor = false;
+            this.btnPromocion.Click += new System.EventHandler(this.btnPromocion_Click);
+            // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(228, 15);
+            this.label2.Location = new System.Drawing.Point(433, 19);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 25);
             this.label2.TabIndex = 124;
-            this.label2.Text = "Cliente";
+            this.label2.Text = "Cliente:";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // txtNombreCliente
             // 
-            this.txtNombreCliente.Location = new System.Drawing.Point(311, 15);
+            this.txtNombreCliente.Location = new System.Drawing.Point(525, 19);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.ReadOnly = true;
             this.txtNombreCliente.Size = new System.Drawing.Size(427, 25);
@@ -262,12 +334,12 @@
             this.btnConcluirServicio.ImageSize = new System.Drawing.Size(44, 44);
             this.btnConcluirServicio.KeyButton = System.Windows.Forms.Keys.F1;
             this.btnConcluirServicio.KeyButtonView = false;
-            this.btnConcluirServicio.Location = new System.Drawing.Point(88, 15);
+            this.btnConcluirServicio.Location = new System.Drawing.Point(284, 15);
             this.btnConcluirServicio.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnConcluirServicio.MouseOverColor = System.Drawing.Color.Red;
             this.btnConcluirServicio.Name = "btnConcluirServicio";
             this.btnConcluirServicio.OffsetPressedContent = true;
-            this.btnConcluirServicio.Size = new System.Drawing.Size(116, 29);
+            this.btnConcluirServicio.Size = new System.Drawing.Size(100, 29);
             this.btnConcluirServicio.TabIndex = 122;
             this.btnConcluirServicio.Text = "Concluir servicio";
             this.btnConcluirServicio.TextDropShadow = true;
@@ -295,7 +367,7 @@
             this.btnCancelarServicio.ImageSize = new System.Drawing.Size(44, 44);
             this.btnCancelarServicio.KeyButton = System.Windows.Forms.Keys.F1;
             this.btnCancelarServicio.KeyButtonView = false;
-            this.btnCancelarServicio.Location = new System.Drawing.Point(48, 15);
+            this.btnCancelarServicio.Location = new System.Drawing.Point(44, 15);
             this.btnCancelarServicio.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnCancelarServicio.MouseOverColor = System.Drawing.Color.Red;
             this.btnCancelarServicio.Name = "btnCancelarServicio";
@@ -360,23 +432,24 @@
             this.IDEstatusServicio,
             this.Estatus,
             this.HoraInicio,
+            this.FechaHoraInicio,
             this.HoraFin,
             this.Tiempo,
             this.Importe,
             this.CostoExtra,
             this.Total,
             this.Concluido});
-            this.dgvServicios.Location = new System.Drawing.Point(8, 71);
+            this.dgvServicios.Location = new System.Drawing.Point(12, 71);
             this.dgvServicios.Name = "dgvServicios";
             this.dgvServicios.ReadOnly = true;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvServicios.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle20.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle20.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle20.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvServicios.RowHeadersDefaultCellStyle = dataGridViewCellStyle20;
             this.dgvServicios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvServicios.Size = new System.Drawing.Size(988, 451);
             this.dgvServicios.TabIndex = 116;
@@ -408,8 +481,8 @@
             // NombreServicio
             // 
             this.NombreServicio.DataPropertyName = "NombreServicio";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.NombreServicio.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.NombreServicio.DefaultCellStyle = dataGridViewCellStyle11;
             this.NombreServicio.HeaderText = "Servicio";
             this.NombreServicio.Name = "NombreServicio";
             this.NombreServicio.ReadOnly = true;
@@ -426,8 +499,8 @@
             // NombreEmpleado
             // 
             this.NombreEmpleado.DataPropertyName = "NombreEmpleado";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.NombreEmpleado.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.NombreEmpleado.DefaultCellStyle = dataGridViewCellStyle12;
             this.NombreEmpleado.HeaderText = "Empleado";
             this.NombreEmpleado.Name = "NombreEmpleado";
             this.NombreEmpleado.ReadOnly = true;
@@ -452,19 +525,27 @@
             // HoraInicio
             // 
             this.HoraInicio.DataPropertyName = "HoraInicio";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Format = "HH:mm:ss";
-            this.HoraInicio.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.HoraInicio.DefaultCellStyle = dataGridViewCellStyle13;
             this.HoraInicio.HeaderText = "Hora Inicio";
             this.HoraInicio.Name = "HoraInicio";
             this.HoraInicio.ReadOnly = true;
             this.HoraInicio.Width = 85;
             // 
+            // FechaHoraInicio
+            // 
+            this.FechaHoraInicio.DataPropertyName = "FechaHoraInicio";
+            dataGridViewCellStyle14.Format = "HH:mm:ss";
+            this.FechaHoraInicio.DefaultCellStyle = dataGridViewCellStyle14;
+            this.FechaHoraInicio.HeaderText = "FechaHoraInicio";
+            this.FechaHoraInicio.Name = "FechaHoraInicio";
+            this.FechaHoraInicio.ReadOnly = true;
+            // 
             // HoraFin
             // 
             this.HoraFin.DataPropertyName = "HoraFin";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.HoraFin.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.HoraFin.DefaultCellStyle = dataGridViewCellStyle15;
             this.HoraFin.HeaderText = "Hora de Término";
             this.HoraFin.Name = "HoraFin";
             this.HoraFin.ReadOnly = true;
@@ -473,8 +554,8 @@
             // Tiempo
             // 
             this.Tiempo.DataPropertyName = "Tiempo";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Tiempo.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Tiempo.DefaultCellStyle = dataGridViewCellStyle16;
             this.Tiempo.HeaderText = "Tiempo total";
             this.Tiempo.Name = "Tiempo";
             this.Tiempo.ReadOnly = true;
@@ -483,10 +564,10 @@
             // Importe
             // 
             this.Importe.DataPropertyName = "Importe";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle6.Format = "c";
-            dataGridViewCellStyle6.NullValue = "0";
-            this.Importe.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle17.Format = "c";
+            dataGridViewCellStyle17.NullValue = "0";
+            this.Importe.DefaultCellStyle = dataGridViewCellStyle17;
             this.Importe.HeaderText = "Precio";
             this.Importe.Name = "Importe";
             this.Importe.ReadOnly = true;
@@ -495,10 +576,10 @@
             // CostoExtra
             // 
             this.CostoExtra.DataPropertyName = "MontoExtra";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle7.Format = "c";
-            dataGridViewCellStyle7.NullValue = "0";
-            this.CostoExtra.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle18.Format = "c";
+            dataGridViewCellStyle18.NullValue = "0";
+            this.CostoExtra.DefaultCellStyle = dataGridViewCellStyle18;
             this.CostoExtra.HeaderText = "Costo Extra";
             this.CostoExtra.Name = "CostoExtra";
             this.CostoExtra.ReadOnly = true;
@@ -507,10 +588,10 @@
             // Total
             // 
             this.Total.DataPropertyName = "Total";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle8.Format = "c";
-            dataGridViewCellStyle8.NullValue = "0";
-            this.Total.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle19.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle19.Format = "c";
+            dataGridViewCellStyle19.NullValue = "0";
+            this.Total.DefaultCellStyle = dataGridViewCellStyle19;
             this.Total.HeaderText = "Total";
             this.Total.Name = "Total";
             this.Total.ReadOnly = true;
@@ -528,7 +609,7 @@
             // 
             // TimerTiempo
             // 
-            this.TimerTiempo.Interval = 1000;
+            this.TimerTiempo.Interval = 950;
             this.TimerTiempo.Tick += new System.EventHandler(this.TimerTiempo_Tick);
             // 
             // bgwDibujarTiempo
@@ -583,6 +664,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer TimerTiempo;
         private System.ComponentModel.BackgroundWorker bgwDibujarTiempo;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private CreativaSL.LibControls.WinForms.Button_Creativa btnIniciarServicio;
+        private CreativaSL.LibControls.WinForms.Button_Creativa btnPromocion;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDVentaServicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDServicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Clave;
@@ -592,13 +676,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn IDEstatusServicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estatus;
         private System.Windows.Forms.DataGridViewTextBoxColumn HoraInicio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn FechaHoraInicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn HoraFin;
         private System.Windows.Forms.DataGridViewTextBoxColumn Tiempo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Importe;
         private System.Windows.Forms.DataGridViewTextBoxColumn CostoExtra;
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.DataGridViewCheckBoxColumn Concluido;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

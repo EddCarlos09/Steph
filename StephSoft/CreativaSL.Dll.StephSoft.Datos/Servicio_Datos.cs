@@ -294,5 +294,32 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
+
+        public List<Producto> ObtenerServiciosXIDPromocion(string Conexion, int IDPromocion)
+        {
+            try
+            {
+                object[] Parametros = { IDPromocion };
+                List<Producto> ListaServicios = new List<Producto>();
+                Producto Item;
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Conexion, "Ventas.spCSLBD_get_DetallePromocionVenta", Parametros);
+                while (Dr.Read())
+                {
+                    Item = new Producto();
+                    Item.IDPromocion = !Dr.IsDBNull(Dr.GetOrdinal("IDPromocion")) ? Dr.GetInt32(Dr.GetOrdinal("IDPromocion")) : -1;
+                    Item.IDPromocionDetalle = !Dr.IsDBNull(Dr.GetOrdinal("IDPromocionDetalle")) ? Dr.GetInt32(Dr.GetOrdinal("IDPromocionDetalle")) : -1;
+                    Item.IDPromocionDetalleProd = !Dr.IsDBNull(Dr.GetOrdinal("IDPromocionDetalleProd")) ? Dr.GetInt32(Dr.GetOrdinal("IDPromocionDetalleProd")) : -1;
+                    Item.IDServicio = Dr.GetString(Dr.GetOrdinal("IDServicio"));
+                    Item.NombreProducto = Dr.GetString(Dr.GetOrdinal("Servicio"));
+                    ListaServicios.Add(Item);
+                }
+                return ListaServicios;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

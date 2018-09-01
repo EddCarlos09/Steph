@@ -1,0 +1,8 @@
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\bin\Release\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\bin\Release\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\bin\Release\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\bin\Release\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\bin\Release\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\obj\Release\CreativaSL.Dll.StepthSoft.Datos.csprojResolveAssemblyReference.cache
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\obj\Release\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Datos\obj\Release\CreativaSL.Dll.StephSoft.Datos.pdb

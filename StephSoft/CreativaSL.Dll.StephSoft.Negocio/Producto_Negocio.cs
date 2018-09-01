@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CreativaSL.Dll.StephSoft.Global;
 using CreativaSL.Dll.StephSoft.Datos;
+using System.Data;
 
 namespace CreativaSL.Dll.StephSoft.Negocio
 {
@@ -204,5 +205,74 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+
+        public DataTable ObteneClavesXIDEmpleadoIDSucursal(string Conexion, bool EsEmpleado, string ID, string BusqProd)
+        {
+            try
+            {
+                Producto_Datos ProdDat = new Producto_Datos();
+                return ProdDat.ObteneClavesXIDEmpleadoIDSucursal(Conexion, EsEmpleado, ID, BusqProd);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int BajaClaveProduccion(string Conexion, bool EsEmpleado, string IDAsignacion, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Producto_Datos ProdDat = new Producto_Datos();
+                return ProdDat.BajaClaveProduccion(Conexion, EsEmpleado, IDAsignacion, IDSucursal, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int ReemplazarClaveProduccion(string Conexion, bool EsEmpleado, string IDAsignacion, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Producto_Datos ProdDat = new Producto_Datos();
+                return ProdDat.ReemplazarClaveProduccion(Conexion, EsEmpleado, IDAsignacion, IDSucursal, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public int GenerarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal Cantidad, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Producto_Datos ProdDat = new Producto_Datos();
+                return ProdDat.GenerarNuevaClaveProduccion(Conexion, EsEmpleado, IDEmpleado, IDProducto, Cantidad, IDSucursal, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public int InicializarNuevaClaveProduccion(string Conexion, bool EsEmpleado, string IDEmpleado, string IDProducto, decimal MetricaInicial, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Producto_Datos ProdDat = new Producto_Datos();
+                return ProdDat.InicializarNuevaClaveProduccion(Conexion, EsEmpleado, IDEmpleado, IDProducto, MetricaInicial, IDSucursal, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
     }
 }

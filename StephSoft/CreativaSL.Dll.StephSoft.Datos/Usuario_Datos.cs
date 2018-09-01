@@ -431,5 +431,23 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 throw ex;
             }
         }
+
+
+        public void ObtenerEmpleadosMaterialesXIDSuc(Usuario Datos)
+        {
+            try
+            {
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "Produccion.spCSLDB_get_EmpleadosXIDSucMateriales", Datos.IDSucursalActual);
+                Datos.TablaDatos = new DataTable();
+                if (ds != null)
+                    if (ds.Tables.Count == 1)
+                        Datos.TablaDatos = ds.Tables[0];
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

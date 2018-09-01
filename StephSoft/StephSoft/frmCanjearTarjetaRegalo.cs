@@ -145,7 +145,7 @@ namespace StephSoft
                 {
                     TarjetaMonedero Datos = this.ObtenerDatos();
                     Cliente_Negocio CN = new Cliente_Negocio();
-                    CN.ActivarTarjetaRegalo(Datos);
+                    CN.ActivarTarjetaRegalo(Datos, Comun.IDSucursalCaja);
                     if (Datos.Completado)
                     {
                         this.DatosAux = Datos;

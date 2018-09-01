@@ -181,12 +181,12 @@ namespace CreativaSL.Dll.StephSoft.Negocio
             }
         }
             
-        public void ActivarTarjetaRegalo(TarjetaMonedero Datos)
+        public void ActivarTarjetaRegalo(TarjetaMonedero Datos, string IDSucursal)
         {
             try
             {
                 Cliente_Datos CD = new Cliente_Datos();
-                CD.ActivarTarjetaRegalo(Datos);
+                CD.ActivarTarjetaRegalo(Datos, IDSucursal);
             }
             catch (Exception ex)
             {

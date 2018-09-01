@@ -319,6 +319,15 @@ namespace CreativaSL.Dll.StephSoft.Global
             get { return _TotalVentas; }
             set { _TotalVentas = value; }
         }
-        
+
+        private string _CodigoUsuario;
+
+        public string CodigoUsuario
+        {
+            get { return _CodigoUsuario; }
+            set { _CodigoUsuario = value; }
+        }
+
+
     }
 }

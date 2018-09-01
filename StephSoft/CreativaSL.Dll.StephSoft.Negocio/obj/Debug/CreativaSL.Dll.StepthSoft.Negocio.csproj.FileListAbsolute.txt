@@ -98,3 +98,13 @@ C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bi
 C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StepthSoft.Negocio.csprojResolveAssemblyReference.cache
 C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
 C:\Users\YEYITO\source\repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Datos.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Global.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\Microsoft.ApplicationBlocks.Data.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Datos.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\bin\Debug\CreativaSL.Dll.StephSoft.Global.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StepthSoft.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.dll
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\CreativaSL.Dll.StephSoft.Negocio\obj\Debug\CreativaSL.Dll.StephSoft.Negocio.pdb
