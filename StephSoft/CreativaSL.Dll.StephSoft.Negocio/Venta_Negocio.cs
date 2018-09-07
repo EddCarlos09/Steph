@@ -250,6 +250,21 @@ namespace CreativaSL.Dll.StephSoft.Negocio
 
 
 
+        public void CobroVentaServiciosCortesia(Cobro Datos)
+        {
+            try
+            {
+                Venta_Datos VD = new Venta_Datos();
+                VD.CobroVentaServiciosCortesia(Datos);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+
 
         public void InsertarNuevaVenta(Venta Datos)
         {
@@ -476,6 +491,33 @@ namespace CreativaSL.Dll.StephSoft.Negocio
             {
                 Venta_Datos VD = new Venta_Datos();
                 return VD.IniciarServicio(Datos, Conexion, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public Venta AplicarDescuentoCumpleaños(string Conexion, string IDVenta, string IDCliente, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Venta_Datos VentDatos = new Venta_Datos();
+                return VentDatos.AplicarDescuentoCumpleaños(Conexion, IDVenta, IDCliente, IDSucursal, IDUsuario);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public int RemoverDescuentoCumpleaños(string Conexion, string IDVenta, string IDUsuario)
+        {
+            try
+            {
+                Venta_Datos VentDatos = new Venta_Datos();
+                return VentDatos.RemoverDescuentoCumpleaños(Conexion, IDVenta, IDUsuario);
             }
             catch (Exception ex)
             {

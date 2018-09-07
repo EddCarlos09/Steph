@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnDescCumpleaños = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.txtMensajeError = new System.Windows.Forms.TextBox();
             this.btnCobrar = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.btnCancelar = new CreativaSL.LibControls.WinForms.Button_Creativa();
@@ -67,6 +68,7 @@
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.txtPromociones = new System.Windows.Forms.TextBox();
             this.btnRemoverVale = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.txtErrorVale = new System.Windows.Forms.TextBox();
             this.txtValeAplicado = new System.Windows.Forms.TextBox();
@@ -87,6 +89,7 @@
             this.label42 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCortesia = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -106,6 +109,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Gray;
+            this.panel2.Controls.Add(this.btnCortesia);
+            this.panel2.Controls.Add(this.btnDescCumpleaños);
             this.panel2.Controls.Add(this.txtMensajeError);
             this.panel2.Controls.Add(this.btnCobrar);
             this.panel2.Controls.Add(this.btnCancelar);
@@ -114,6 +119,40 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1008, 80);
             this.panel2.TabIndex = 1;
+            // 
+            // btnDescCumpleaños
+            // 
+            this.btnDescCumpleaños.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDescCumpleaños.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnDescCumpleaños.BorderColor = System.Drawing.Color.Red;
+            this.btnDescCumpleaños.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnDescCumpleaños.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnDescCumpleaños.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnDescCumpleaños.FocusRectangle = true;
+            this.btnDescCumpleaños.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDescCumpleaños.ForeColor = System.Drawing.Color.White;
+            this.btnDescCumpleaños.Image = null;
+            this.btnDescCumpleaños.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnDescCumpleaños.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnDescCumpleaños.ImageFocused = null;
+            this.btnDescCumpleaños.ImageInactive = null;
+            this.btnDescCumpleaños.ImageMouseOver = global::StephSoft.Properties.Resources._0000s_0001s_0007_valesa_;
+            this.btnDescCumpleaños.ImageNormal = global::StephSoft.Properties.Resources._0000s_0001s_0007_vales;
+            this.btnDescCumpleaños.ImagePressed = null;
+            this.btnDescCumpleaños.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnDescCumpleaños.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnDescCumpleaños.KeyButtonView = false;
+            this.btnDescCumpleaños.Location = new System.Drawing.Point(661, 6);
+            this.btnDescCumpleaños.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnDescCumpleaños.MouseOverColor = System.Drawing.Color.Red;
+            this.btnDescCumpleaños.Name = "btnDescCumpleaños";
+            this.btnDescCumpleaños.OffsetPressedContent = true;
+            this.btnDescCumpleaños.Size = new System.Drawing.Size(80, 70);
+            this.btnDescCumpleaños.TabIndex = 63;
+            this.btnDescCumpleaños.Text = "Desc. Cumpl.";
+            this.btnDescCumpleaños.TextDropShadow = true;
+            this.btnDescCumpleaños.UseVisualStyleBackColor = false;
+            this.btnDescCumpleaños.Click += new System.EventHandler(this.btnDescCumpleaños_Click);
             // 
             // txtMensajeError
             // 
@@ -125,7 +164,7 @@
             this.txtMensajeError.Name = "txtMensajeError";
             this.txtMensajeError.ReadOnly = true;
             this.txtMensajeError.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtMensajeError.Size = new System.Drawing.Size(770, 69);
+            this.txtMensajeError.Size = new System.Drawing.Size(526, 69);
             this.txtMensajeError.TabIndex = 62;
             this.txtMensajeError.Text = "Ocurrió un Error";
             this.txtMensajeError.Visible = false;
@@ -291,14 +330,14 @@
             this.dgvProductosXServicio.Location = new System.Drawing.Point(0, 0);
             this.dgvProductosXServicio.Name = "dgvProductosXServicio";
             this.dgvProductosXServicio.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProductosXServicio.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProductosXServicio.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.dgvProductosXServicio.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProductosXServicio.Size = new System.Drawing.Size(806, 227);
             this.dgvProductosXServicio.TabIndex = 119;
@@ -338,8 +377,8 @@
             // Cantidad
             // 
             this.Cantidad.DataPropertyName = "Cantidad";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle7;
             this.Cantidad.HeaderText = "Cantidad";
             this.Cantidad.Name = "Cantidad";
             this.Cantidad.ReadOnly = true;
@@ -347,10 +386,10 @@
             // Precio
             // 
             this.Precio.DataPropertyName = "Precio";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "c";
-            dataGridViewCellStyle2.NullValue = "0";
-            this.Precio.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle8.Format = "c";
+            dataGridViewCellStyle8.NullValue = "0";
+            this.Precio.DefaultCellStyle = dataGridViewCellStyle8;
             this.Precio.HeaderText = "Precio";
             this.Precio.Name = "Precio";
             this.Precio.ReadOnly = true;
@@ -359,10 +398,10 @@
             // Subtotal
             // 
             this.Subtotal.DataPropertyName = "Subtotal";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "c";
-            dataGridViewCellStyle3.NullValue = "0";
-            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle9.Format = "c";
+            dataGridViewCellStyle9.NullValue = "0";
+            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle9;
             this.Subtotal.HeaderText = "Subtotal";
             this.Subtotal.Name = "Subtotal";
             this.Subtotal.ReadOnly = true;
@@ -371,10 +410,10 @@
             // Descuento
             // 
             this.Descuento.DataPropertyName = "Descuento";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "c";
-            dataGridViewCellStyle4.NullValue = "0";
-            this.Descuento.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle10.Format = "c";
+            dataGridViewCellStyle10.NullValue = "0";
+            this.Descuento.DefaultCellStyle = dataGridViewCellStyle10;
             this.Descuento.HeaderText = "Descuento";
             this.Descuento.Name = "Descuento";
             this.Descuento.ReadOnly = true;
@@ -383,10 +422,10 @@
             // Total
             // 
             this.Total.DataPropertyName = "Total";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "c";
-            dataGridViewCellStyle5.NullValue = "0";
-            this.Total.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle11.Format = "c";
+            dataGridViewCellStyle11.NullValue = "0";
+            this.Total.DefaultCellStyle = dataGridViewCellStyle11;
             this.Total.HeaderText = "Total";
             this.Total.Name = "Total";
             this.Total.ReadOnly = true;
@@ -511,6 +550,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.DarkGray;
+            this.panel6.Controls.Add(this.txtPromociones);
             this.panel6.Controls.Add(this.btnRemoverVale);
             this.panel6.Controls.Add(this.txtErrorVale);
             this.panel6.Controls.Add(this.txtValeAplicado);
@@ -523,6 +563,21 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(1006, 82);
             this.panel6.TabIndex = 0;
+            // 
+            // txtPromociones
+            // 
+            this.txtPromociones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(205)))), ((int)(((byte)(215)))));
+            this.txtPromociones.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPromociones.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPromociones.Location = new System.Drawing.Point(613, 53);
+            this.txtPromociones.Multiline = true;
+            this.txtPromociones.Name = "txtPromociones";
+            this.txtPromociones.ReadOnly = true;
+            this.txtPromociones.Size = new System.Drawing.Size(295, 27);
+            this.txtPromociones.TabIndex = 12178;
+            this.txtPromociones.Text = "!Aprovechar promoción por cumpleaños!";
+            this.txtPromociones.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtPromociones.Visible = false;
             // 
             // btnRemoverVale
             // 
@@ -562,11 +617,11 @@
             this.txtErrorVale.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtErrorVale.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtErrorVale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtErrorVale.Location = new System.Drawing.Point(611, 14);
+            this.txtErrorVale.Location = new System.Drawing.Point(613, 14);
             this.txtErrorVale.Multiline = true;
             this.txtErrorVale.Name = "txtErrorVale";
             this.txtErrorVale.ReadOnly = true;
-            this.txtErrorVale.Size = new System.Drawing.Size(295, 43);
+            this.txtErrorVale.Size = new System.Drawing.Size(295, 38);
             this.txtErrorVale.TabIndex = 12166;
             this.txtErrorVale.Text = "Ocurrió un Error";
             this.txtErrorVale.Visible = false;
@@ -790,6 +845,40 @@
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
             // 
+            // btnCortesia
+            // 
+            this.btnCortesia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCortesia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnCortesia.BorderColor = System.Drawing.Color.Red;
+            this.btnCortesia.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnCortesia.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnCortesia.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnCortesia.FocusRectangle = true;
+            this.btnCortesia.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCortesia.ForeColor = System.Drawing.Color.White;
+            this.btnCortesia.Image = null;
+            this.btnCortesia.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCortesia.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnCortesia.ImageFocused = null;
+            this.btnCortesia.ImageInactive = null;
+            this.btnCortesia.ImageMouseOver = global::StephSoft.Properties.Resources.icons_steph_vino___0011_monedero_a;
+            this.btnCortesia.ImageNormal = global::StephSoft.Properties.Resources.icons_steph_vino___0011_monedero;
+            this.btnCortesia.ImagePressed = null;
+            this.btnCortesia.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnCortesia.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnCortesia.KeyButtonView = false;
+            this.btnCortesia.Location = new System.Drawing.Point(745, 6);
+            this.btnCortesia.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnCortesia.MouseOverColor = System.Drawing.Color.Red;
+            this.btnCortesia.Name = "btnCortesia";
+            this.btnCortesia.OffsetPressedContent = true;
+            this.btnCortesia.Size = new System.Drawing.Size(80, 70);
+            this.btnCortesia.TabIndex = 64;
+            this.btnCortesia.Text = "Cortesía";
+            this.btnCortesia.TextDropShadow = true;
+            this.btnCortesia.UseVisualStyleBackColor = false;
+            this.btnCortesia.Click += new System.EventHandler(this.btnCortesia_Click);
+            // 
             // frmResumenVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -883,6 +972,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Subtotal;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descuento;
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
+        private CreativaSL.LibControls.WinForms.Button_Creativa btnDescCumpleaños;
+        private System.Windows.Forms.TextBox txtPromociones;
+        private CreativaSL.LibControls.WinForms.Button_Creativa btnCortesia;
     }
 }
 

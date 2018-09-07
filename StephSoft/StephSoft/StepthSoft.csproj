@@ -117,6 +117,12 @@
     <Compile Include="frmAsignarHorario.Designer.cs">
       <DependentUpon>frmAsignarHorario.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutorizacion.Designer.cs">
+      <DependentUpon>frmAutorizacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBusquedaVentas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -610,6 +616,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAsignarHorario.resx">
       <DependentUpon>frmAsignarHorario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutorizacion.resx">
+      <DependentUpon>frmAutorizacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmBusquedaVentas.resx">
       <DependentUpon>frmBusquedaVentas.cs</DependentUpon>

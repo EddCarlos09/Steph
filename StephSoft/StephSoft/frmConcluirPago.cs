@@ -222,7 +222,8 @@ namespace StephSoft
                 this.txtPagoTarjetaDeb.Text = string.Format("{0:c}", 0);
                 this.txtPagoTotal.Text = string.Format("{0:c}", 0);
                 this.txtCambio.Text = string.Format("{0:c}", 0);
-                this.txtSaldoMonedero.Text = string.Format("{0:c}", Datos.Saldo);
+                //this.txtSaldoMonedero.Text = string.Format("{0:c}", Datos.Saldo);
+                this.txtSaldoMonedero.Text = string.Format("{0:c}", Math.Truncate(this.Datos.Saldo * 10) / 10);
             }
             catch (Exception ex)
             {
@@ -329,7 +330,8 @@ namespace StephSoft
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "El pago no cubre el total.", ControlSender = this.txtPagoEfectivo });
                 if (!ValidarFormasPago(this._Datos.TotalAPagar))
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "El pago no efectivo no puede ser mayor al total.", ControlSender = this.txtPagoEfectivo });
-                if (this.ObtenerPagoMonedero() > this._Datos.Saldo)
+                decimal TotalPagoMonedr = this.ObtenerPagoMonedero();
+                if (TotalPagoMonedr > this._Datos.Saldo)
                     Errores.Add(new Error { Numero = (Aux += 1), Descripcion = "No cuenta con suficiente saldo en monedero.", ControlSender = this.txtPagoEfectivo });
                 return Errores;
             }
@@ -437,8 +439,8 @@ namespace StephSoft
                 else
                 {
                     this.txtPagoTarjetaDeb.Text = string.Format("{0:c}", 0);
-                    this.DibujarTotales();
                     this.PagoTD = new FormaPago();
+                    this.DibujarTotales();
                 }
             }
             catch (Exception ex)
@@ -472,8 +474,8 @@ namespace StephSoft
                 else
                 {
                     this.txtPagoTarjetaCred.Text = string.Format("{0:c}", 0);
-                    this.DibujarTotales();
                     this.PagoTC = new FormaPago();
+                    this.DibujarTotales();
                 }
             }
             catch (Exception ex)
@@ -545,7 +547,8 @@ namespace StephSoft
                 if (TxtPago.Name == this.txtPagoMonedero.Name)
                 {
                     if (Monto > this.Datos.Saldo)
-                        TxtPago.Text = string.Format("{0:c}", this.Datos.Saldo);
+                        
+                        TxtPago.Text = string.Format("{0:c}", Math.Truncate(this.Datos.Saldo * 10) / 10);
                 }
 
             }

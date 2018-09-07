@@ -339,8 +339,16 @@ namespace CreativaSL.Dll.StephSoft.Global
             get { return _TextoVenta; }
             set { _TextoVenta = value; }
         }
-        
-        
+
+        private string _NombreSucursal;
+
+        public string NombreSucursal
+        {
+            get { return _NombreSucursal; }
+            set { _NombreSucursal = value; }
+        }
+
+
     }
 	
 }

@@ -48,8 +48,7 @@ namespace StephSoft
         {
             try
             {
-                DatosCobro = this.ObtenerDatosAPagarXIDVenta();
-                
+                DatosCobro = this.ObtenerDatosAPagarXIDVenta();                
                 this.Vale = new Vales { IDVale = DatosCobro.IDVale, Folio = DatosCobro.FolioVale };
                 this.DibujarDatos(DatosCobro);
                 this.ActiveControl = this.txtVale;
@@ -76,6 +75,14 @@ namespace StephSoft
                 this.txtSubtotal.Text = string.Format("{0:c}", DatosAux.Subtotal);
                 this.txtDescuento.Text = string.Format("{0:c}", DatosAux.Descuento);
                 this.txtTotal.Text = string.Format("{0:c}", DatosAux.TotalAPagar);
+
+                this.txtPromociones.Visible = DatosAux.AplicaPromocion;
+                this.btnDescCumpleaños.Visible = DatosAux.AplicaPromocion;
+                if(DatosAux.AplicaPromocion)
+                {
+                    this.btnDescCumpleaños.Text = DatosAux.DescCumpleaños ? "Rem. Desc." : "Desc. Cumpl.";
+                }
+
                 this.txtValeAplicado.Text = DatosAux.FolioVale;
                 this.dgvProductosXServicio.AutoGenerateColumns = false;
                 this.dgvProductosXServicio.DataSource = DatosAux.TablaDatos;
@@ -140,6 +147,9 @@ namespace StephSoft
                     case -15: this.txtErrorVale.Text = "No se cumplen las reglas del vale.";//No cumple las reglas Porcentaje
                         break;
                     case -16: this.txtErrorVale.Text = "No se cumplen las reglas del vale.";//No cumple las reglas Monto
+                        break;
+                    case -30:
+                        this.txtErrorVale.Text = "Está aplicado el descuento por cumpleaños.";//No cumple las reglas Monto
                         break;
                     default: this.txtErrorVale.Text = "Ocurrió un error. Código del error: " + Error;
                         break;
@@ -330,7 +340,121 @@ namespace StephSoft
             }
         }
 
+        private void btnDescCumpleaños_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if(DatosCobro.AplicaPromocion)
+                {
+                    string IDVenta = this.IDVenta;
+                    string IDCliente = (DatosCobro != null ? DatosCobro.IDCliente : string.Empty);
+                    string IDUsuario = Comun.IDUsuario;
+                    string IDSucursal = Comun.IDSucursalCaja;
 
+                    Venta_Negocio VentNeg = new Venta_Negocio();
+                    if(DatosCobro.DescCumpleaños)
+                    {
+                        int ResultadoA = VentNeg.RemoverDescuentoCumpleaños(Comun.Conexion, IDVenta, IDUsuario);
+                        if (ResultadoA == 1)
+                        {
+                            MessageBox.Show("El descuento por cumpleaños ha sido removido", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.IniciarForm();
+                        }
+                        else
+                        {
+                            string _ErrorMessage = string.Empty;
+                            switch (ResultadoA)
+                            {
+                                case -1: _ErrorMessage = "El descuento no está aplicado.";
+                                    break;
+                                default: _ErrorMessage = "Ocurrió un error al procesar la información";
+                                    break;
+                            }
+                            MessageBox.Show(_ErrorMessage, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                    else
+                    {
 
+                        Venta ResultadoA = VentNeg.AplicarDescuentoCumpleaños(Comun.Conexion, IDVenta, IDCliente, IDSucursal, IDUsuario);
+                        if (ResultadoA.Resultado == 1)
+                        {
+                            MessageBox.Show("El descuento por cumpleaños ha sido aplicado.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            this.IniciarForm();
+                        }
+                        else
+                        {
+                            string _ErrorMessage = string.Empty;
+                            switch (ResultadoA.Resultado)
+                            {
+                                case -1:
+                                    _ErrorMessage = "No se puede aplicar el descuento. Hay un vale aplicado.";
+                                    break;
+                                case -2:
+                                    _ErrorMessage = "No se puede aplicar el descuento. No se encontró el cliente.";
+                                    break;
+                                case -3:
+                                    _ErrorMessage = "No se puede aplicar el descuento. El mes del cumpleañero no coincide.";
+                                    break;
+                                case -4:
+                                    _ErrorMessage = string.Format("No se puede aplicar el descuento. El usuario ya utilizó el descuento el día {0} en la sucursal {1}", ResultadoA.FechaVenta.ToShortDateString(), ResultadoA.NombreSucursal);
+                                    break;
+                                case -30:
+                                    _ErrorMessage = "No se puede aplicar el descuento. Ya está aplicado.";
+                                    break;
+                                default:
+                                    _ErrorMessage = "Ocurrió un error al procesar la información";
+                                    break;
+                            }
+                            MessageBox.Show(_ErrorMessage, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                    }
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmResumenVenta ~ btnDescCumpleaños_Click");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnCortesia_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                frmAutorizacion Autorizar = new frmAutorizacion(1);
+                Autorizar.ShowDialog();
+                if(Autorizar.DialogResult == DialogResult.OK)
+                {
+                    string _IDUsuarioAutoriza = Autorizar.IDUsuario;
+                    Venta_Negocio VenNeg = new Venta_Negocio();
+                    Cobro DatosAux = new Cobro {Conexion = Comun.Conexion, IDVenta = DatosCobro.IDVenta, IDCaja = Comun.IDCaja,
+                                                IDCajero = Comun.IDUsuario, TotalAPagar = DatosCobro.TotalAPagar,
+                                                Comision = DatosCobro.Comision, Pago = 0, Cambio = 0, RequiereFactura = false,
+                                                PuntosVenta = 0, IDUsuarioAutoriza = _IDUsuarioAutoriza, IDUsuario = Comun.IDUsuario };
+                    VenNeg.CobroVentaServiciosCortesia(DatosAux);
+                    if (DatosAux.Completado)
+                    {
+                        Ticket Imprimir = new Ticket(2, 1, DatosAux.IDVenta);
+                        Imprimir.ImprimirTicket();
+                        this.DialogResult = DialogResult.OK;
+                    }
+                    else
+                    {
+                        MessageBox.Show("Ocurrió un error al guardar los datos. Código el error: " + DatosAux.Resultado, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        Exception AuxEx = new Exception("Ocurrió un error al guardar los datos. código del Error: " + DatosAux.Resultado);
+                        LogError.AddExcFileTxt(AuxEx, "frmConcluirCobro ~ btnCobrar_Click");
+                    }
+
+                    
+                }
+            }
+            catch(Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmResumenVenta ~ btnCortesia_Click");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

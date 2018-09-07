@@ -245,6 +245,31 @@ namespace CreativaSL.Dll.StephSoft.Global
             get { return _CodigoEmpleado; }
             set { _CodigoEmpleado = value; }
         }
-        
+
+        private bool _DescCumpleaños;
+
+        public bool DescCumpleaños
+        {
+            get { return _DescCumpleaños; }
+            set { _DescCumpleaños = value; }
+        }
+
+        private bool _AplicaPromocion;
+
+        public bool AplicaPromocion
+        {
+            get { return _AplicaPromocion; }
+            set { _AplicaPromocion = value; }
+        }
+
+        private string _IDUsuarioAutoriza;
+
+        public string IDUsuarioAutoriza
+        {
+            get { return _IDUsuarioAutoriza; }
+            set { _IDUsuarioAutoriza = value; }
+        }
+
+
     }
 }

@@ -108,5 +108,30 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
+
+        public Usuario Autorizacion(string Conexion, string User, string Password, int TipoAcceso)
+        {
+            try
+            {
+                Usuario Resultado = new Usuario();
+                object[] Parametros = { TipoAcceso, User, Password };
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Conexion, "Usuarios.spCSLDB_Autorizacion", Parametros);
+                while(Dr.Read())
+                {
+                    Resultado.Resultado = Dr.GetInt32(Dr.GetOrdinal("Resultado"));
+                    if(Resultado.Resultado == 1)
+                    {
+                        Resultado.IDUsuario = Dr.GetString(Dr.GetOrdinal("IDUsuario"));
+                    }
+                }
+                Dr.Close();
+                return Resultado;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

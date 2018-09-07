@@ -1,2 +1,4 @@
 ﻿-2146233088 - 31/08/2018 01:27:28 p. m. - frmLogin ~ btnAceptar_Click - No se puede obtener la información: La conexión con el servidor se ha establecido correctamente, pero se ha producido un error durante el proceso de inicio de sesión. (provider: SSL Provider, error: 0 - El nombre de red especificado ya no está disponible.)
 -2146233079 - 01/09/2018 12:30:37 p. m. - frmInicializarClaves ~ btnGuardar_Click - No existe el procedimiento almacenado 'Produccion.'.
+-2147467261 - 05/09/2018 11:34:15 a. m. - frmResumenVenta ~ btnCortesia_Click - El valor no puede ser nulo.
+Nombre del parámetro: connectionString

@@ -47,5 +47,20 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+
+        public Usuario Autorizacion(string Conexion, string User, string Password, int TipoAcceso)
+        {
+            try
+            {
+                Login_Datos LogDat = new Login_Datos();
+                return LogDat.Autorizacion(Conexion, User, Password, TipoAcceso);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

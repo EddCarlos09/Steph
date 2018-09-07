@@ -483,6 +483,7 @@ namespace StephSoft
                 }
                 else
                 {
+                    this.txtPromociones.Visible = false;
                     this.DatosCliente = new Cliente();
                     this.txtNombreCliente.Text = string.Empty;
                     this.txtNumTarjeta.Text = string.Empty;
@@ -853,6 +854,6 @@ namespace StephSoft
                 LogError.AddExcFileTxt(ex, "frmVentaDirecta ~ frmVentaDirecta_FormClosing");
             }
         }
-
+        
     }
 }

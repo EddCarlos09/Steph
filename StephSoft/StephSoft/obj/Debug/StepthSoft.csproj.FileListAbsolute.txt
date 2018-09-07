@@ -867,6 +867,7 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csp
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StepthSoft.csproj.ResolveComReference.cache
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.Form1.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmAsignarHorario.resources
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmAutorizacion.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmBusquedaVentas.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelar.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCancelarTicket.resources
@@ -874,6 +875,7 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmC
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatCiclos.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCatEmpleado.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCierreCaja.resources
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmClavesXIDEmpleado.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmCobro.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmConcluirPago.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmConfiguracionLocal.resources
@@ -898,6 +900,7 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmE
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirServicioCita.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTarjetaMonedero.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmElegirTurnoCombo.resources
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmEntregaMaterial.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantias.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmGarantiasBusqVentas.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmGastosXSucursal.resources
@@ -906,6 +909,7 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmH
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmHistSucursales.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmHorarioEmpleado.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicial.resources
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicializarClaves.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmIniciarServicio.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmInventario.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmJustificaciones.resources
@@ -914,6 +918,7 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmM
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecepcion.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmMobiliarioRecibir.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaCita.resources
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaClaveProduccion.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaGarantia.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaImagenCatWeb.resources
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaPromocionVenta.resources
@@ -948,7 +953,3 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\RdlCompile.cac
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
-C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmClavesXIDEmpleado.resources
-C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmEntregaMaterial.resources
-C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmInicializarClaves.resources
-C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmNuevaClaveProduccion.resources

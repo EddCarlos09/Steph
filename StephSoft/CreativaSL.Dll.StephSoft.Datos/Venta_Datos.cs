@@ -396,6 +396,8 @@ namespace CreativaSL.Dll.StephSoft.Datos
                             Datos.TotalAPagar = Dr.GetDecimal(Dr.GetOrdinal("TotalAPagar"));
                             Datos.FolioVale = Dr.GetString(Dr.GetOrdinal("FolioVale"));
                             Datos.IDVale = Dr.GetString(Dr.GetOrdinal("IDVale"));
+                            Datos.DescCumpleaños = Dr.GetBoolean(Dr.GetOrdinal("DescCump"));
+                            Datos.AplicaPromocion = Dr.GetBoolean(Dr.GetOrdinal("AplicaPromocion"));
                         }
                         Datos.TablaDatos = Ds.Tables[1];
                     }
@@ -440,6 +442,8 @@ namespace CreativaSL.Dll.StephSoft.Datos
                                 Resultado.TotalAPagar = Dr.GetDecimal(Dr.GetOrdinal("TotalAPagar"));
                                 Resultado.FolioVale = Dr.GetString(Dr.GetOrdinal("FolioVale"));
                                 Resultado.IDVale = Dr.GetString(Dr.GetOrdinal("IDVale"));
+                                Resultado.DescCumpleaños = Dr.GetBoolean(Dr.GetOrdinal("DescCump"));
+                                Resultado.AplicaPromocion = Dr.GetBoolean(Dr.GetOrdinal("AplicaPromocion"));
                             }
                         }
                     }
@@ -585,7 +589,30 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
-
+        public void CobroVentaServiciosCortesia(Cobro Datos)
+        {
+            try
+            {
+                Datos.Completado = false;
+                object[] Parametros = { Datos.IDVenta, Datos.IDCaja, Datos.IDCajero, Datos.TotalAPagar, Datos.Comision, Datos.TotalAPagar + Datos.Comision,
+                                        Datos.Pago, Datos.Cambio, Datos.RequiereFactura, Datos.PuntosVenta, Datos.IDUsuarioAutoriza, Datos.IDUsuario};
+                object Result = SqlHelper.ExecuteScalar(Datos.Conexion, "Ventas.spCSLDB_set_PagoVentaAbiertaCortesia", Parametros);
+                if (Result != null)
+                {
+                    int Resultado = 0;
+                    int.TryParse(Result.ToString(), out Resultado);
+                    if (Resultado == 1)
+                    {
+                        Datos.Completado = true;
+                    }
+                    Datos.Resultado = Resultado;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
 
 
         public void InsertarNuevaVenta(Venta Datos)
@@ -1048,6 +1075,53 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 throw ex;
             }
         }
+
+
+        public Venta AplicarDescuentoCumpleaños(string Conexion, string IDVenta, string IDCliente, string IDSucursal, string IDUsuario)
+        {
+            try
+            {
+                Venta Resultado = new Venta();
+                object[] Parametros = { IDVenta, IDCliente, IDSucursal, IDUsuario };
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Conexion, "Ventas.spCSLDB_set_DescuentoCumple", Parametros);
+                while(Dr.Read())
+                {
+                    Resultado.Resultado = Dr.GetInt32(Dr.GetOrdinal("Resultado"));
+                    if (Resultado.Resultado == -4)
+                    {
+                        Resultado.FechaVenta = Dr.GetDateTime(Dr.GetOrdinal("fechaServicio"));
+                        Resultado.NombreSucursal = Dr.GetString(Dr.GetOrdinal("nombreSucursal"));
+                    }
+                }
+                Dr.Close();
+                return Resultado;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public int RemoverDescuentoCumpleaños(string Conexion, string IDVenta, string IDUsuario)
+        {
+            try
+            {
+                object[] Parametros = { IDVenta, IDUsuario };
+                object Result = SqlHelper.ExecuteScalar(Conexion, "Ventas.spCSLDB_set_RemoverDescuentoCumple", Parametros);
+                int Resultado = 0;
+                if (Result != null)
+                {
+                    int.TryParse(Result.ToString(), out Resultado);
+                }
+                return Resultado;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
 
     }
 }
