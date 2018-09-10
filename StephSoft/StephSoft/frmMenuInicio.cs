@@ -592,6 +592,11 @@ namespace StephSoft
                             Aux.Enabled = false;
                         }
                     }
+                    else
+                    {
+                        if(!Aux.Name.Equals(btnSalir.Name))
+                            Aux.Enabled = false;
+                    }
                 }
             }
         }
