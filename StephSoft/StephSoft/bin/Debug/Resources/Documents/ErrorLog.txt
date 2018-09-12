@@ -2,3 +2,9 @@
 -2146233079 - 01/09/2018 12:30:37 p. m. - frmInicializarClaves ~ btnGuardar_Click - No existe el procedimiento almacenado 'Produccion.'.
 -2147467261 - 05/09/2018 11:34:15 a. m. - frmResumenVenta ~ btnCortesia_Click - El valor no puede ser nulo.
 Nombre del parámetro: connectionString
+-2146233033 - 12/09/2018 12:02:39 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
+-2146233033 - 12/09/2018 12:02:46 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
+-2146233033 - 12/09/2018 12:03:20 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
+-2146233033 - 12/09/2018 12:03:31 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
+-2146233033 - 12/09/2018 12:03:33 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
+-2146233080 - 12/09/2018 12:05:00 p. m. - frmVerListados ~ btnGenerar_Click() - Índice fuera de los límites de la matriz.

@@ -857,6 +857,7 @@
     <EmbeddedResource Include="frmVerReporte.resx">
       <DependentUpon>frmVerReporte.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Informes\InformeCitasFechas.rdlc" />
     <EmbeddedResource Include="Informes\InformeCitas.rdlc" />
     <EmbeddedResource Include="Informes\Report1.rdlc" />
     <EmbeddedResource Include="Informes\ResumenCaja.rdlc" />

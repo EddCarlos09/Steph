@@ -73,7 +73,9 @@ namespace StephSoft
             {
                 switch (TipoListado)
                 {
-                    case 1: 
+                    case 1:
+                        EstablecerFechasDateTime();
+                        GenerarReporteCitas();
                         this.lblTitulo.Text = "CITAS DEL DÍA";
                         break;
                     case 2: this.GenerarReporteCajas();
@@ -88,6 +90,24 @@ namespace StephSoft
             }
         }
 
+        private void EstablecerFechasDateTime()
+        {
+            try
+            {
+                DateTime Today = DateTime.Today;
+                DayOfWeek En = Today.DayOfWeek;
+                int DiaSemana = (int)En;
+                DateTime FechaInicio = DateTime.Today.AddDays((DiaSemana - 1) * -1);
+                DateTime FechaFin = FechaInicio.AddDays(6);
+                dtpFechaInicio.Value = FechaInicio;
+                dtpFechaFin.Value = FechaFin;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         private void GenerarReporteCitas()
         {
             try
@@ -95,16 +115,17 @@ namespace StephSoft
                 reportViewer1.SetDisplayMode(DisplayMode.PrintLayout);
                 reportViewer1.ZoomMode = ZoomMode.Percent;
                 reportViewer1.ZoomPercent = 100;
-                reportViewer1.LocalReport.DataSources.Clear();
-                Cita Datos = new Cita { Conexion = Comun.Conexion, IDSucursal = ID, FechaCita=this.dtpFechaInicio.Value };
+                reportViewer1.LocalReport.DataSources.Clear();                
                 Cita_Negocio CN = new Cita_Negocio();
-                List<Cita> Lista = CN.ObtenerCitasPorSucursal(Datos);
+                List<Cita> Lista = CN.ObtenerCitasPorSucursalXFechas(Comun.Conexion, ID, dtpFechaInicio.Value, dtpFechaFin.Value);
                 reportViewer1.LocalReport.EnableExternalImages = true;
-                ReportParameter[] Parametros = new ReportParameter[5];
+                ReportParameter[] Parametros = new ReportParameter[7];
                 Parametros[0] = new ReportParameter("Empresa", Comun.NombreComercial);
                 Parametros[1] = new ReportParameter("Eslogan", Comun.Eslogan);
                 Parametros[2] = new ReportParameter("Direccion", Comun.Direccion);
                 Parametros[4] = new ReportParameter("TituloReporte", "CITAS DEL DÍA");
+                Parametros[5] = new ReportParameter("FechaInicio", dtpFechaInicio.Value.ToShortDateString());
+                Parametros[6] = new ReportParameter("FechaFin", dtpFechaFin.Value.ToShortDateString());
                 if (File.Exists(@"Resources\Documents\" + Comun.UrlLogo.ToLower()))
                 {
                     string Aux = new Uri(Path.Combine(System.Windows.Forms.Application.StartupPath, @"Resources\Documents\" + Comun.UrlLogo.ToLower())).AbsoluteUri;
@@ -113,7 +134,7 @@ namespace StephSoft
                 else
                     Parametros[3] = new ReportParameter("UrlLogo", new Uri(Path.Combine(System.Windows.Forms.Application.StartupPath, @"Resources\Documents\Default.jpg")).AbsoluteUri);
 
-                this.reportViewer1.LocalReport.ReportEmbeddedResource = "StephSoft.Informes.InformeCitas.rdlc";
+                this.reportViewer1.LocalReport.ReportEmbeddedResource = "StephSoft.Informes.InformeCitasFechas.rdlc";
                 reportViewer1.LocalReport.SetParameters(Parametros);
                 reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("Citas", Lista));
                 this.reportViewer1.RefreshReport();
@@ -183,12 +204,35 @@ namespace StephSoft
         {
             try
             {
-                this.GenerarReporteCitas();
+                if (ValidarFechas())
+                {
+                    this.GenerarReporteCitas();
+                }
+                else
+                {
+                    MessageBox.Show("La fecha final debe ser mayor o igual a la fecha Inicial", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             catch (Exception ex)
             {
 
                 LogError.AddExcFileTxt(ex, "frmVerListados ~ btnGenerar_Click()");
+            }
+        }
+
+
+        private bool ValidarFechas()
+        {
+            try
+            {
+                if (dtpFechaInicio.Value <= dtpFechaFin.Value)
+                    return true;
+                else
+                    return false;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
             }
         }
     }

@@ -100,6 +100,21 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+        public List<Cita> ObtenerCitasPorSucursalXFechas(string Conexion, string IDSucursal, DateTime FechaInicio, DateTime FechaFin)
+        {
+            try
+            {
+                Cita_Datos CD = new Cita_Datos();
+                return CD.ObtenerCitasPorSucursalXFechas(Conexion, IDSucursal, FechaInicio, FechaFin);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
         public Cita ObtenerDatosCitasDetalle(Cita Datos)
         {
             try

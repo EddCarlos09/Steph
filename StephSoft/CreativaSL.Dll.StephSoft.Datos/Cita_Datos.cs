@@ -165,6 +165,35 @@ namespace CreativaSL.Dll.StephSoft.Datos
                 throw ex;
             }
         }
+
+        public List<Cita> ObtenerCitasPorSucursalXFechas(string Conexion, string IDSucursal, DateTime FechaInicio, DateTime FechaFin)
+        {
+            try
+            {
+                List<Cita> Lista = new List<Cita>();
+                Cita Item;
+                object[] Parametros = { IDSucursal, FechaInicio, FechaFin };
+                SqlDataReader Dr = SqlHelper.ExecuteReader(Conexion, "spCSLDB_get_CitasXSucursalFechas", IDSucursal, FechaInicio, FechaFin);
+                while (Dr.Read())
+                {
+                    Item = new Cita();
+                    Item.FechaCita = !Dr.IsDBNull(Dr.GetOrdinal("Fecha")) ? Dr.GetDateTime(Dr.GetOrdinal("Fecha")) : DateTime.MinValue;
+                    Item.HoraInicio = !Dr.IsDBNull(Dr.GetOrdinal("HoraInicio")) ? Dr.GetTimeSpan(Dr.GetOrdinal("HoraInicio")) : TimeSpan.MinValue;
+                    Item.HoraFin = !Dr.IsDBNull(Dr.GetOrdinal("HoraFin")) ? Dr.GetTimeSpan(Dr.GetOrdinal("HoraFin")) : TimeSpan.MinValue;
+                    Item.HoraCita = Item.HoraInicio.ToString(@"hh\:mm") + " - " + Item.HoraFin.ToString(@"hh\:mm");
+                    Item.NombreEmpleado = !Dr.IsDBNull(Dr.GetOrdinal("Empleado")) ? Dr.GetString(Dr.GetOrdinal("Empleado")).ToUpper() : string.Empty;
+                    Item.IDServicio = !Dr.IsDBNull(Dr.GetOrdinal("Servicio")) ? Dr.GetString(Dr.GetOrdinal("Servicio")).ToUpper() : string.Empty;
+                    Item.NombreCliente = !Dr.IsDBNull(Dr.GetOrdinal("Cliente")) ? Dr.GetString(Dr.GetOrdinal("Cliente")).ToUpper() : string.Empty;
+                    Lista.Add(Item);
+                }
+                return Lista;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         public Cita ObtenerDatosCitaDetalle(Cita Datos)
         {
             try

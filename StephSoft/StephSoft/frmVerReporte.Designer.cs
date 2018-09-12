@@ -31,6 +31,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.dtpFechaInicio = new System.Windows.Forms.DateTimePicker();
+            this.lblFechaInicio = new System.Windows.Forms.Label();
+            this.btnGenerar = new CreativaSL.LibControls.WinForms.Button_Creativa();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.panel4 = new System.Windows.Forms.Panel();
             this.PanelMenu = new System.Windows.Forms.Panel();
             this.btnSalir = new CreativaSL.LibControls.WinForms.Button_Creativa();
@@ -38,22 +44,18 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblTitulo = new System.Windows.Forms.Label();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.btnGenerar = new CreativaSL.LibControls.WinForms.Button_Creativa();
-            this.lblFechaInicio = new System.Windows.Forms.Label();
-            this.dtpFechaInicio = new System.Windows.Forms.DateTimePicker();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.dtpFechaFin = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
             this.panel4.SuspendLayout();
             this.PanelMenu.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -88,6 +90,91 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1008, 608);
             this.panel5.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.panel8);
+            this.panel7.Controls.Add(this.reportViewer1);
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(1008, 532);
+            this.panel7.TabIndex = 1;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.DarkGray;
+            this.panel8.Controls.Add(this.label1);
+            this.panel8.Controls.Add(this.dtpFechaFin);
+            this.panel8.Controls.Add(this.dtpFechaInicio);
+            this.panel8.Controls.Add(this.lblFechaInicio);
+            this.panel8.Controls.Add(this.btnGenerar);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(1008, 76);
+            this.panel8.TabIndex = 2;
+            // 
+            // dtpFechaInicio
+            // 
+            this.dtpFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaInicio.Location = new System.Drawing.Point(273, 24);
+            this.dtpFechaInicio.Name = "dtpFechaInicio";
+            this.dtpFechaInicio.Size = new System.Drawing.Size(119, 25);
+            this.dtpFechaInicio.TabIndex = 63;
+            // 
+            // lblFechaInicio
+            // 
+            this.lblFechaInicio.AutoSize = true;
+            this.lblFechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaInicio.ForeColor = System.Drawing.Color.Maroon;
+            this.lblFechaInicio.Location = new System.Drawing.Point(231, 28);
+            this.lblFechaInicio.Name = "lblFechaInicio";
+            this.lblFechaInicio.Size = new System.Drawing.Size(36, 20);
+            this.lblFechaInicio.TabIndex = 62;
+            this.lblFechaInicio.Text = "Del";
+            // 
+            // btnGenerar
+            // 
+            this.btnGenerar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnGenerar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnGenerar.BorderColor = System.Drawing.Color.Red;
+            this.btnGenerar.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnGenerar.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnGenerar.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnGenerar.FocusRectangle = true;
+            this.btnGenerar.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerar.ForeColor = System.Drawing.Color.Black;
+            this.btnGenerar.Image = null;
+            this.btnGenerar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnGenerar.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnGenerar.ImageFocused = null;
+            this.btnGenerar.ImageInactive = null;
+            this.btnGenerar.ImageMouseOver = null;
+            this.btnGenerar.ImageNormal = null;
+            this.btnGenerar.ImagePressed = null;
+            this.btnGenerar.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnGenerar.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnGenerar.KeyButtonView = false;
+            this.btnGenerar.Location = new System.Drawing.Point(807, 4);
+            this.btnGenerar.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnGenerar.MouseOverColor = System.Drawing.Color.Red;
+            this.btnGenerar.Name = "btnGenerar";
+            this.btnGenerar.OffsetPressedContent = true;
+            this.btnGenerar.Size = new System.Drawing.Size(80, 70);
+            this.btnGenerar.TabIndex = 59;
+            this.btnGenerar.Text = "Generar";
+            this.btnGenerar.TextDropShadow = true;
+            this.btnGenerar.UseVisualStyleBackColor = false;
+            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(1008, 532);
+            this.reportViewer1.TabIndex = 0;
             // 
             // panel4
             // 
@@ -184,88 +271,24 @@
             this.lblTitulo.Size = new System.Drawing.Size(0, 55);
             this.lblTitulo.TabIndex = 24;
             // 
-            // reportViewer1
+            // dtpFechaFin
             // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(1008, 532);
-            this.reportViewer1.TabIndex = 0;
+            this.dtpFechaFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpFechaFin.Location = new System.Drawing.Point(470, 24);
+            this.dtpFechaFin.Name = "dtpFechaFin";
+            this.dtpFechaFin.Size = new System.Drawing.Size(119, 25);
+            this.dtpFechaFin.TabIndex = 64;
             // 
-            // panel7
+            // label1
             // 
-            this.panel7.Controls.Add(this.panel8);
-            this.panel7.Controls.Add(this.reportViewer1);
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(0, 0);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1008, 532);
-            this.panel7.TabIndex = 1;
-            // 
-            // btnGenerar
-            // 
-            this.btnGenerar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnGenerar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnGenerar.BorderColor = System.Drawing.Color.Red;
-            this.btnGenerar.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
-            this.btnGenerar.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnGenerar.BorderNoFocusColor = System.Drawing.Color.Maroon;
-            this.btnGenerar.FocusRectangle = true;
-            this.btnGenerar.Font = new System.Drawing.Font("Trebuchet MS", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerar.ForeColor = System.Drawing.Color.Black;
-            this.btnGenerar.Image = null;
-            this.btnGenerar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnGenerar.ImageBorderColor = System.Drawing.Color.Red;
-            this.btnGenerar.ImageFocused = null;
-            this.btnGenerar.ImageInactive = null;
-            this.btnGenerar.ImageMouseOver = null;
-            this.btnGenerar.ImageNormal = null;
-            this.btnGenerar.ImagePressed = null;
-            this.btnGenerar.ImageSize = new System.Drawing.Size(44, 44);
-            this.btnGenerar.KeyButton = System.Windows.Forms.Keys.F1;
-            this.btnGenerar.KeyButtonView = false;
-            this.btnGenerar.Location = new System.Drawing.Point(807, 4);
-            this.btnGenerar.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.btnGenerar.MouseOverColor = System.Drawing.Color.Red;
-            this.btnGenerar.Name = "btnGenerar";
-            this.btnGenerar.OffsetPressedContent = true;
-            this.btnGenerar.Size = new System.Drawing.Size(80, 70);
-            this.btnGenerar.TabIndex = 59;
-            this.btnGenerar.Text = "Generar";
-            this.btnGenerar.TextDropShadow = true;
-            this.btnGenerar.UseVisualStyleBackColor = false;
-            this.btnGenerar.Click += new System.EventHandler(this.btnGenerar_Click);
-            // 
-            // lblFechaInicio
-            // 
-            this.lblFechaInicio.AutoSize = true;
-            this.lblFechaInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFechaInicio.ForeColor = System.Drawing.Color.White;
-            this.lblFechaInicio.Location = new System.Drawing.Point(38, 23);
-            this.lblFechaInicio.Name = "lblFechaInicio";
-            this.lblFechaInicio.Size = new System.Drawing.Size(75, 24);
-            this.lblFechaInicio.TabIndex = 62;
-            this.lblFechaInicio.Text = "Fecha:";
-            // 
-            // dtpFechaInicio
-            // 
-            this.dtpFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaInicio.Location = new System.Drawing.Point(131, 27);
-            this.dtpFechaInicio.Name = "dtpFechaInicio";
-            this.dtpFechaInicio.Size = new System.Drawing.Size(119, 25);
-            this.dtpFechaInicio.TabIndex = 63;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.DarkGray;
-            this.panel8.Controls.Add(this.dtpFechaInicio);
-            this.panel8.Controls.Add(this.lblFechaInicio);
-            this.panel8.Controls.Add(this.btnGenerar);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1008, 76);
-            this.panel8.TabIndex = 2;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Maroon;
+            this.label1.Location = new System.Drawing.Point(421, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(23, 20);
+            this.label1.TabIndex = 65;
+            this.label1.Text = "al";
             // 
             // frmVerReporte
             // 
@@ -284,15 +307,15 @@
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.PanelMenu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -315,6 +338,8 @@
         private System.Windows.Forms.Label lblFechaInicio;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnGenerar;
         private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DateTimePicker dtpFechaFin;
     }
 }
 
