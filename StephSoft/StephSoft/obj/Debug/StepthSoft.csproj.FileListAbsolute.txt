@@ -953,3 +953,4 @@ C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\RdlCompile.cac
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\RdlCompile.compiled
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.exe
 C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.pdb
+C:\Users\JMARTIN\Source\Repos\Steph\StephSoft\StephSoft\obj\Debug\StephSoft.frmVerDetalleCiclo.resources

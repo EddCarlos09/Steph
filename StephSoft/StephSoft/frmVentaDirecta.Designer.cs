@@ -28,12 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -91,6 +91,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblFolio = new System.Windows.Forms.Label();
+            this.txtNombreEmpleado = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -244,14 +245,14 @@
             this.Total});
             this.dgvProductosXServicio.Location = new System.Drawing.Point(100, 45);
             this.dgvProductosXServicio.Name = "dgvProductosXServicio";
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProductosXServicio.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle30.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Trebuchet MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle30.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProductosXServicio.RowHeadersDefaultCellStyle = dataGridViewCellStyle30;
             this.dgvProductosXServicio.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProductosXServicio.Size = new System.Drawing.Size(806, 182);
             this.dgvProductosXServicio.TabIndex = 3;
@@ -294,18 +295,18 @@
             // Cantidad
             // 
             this.Cantidad.DataPropertyName = "CantidadVenta";
-            dataGridViewCellStyle13.Format = "N0";
-            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle25.Format = "N0";
+            this.Cantidad.DefaultCellStyle = dataGridViewCellStyle25;
             this.Cantidad.HeaderText = "Cantidad";
             this.Cantidad.Name = "Cantidad";
             // 
             // Precio
             // 
             this.Precio.DataPropertyName = "PrecioNormal";
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle14.Format = "c";
-            dataGridViewCellStyle14.NullValue = "0";
-            this.Precio.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle26.Format = "c";
+            dataGridViewCellStyle26.NullValue = "0";
+            this.Precio.DefaultCellStyle = dataGridViewCellStyle26;
             this.Precio.HeaderText = "Precio";
             this.Precio.Name = "Precio";
             this.Precio.ReadOnly = true;
@@ -314,10 +315,10 @@
             // Subtotal
             // 
             this.Subtotal.DataPropertyName = "Subtotal";
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle15.Format = "c";
-            dataGridViewCellStyle15.NullValue = "0";
-            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle27.Format = "c";
+            dataGridViewCellStyle27.NullValue = "0";
+            this.Subtotal.DefaultCellStyle = dataGridViewCellStyle27;
             this.Subtotal.HeaderText = "Subtotal";
             this.Subtotal.Name = "Subtotal";
             this.Subtotal.ReadOnly = true;
@@ -326,10 +327,10 @@
             // Descuento
             // 
             this.Descuento.DataPropertyName = "Descuento";
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle16.Format = "c";
-            dataGridViewCellStyle16.NullValue = "0";
-            this.Descuento.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle28.Format = "c";
+            dataGridViewCellStyle28.NullValue = "0";
+            this.Descuento.DefaultCellStyle = dataGridViewCellStyle28;
             this.Descuento.HeaderText = "Descuento";
             this.Descuento.Name = "Descuento";
             this.Descuento.ReadOnly = true;
@@ -338,10 +339,10 @@
             // Total
             // 
             this.Total.DataPropertyName = "Total";
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle17.Format = "c";
-            dataGridViewCellStyle17.NullValue = "0";
-            this.Total.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle29.Format = "c";
+            dataGridViewCellStyle29.NullValue = "0";
+            this.Total.DefaultCellStyle = dataGridViewCellStyle29;
             this.Total.HeaderText = "Total";
             this.Total.Name = "Total";
             this.Total.ReadOnly = true;
@@ -558,6 +559,7 @@
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.txtNombreEmpleado);
             this.panel11.Controls.Add(this.label3);
             this.panel11.Controls.Add(this.txtErrorVale);
             this.panel11.Controls.Add(this.label5);
@@ -586,7 +588,7 @@
             this.txtErrorVale.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.txtErrorVale.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtErrorVale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtErrorVale.Location = new System.Drawing.Point(260, 69);
+            this.txtErrorVale.Location = new System.Drawing.Point(260, 101);
             this.txtErrorVale.Multiline = true;
             this.txtErrorVale.Name = "txtErrorVale";
             this.txtErrorVale.ReadOnly = true;
@@ -599,7 +601,7 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(96, 38);
+            this.label5.Location = new System.Drawing.Point(96, 70);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 27);
             this.label5.TabIndex = 12173;
@@ -610,15 +612,16 @@
             // 
             this.txtClaveVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.txtClaveVendedor.Location = new System.Drawing.Point(260, 3);
-            this.txtClaveVendedor.MaxLength = 20;
+            this.txtClaveVendedor.MaxLength = 10;
             this.txtClaveVendedor.Name = "txtClaveVendedor";
             this.txtClaveVendedor.Size = new System.Drawing.Size(200, 27);
             this.txtClaveVendedor.TabIndex = 12175;
+            this.txtClaveVendedor.Validated += new System.EventHandler(this.txtClaveVendedor_Validated);
             // 
             // txtVale
             // 
             this.txtVale.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.txtVale.Location = new System.Drawing.Point(260, 39);
+            this.txtVale.Location = new System.Drawing.Point(260, 71);
             this.txtVale.MaxLength = 20;
             this.txtVale.Name = "txtVale";
             this.txtVale.Size = new System.Drawing.Size(200, 27);
@@ -645,7 +648,7 @@
             this.btnAplicarVale.ImageSize = new System.Drawing.Size(44, 44);
             this.btnAplicarVale.KeyButton = System.Windows.Forms.Keys.F1;
             this.btnAplicarVale.KeyButtonView = false;
-            this.btnAplicarVale.Location = new System.Drawing.Point(460, 40);
+            this.btnAplicarVale.Location = new System.Drawing.Point(460, 72);
             this.btnAplicarVale.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
             this.btnAplicarVale.MouseOverColor = System.Drawing.Color.Red;
             this.btnAplicarVale.Name = "btnAplicarVale";
@@ -929,6 +932,20 @@
             this.lblFolio.TabIndex = 24;
             this.lblFolio.Text = "Venta";
             // 
+            // txtNombreEmpleado
+            // 
+            this.txtNombreEmpleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(205)))), ((int)(((byte)(215)))));
+            this.txtNombreEmpleado.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNombreEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreEmpleado.Location = new System.Drawing.Point(260, 33);
+            this.txtNombreEmpleado.Multiline = true;
+            this.txtNombreEmpleado.Name = "txtNombreEmpleado";
+            this.txtNombreEmpleado.ReadOnly = true;
+            this.txtNombreEmpleado.Size = new System.Drawing.Size(300, 27);
+            this.txtNombreEmpleado.TabIndex = 12178;
+            this.txtNombreEmpleado.TabStop = false;
+            this.txtNombreEmpleado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // frmVentaDirecta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -1031,6 +1048,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Total;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtPromociones;
+        private System.Windows.Forms.TextBox txtNombreEmpleado;
     }
 }
 

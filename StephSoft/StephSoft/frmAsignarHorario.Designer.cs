@@ -50,6 +50,7 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label42 = new System.Windows.Forms.Label();
+            this.btnVerDetalleCiclo = new CreativaSL.LibControls.WinForms.Button_Creativa();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -96,6 +97,7 @@
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.btnVerDetalleCiclo);
             this.panel4.Controls.Add(this.label28);
             this.panel4.Controls.Add(this.cmbCicloHorario);
             this.panel4.Controls.Add(this.label29);
@@ -339,6 +341,40 @@
             this.label42.TabIndex = 24;
             this.label42.Text = "Asignación de Horario";
             // 
+            // btnVerDetalleCiclo
+            // 
+            this.btnVerDetalleCiclo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnVerDetalleCiclo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnVerDetalleCiclo.BorderColor = System.Drawing.Color.Red;
+            this.btnVerDetalleCiclo.BorderFocusColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(108)))), ((int)(((byte)(114)))));
+            this.btnVerDetalleCiclo.BorderMouseOverColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnVerDetalleCiclo.BorderNoFocusColor = System.Drawing.Color.Maroon;
+            this.btnVerDetalleCiclo.FocusRectangle = true;
+            this.btnVerDetalleCiclo.Font = new System.Drawing.Font("Trebuchet MS", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerDetalleCiclo.ForeColor = System.Drawing.Color.White;
+            this.btnVerDetalleCiclo.Image = null;
+            this.btnVerDetalleCiclo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnVerDetalleCiclo.ImageBorderColor = System.Drawing.Color.Red;
+            this.btnVerDetalleCiclo.ImageFocused = null;
+            this.btnVerDetalleCiclo.ImageInactive = null;
+            this.btnVerDetalleCiclo.ImageMouseOver = null;
+            this.btnVerDetalleCiclo.ImageNormal = null;
+            this.btnVerDetalleCiclo.ImagePressed = null;
+            this.btnVerDetalleCiclo.ImageSize = new System.Drawing.Size(44, 44);
+            this.btnVerDetalleCiclo.KeyButton = System.Windows.Forms.Keys.F1;
+            this.btnVerDetalleCiclo.KeyButtonView = false;
+            this.btnVerDetalleCiclo.Location = new System.Drawing.Point(353, 94);
+            this.btnVerDetalleCiclo.ModeGradient = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
+            this.btnVerDetalleCiclo.MouseOverColor = System.Drawing.Color.Red;
+            this.btnVerDetalleCiclo.Name = "btnVerDetalleCiclo";
+            this.btnVerDetalleCiclo.OffsetPressedContent = true;
+            this.btnVerDetalleCiclo.Size = new System.Drawing.Size(111, 28);
+            this.btnVerDetalleCiclo.TabIndex = 169;
+            this.btnVerDetalleCiclo.Text = "Ver Detalles";
+            this.btnVerDetalleCiclo.TextDropShadow = true;
+            this.btnVerDetalleCiclo.UseVisualStyleBackColor = false;
+            this.btnVerDetalleCiclo.Click += new System.EventHandler(this.btnVerDetalleCiclo_Click);
+            // 
             // frmAsignarHorario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -393,6 +429,7 @@
         private CreativaSL.LibControls.WinForms.Button_Creativa btnGuardar;
         private CreativaSL.LibControls.WinForms.Button_Creativa btnCancelar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private CreativaSL.LibControls.WinForms.Button_Creativa btnVerDetalleCiclo;
     }
 }
 

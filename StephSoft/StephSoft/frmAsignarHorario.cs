@@ -202,5 +202,23 @@ namespace StephSoft
             }
         }
 
+        private void btnVerDetalleCiclo_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string _IDCiclo = this.ObtenerCicloCombo().IDCiclo;
+                if(!string.IsNullOrEmpty(_IDCiclo))
+                {
+                    frmVerDetalleCiclo Detalle = new frmVerDetalleCiclo(_IDCiclo);
+                    Detalle.ShowDialog();
+                    Detalle.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmAsignarHoraro ~ btnVerDetalleCiclo_Click");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

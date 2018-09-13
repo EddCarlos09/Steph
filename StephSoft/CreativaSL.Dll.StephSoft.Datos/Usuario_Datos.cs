@@ -449,5 +449,22 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
+        public string ObtenerNombreEmpleadoXClave(string Conexion, string IDSucursal, string ClaveEmpleado)
+        {
+            try
+            {
+                object Result = SqlHelper.ExecuteScalar(Conexion, "Ventas.spCSLDB_get_NombreEmpleadoXClave", ClaveEmpleado, IDSucursal);
+                if(Result != null)
+                {
+                    return Result.ToString();
+                }
+                return string.Empty;
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

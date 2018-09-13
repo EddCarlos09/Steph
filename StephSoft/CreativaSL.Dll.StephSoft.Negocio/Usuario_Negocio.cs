@@ -265,5 +265,18 @@ namespace CreativaSL.Dll.StephSoft.Negocio
                 throw ex;
             }
         }
+
+        public string ObtenerNombreEmpleadoXClave(string Conexion, string IDSucursal, string ClaveEmpleado)
+        {
+            try
+            {
+                Usuario_Datos Datos = new Usuario_Datos();
+                return Datos.ObtenerNombreEmpleadoXClave(Conexion, IDSucursal, ClaveEmpleado);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

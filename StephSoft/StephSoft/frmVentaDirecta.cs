@@ -854,6 +854,46 @@ namespace StephSoft
                 LogError.AddExcFileTxt(ex, "frmVentaDirecta ~ frmVentaDirecta_FormClosing");
             }
         }
-        
+
+        private void txtClaveVendedor_Validated(object sender, EventArgs e)
+        {
+            try
+            {
+                MostrarNombreEmpleado(txtClaveVendedor.Text.Trim());
+            }
+            catch(Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmVentaDirecta ~ txtClaveVendedor_Validated");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void MostrarNombreEmpleado(string _ClaveEmpleado)
+        {
+            try
+            {
+                if (!string.IsNullOrEmpty(_ClaveEmpleado))
+                {
+                    Usuario_Negocio Neg = new Usuario_Negocio();
+                    string _Nombre = Neg.ObtenerNombreEmpleadoXClave(Comun.Conexion, Comun.IDSucursalCaja, _ClaveEmpleado);
+                    txtNombreEmpleado.Text = _Nombre;
+                    if (string.IsNullOrEmpty(_Nombre))
+                    {
+                        MessageBox.Show("Clave no encontrada.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        txtClaveVendedor.Text = string.Empty;
+                        txtClaveVendedor.Focus();
+                    }
+
+                }
+                else
+                {
+                    txtNombreEmpleado.Text = string.Empty;
+                }
+            }
+            catch(Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
