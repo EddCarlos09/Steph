@@ -568,7 +568,7 @@
             this.btnSalir.OffsetPressedContent = true;
             this.btnSalir.Size = new System.Drawing.Size(80, 70);
             this.btnSalir.TabIndex = 13;
-            this.btnSalir.Tag = "68";
+            this.btnSalir.Tag = "0";
             this.btnSalir.Text = "Salir";
             this.btnSalir.TextDropShadow = true;
             this.btnSalir.UseVisualStyleBackColor = false;

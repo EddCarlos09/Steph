@@ -8,3 +8,9 @@ Nombre del parámetro: connectionString
 -2146233033 - 12/09/2018 12:03:31 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
 -2146233033 - 12/09/2018 12:03:33 p. m. - frmVerListados ~ btnGenerar_Click() - Error al convertir el valor del parámetro de String a DateTime.
 -2146233080 - 12/09/2018 12:05:00 p. m. - frmVerListados ~ btnGenerar_Click() - Índice fuera de los límites de la matriz.
+-2146233088 - 13/09/2018 10:56:23 a. m. - frmLogin ~ btnAceptar_Click - No se puede obtener la información: Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+-2146232032 - 13/09/2018 10:58:13 a. m. - frmMenuInicio ~ frmMenuInicio_Load - Error de sintaxis: falta el operando después del operador '='.
+-2146232032 - 13/09/2018 10:58:41 a. m. - frmMenuInicio ~ frmMenuInicio_Load - Error de sintaxis: falta el operando después del operador '='.
+-2146232032 - 13/09/2018 10:58:48 a. m. - frmMenuInicio ~ frmMenuInicio_Load - Error de sintaxis: falta el operando después del operador '='.
+-2146232032 - 13/09/2018 11:08:11 a. m. - frmMenuInicio ~ frmMenuInicio_Load - Error de sintaxis: falta el operando después del operador '='.
+-2146232032 - 13/09/2018 11:14:02 a. m. - frmMenuInicio ~ frmMenuInicio_Load - Error de sintaxis: falta el operando después del operador '='.

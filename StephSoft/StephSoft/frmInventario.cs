@@ -21,7 +21,7 @@ namespace StephSoft
     public partial class frmInventario : Form
     {
         //Producto InfoProducto = new Producto();
-
+        private bool AllowClick = true;
         #region Constructor
 
         public frmInventario()
@@ -135,7 +135,28 @@ namespace StephSoft
         {
             try
             {
-                this.ImportarExcel();
+                //this.ImportarExcel();
+                if (AllowClick)
+                {
+                    //this.ImportarExcel();
+                    OpenFileDialog openFileDialogExcel = new OpenFileDialog();
+                    openFileDialogExcel.Filter = "Excel Files|*.xlsx";
+                    openFileDialogExcel.FileName = "";
+                    openFileDialogExcel.Title = "Seleccione el archivo excel";
+                    openFileDialogExcel.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments).ToString();
+                    if (openFileDialogExcel.ShowDialog() == DialogResult.OK)
+                    {
+                        lblMessage.Visible = true;
+                        lblMessage.Text = "Registrando información... Espere un momento...";
+                        this.Cursor = Cursors.WaitCursor;
+                        bgwActualizarDatos.RunWorkerAsync(openFileDialogExcel.FileName);
+                        AllowClick = false;
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("El proceso está en ejecución. Espere un momento...", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
 
             catch (Exception ex)
@@ -233,7 +254,7 @@ namespace StephSoft
                 InfoProducto.ImportarExcel.Columns.Add("IDProducto", typeof(string));
                 InfoProducto.ImportarExcel.Columns.Add("Clave", typeof(string));
                 InfoProducto.ImportarExcel.Columns.Add("ConteoFisico", typeof(int));
-                
+
 
                 while ((Inventario.Cells[FilaInicio, 1] as Microsoft.Office.Interop.Excel.Range).Value2 != null)
                 {
@@ -430,5 +451,127 @@ namespace StephSoft
                 MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void bgwActualizarDatos_DoWork(object sender, DoWorkEventArgs e)
+        {
+            try
+            {
+                ActualizarExistenciasExcel(e.Argument.ToString());
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmInventario ~ bgwActualizarDatos_DoWork");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void bgwActualizarDatos_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            try
+            {
+                //if (e.Result != null)
+                //{
+                //}
+                //else
+                //{
+                //    MessageBox.Show("Error al generar el reporte. ", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                //}
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmInventario ~ bgwActualizarDatos_RunWorkerCompleted");
+                MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                lblMessage.Visible = false;
+                lblMessage.Text = string.Empty;
+                this.Cursor = Cursors.Default;
+                AllowClick = true;
+            }
+        }
+
+
+        private bool ActualizarExistenciasExcel(string FileName)
+        {
+            try
+            {
+                Microsoft.Office.Interop.Excel.Application xlsApp = new Microsoft.Office.Interop.Excel.Application();
+                if (xlsApp == null)
+                {
+                    MessageBox.Show("EXCEL could not be started. Check that your office installation and project references are correct.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+                Workbook xlsBook;
+                Worksheet Inventario;
+                Sheets xlHojas;
+                string PathAr = FileName;
+                xlsBook = xlsApp.Workbooks.Open(PathAr);
+                xlHojas = xlsBook.Sheets;
+                Inventario = (Worksheet)xlHojas["Inventario"];
+                try
+                {
+                    xlsApp.DisplayAlerts = false;
+                    xlsApp.Visible = false;
+                    int FilaInicio = 4;
+
+                    xlHojas = xlsBook.Sheets;
+                    Inventario = (Worksheet)xlHojas["Inventario"];
+                    Producto InfoProducto = new Producto();
+                    InfoProducto.ImportarExcel = new System.Data.DataTable();
+                    InfoProducto.ImportarExcel.Columns.Add("IDProducto", typeof(string));
+                    InfoProducto.ImportarExcel.Columns.Add("Clave", typeof(string));
+                    InfoProducto.ImportarExcel.Columns.Add("ConteoFisico", typeof(int));
+                    
+                    while ((Inventario.Cells[FilaInicio, 1] as Microsoft.Office.Interop.Excel.Range).Value2 != null)
+                    {
+                        string Codigo = "", IDProducto = "";
+                        decimal ConteoFisico = 0;
+                        IDProducto = (Inventario.Cells[FilaInicio, 8] as Microsoft.Office.Interop.Excel.Range).Value2.ToString();
+                        Codigo = (Inventario.Cells[FilaInicio, 1] as Microsoft.Office.Interop.Excel.Range).Value2.ToString();
+                        decimal.TryParse((Inventario.Cells[FilaInicio, 6] as Microsoft.Office.Interop.Excel.Range).Value2.ToString(), NumberStyles.Currency, CultureInfo.CurrentCulture, out ConteoFisico);
+                        InfoProducto.ImportarExcel.Rows.Add( new Object[] { IDProducto, Codigo, ConteoFisico });
+                        FilaInicio++;
+                    }
+
+                    Producto AuxProducto = new Producto();
+                    Producto_Negocio ProdNeg = new Producto_Negocio();
+                    AuxProducto.Conexion = Comun.Conexion;
+                    AuxProducto.IDSucursal = Comun.IDSucursalCaja;
+                    AuxProducto.IDUsuario = Comun.IDUsuario;
+                    AuxProducto.ImportarExcel = InfoProducto.ImportarExcel;
+                    ProdNeg.AInventarioEXCEL(AuxProducto);
+                    if (AuxProducto.Completado)
+                    {
+                        MessageBox.Show("Datos guardados correctamente.", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Datos no se guardaron correctamente. Intente mas tarde", Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    LogError.AddExcFileTxt(ex, "Generar Reporte Excel");
+                    return false;
+                }
+                finally
+                {
+                    xlsBook.Close();
+                    xlsApp.Quit();
+                    releaseObject(xlHojas);
+                    releaseObject(xlsBook);
+                    releaseObject(Inventario);
+                    releaseObject(xlsApp);
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
     }
 }

@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -66,6 +66,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label42 = new System.Windows.Forms.Label();
             this.bgwFormato = new System.ComponentModel.BackgroundWorker();
+            this.bgwActualizarDatos = new System.ComponentModel.BackgroundWorker();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -196,9 +197,9 @@
             // ExistenciaAlmacen
             // 
             this.ExistenciaAlmacen.DataPropertyName = "ExistenciaAlmacen";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle1.Format = "N0";
-            this.ExistenciaAlmacen.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle6.Format = "N0";
+            this.ExistenciaAlmacen.DefaultCellStyle = dataGridViewCellStyle6;
             this.ExistenciaAlmacen.HeaderText = "Existencia en almacén";
             this.ExistenciaAlmacen.Name = "ExistenciaAlmacen";
             this.ExistenciaAlmacen.ReadOnly = true;
@@ -207,9 +208,9 @@
             // ExistenciaUso
             // 
             this.ExistenciaUso.DataPropertyName = "ExistenciaUso";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.Format = "N0";
-            this.ExistenciaUso.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle7.Format = "N0";
+            this.ExistenciaUso.DefaultCellStyle = dataGridViewCellStyle7;
             this.ExistenciaUso.HeaderText = "Existencia en producción";
             this.ExistenciaUso.Name = "ExistenciaUso";
             this.ExistenciaUso.ReadOnly = true;
@@ -218,10 +219,10 @@
             // Existencia
             // 
             this.Existencia.DataPropertyName = "Existencia";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "N0";
-            dataGridViewCellStyle3.NullValue = "0";
-            this.Existencia.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle8.Format = "N0";
+            dataGridViewCellStyle8.NullValue = "0";
+            this.Existencia.DefaultCellStyle = dataGridViewCellStyle8;
             this.Existencia.HeaderText = "Existencia total";
             this.Existencia.Name = "Existencia";
             this.Existencia.ReadOnly = true;
@@ -238,10 +239,10 @@
             // StockMaximo
             // 
             this.StockMaximo.DataPropertyName = "StockMaximo";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N0";
-            dataGridViewCellStyle4.NullValue = "0";
-            this.StockMaximo.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle9.Format = "N0";
+            dataGridViewCellStyle9.NullValue = "0";
+            this.StockMaximo.DefaultCellStyle = dataGridViewCellStyle9;
             this.StockMaximo.HeaderText = "Stock Máximo";
             this.StockMaximo.Name = "StockMaximo";
             this.StockMaximo.ReadOnly = true;
@@ -250,10 +251,10 @@
             // StockMinimo
             // 
             this.StockMinimo.DataPropertyName = "StockMinimo";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N0";
-            dataGridViewCellStyle5.NullValue = "0";
-            this.StockMinimo.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle10.Format = "N0";
+            dataGridViewCellStyle10.NullValue = "0";
+            this.StockMinimo.DefaultCellStyle = dataGridViewCellStyle10;
             this.StockMinimo.HeaderText = "Stock Mínimo";
             this.StockMinimo.Name = "StockMinimo";
             this.StockMinimo.ReadOnly = true;
@@ -552,6 +553,11 @@
             this.bgwFormato.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwFormato_DoWork);
             this.bgwFormato.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwFormato_RunWorkerCompleted);
             // 
+            // bgwActualizarDatos
+            // 
+            this.bgwActualizarDatos.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwActualizarDatos_DoWork);
+            this.bgwActualizarDatos.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwActualizarDatos_RunWorkerCompleted);
+            // 
             // frmInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -620,6 +626,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn StockMinimo;
         private System.ComponentModel.BackgroundWorker bgwFormato;
         private System.Windows.Forms.Label lblMessage;
+        private System.ComponentModel.BackgroundWorker bgwActualizarDatos;
     }
 }
 

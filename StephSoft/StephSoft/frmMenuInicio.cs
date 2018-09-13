@@ -572,6 +572,7 @@ namespace StephSoft
             {
                 if (item is Button)
                 {
+                    string auxname = item.Name;
                     Button Aux = (Button)item;
                     DataTable table = Comun.TablaPermisos;
                     DataRow[] PermisoUs;
