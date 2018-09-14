@@ -481,5 +481,40 @@ namespace CreativaSL.Dll.StephSoft.Datos
             }
         }
 
+        public void ObtenerCatProductosStockMinimo(Producto Datos)
+        {
+            try
+            {
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_CatProductosStockMinimo", Datos.IDSucursal, Datos.BuscarTodos);
+                Datos.TablaDatos = new DataTable();
+                if (ds != null)
+                    if (ds.Tables.Count == 1)
+                        Datos.TablaDatos = ds.Tables[0];
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void ObtenerCatProductosStockMaximo(Producto Datos)
+        {
+            try
+            {
+                DataSet ds = SqlHelper.ExecuteDataset(Datos.Conexion, "spCSLDB_get_CatProductosStockMaximo", Datos.IDSucursal, Datos.BuscarTodos);
+                Datos.TablaDatos = new DataTable();
+                if (ds != null)
+                    if (ds.Tables.Count == 1)
+                        Datos.TablaDatos = ds.Tables[0];
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+
     }
 }

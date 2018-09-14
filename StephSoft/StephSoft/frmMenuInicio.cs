@@ -851,5 +851,103 @@ namespace StephSoft
                 LogError.AddExcFileTxt(ex, "frmMenuInicio ~ btnGarantia_Click");
             }
         }
+
+        private void bgwNotificaciones_DoWork(object sender, DoWorkEventArgs e)
+        {
+            try
+            {
+                Notificacion_Negocio Neg = new Notificacion_Negocio();
+                e.Result = Neg.ObtenerNotificaciones(Comun.Conexion, Comun.IDSucursalCaja);
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                LogError.AddExcFileTxt(ex, "frmMenuInicio ~ bgwNotificaciones_DoWork");
+            }
+        }
+
+        private void bgwNotificaciones_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            try
+            {
+                if(e.Result != null)
+                {
+                    DataTable _TablaNotificaciones = (DataTable)e.Result;
+                    if (_TablaNotificaciones != null)
+                    {                        
+                        foreach (DataRow auxNotificacion in _TablaNotificaciones.Rows)
+                        {
+                            if (Convert.ToInt32(auxNotificacion["IDTipoNotificacion"]) == 1)
+                            {
+                                this.NotificacionMinima.Visible = true;
+                            }
+                            else if (Convert.ToInt32(auxNotificacion["IDTipoNotificacion"]) == 2)
+                            {
+                                this.NotificacionMaxima.Visible = true;
+                            }
+                        }
+                        if (_TablaNotificaciones.Rows.Count > 0)
+                        {
+                            notifyIcon1.BalloonTipTitle = Comun.Sistema;
+                            notifyIcon1.BalloonTipText = "Hay nuevas notificaciones de Stock...";
+                            notifyIcon1.BalloonTipIcon = ToolTipIcon.Info;
+                            notifyIcon1.ShowBalloonTip(5000);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(Comun.MensajeError, Comun.Sistema, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                LogError.AddExcFileTxt(ex, "frmMenuInicio ~ bgwNotificaciones_RunWorkerCompleted");
+            }
+        }
+
+        private void tmrNotificaciones_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!this.bgwNotificaciones.IsBusy)
+                    this.bgwNotificaciones.RunWorkerAsync();
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmMenuInicio ~ tmrNotificaciones_Tick");
+            }
+        }
+
+        private void NotificacionMinima_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Visible = false;
+                frmNotificacionesProdStockMinimo NPSMinimo = new frmNotificacionesProdStockMinimo();
+                NPSMinimo.ShowDialog();
+                NPSMinimo.Dispose();
+                this.NotificacionMinima.Visible = false;
+                this.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmMenuInicio ~ NotificacionMinima_Click");
+            }
+        }
+
+        private void NotificacionMaxima_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.Visible = false;
+                frmNotificacionesProdStockMaximo NPSMaximo = new frmNotificacionesProdStockMaximo();
+                NPSMaximo.ShowDialog();
+                NPSMaximo.Dispose();
+                this.NotificacionMaxima.Visible = false;
+                this.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                LogError.AddExcFileTxt(ex, "frmMenuInicio ~ NotificacionMaxima_Click");
+            }
+        }
     }
 }

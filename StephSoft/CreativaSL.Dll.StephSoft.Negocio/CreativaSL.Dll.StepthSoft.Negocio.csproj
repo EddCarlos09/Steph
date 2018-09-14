@@ -53,6 +53,7 @@
     <Compile Include="Garantia_Negocio.cs" />
     <Compile Include="Gastos_Negocio.cs" />
     <Compile Include="MobiliarioResguardo_Negocio.cs" />
+    <Compile Include="Notificacion_Negocio.cs" />
     <Compile Include="Pedido_Negocio.cs" />
     <Compile Include="Producto_Negocio.cs" />
     <Compile Include="Servicio_Negocio.cs" />

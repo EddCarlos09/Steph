@@ -429,6 +429,18 @@
     <Compile Include="frmMobiliarioRecibir.designer.cs">
       <DependentUpon>frmMobiliarioRecibir.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmNotificacionesProdStockMaximo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotificacionesProdStockMaximo.Designer.cs">
+      <DependentUpon>frmNotificacionesProdStockMaximo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotificacionesProdStockMinimo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotificacionesProdStockMinimo.Designer.cs">
+      <DependentUpon>frmNotificacionesProdStockMinimo.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNuevaCita.cs">
       <SubType>Form</SubType>
     </Compile>

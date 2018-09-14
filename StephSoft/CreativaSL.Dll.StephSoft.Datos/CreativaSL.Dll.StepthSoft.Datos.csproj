@@ -54,6 +54,7 @@
     <Compile Include="Gastos_Datos.cs" />
     <Compile Include="Home_Datos.cs" />
     <Compile Include="MobiliarioResguardo_Datos.cs" />
+    <Compile Include="Notificacion_Datos.cs" />
     <Compile Include="Pedido_Datos.cs" />
     <Compile Include="Producto_Datos.cs" />
     <Compile Include="Servicio_Datos.cs" />

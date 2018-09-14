@@ -273,6 +273,31 @@ namespace CreativaSL.Dll.StephSoft.Negocio
             }
         }
 
+        public void ObtenerCatProductosStockMinimo(Producto Datos)
+        {
+            try
+            {
+                Producto_Datos PD = new Producto_Datos();
+                PD.ObtenerCatProductosStockMinimo(Datos);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public void ObtenerCatProductosStockMaximo(Producto Datos)
+        {
+            try
+            {
+                Producto_Datos PD = new Producto_Datos();
+                PD.ObtenerCatProductosStockMaximo(Datos);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
 
     }
 }
